@@ -1,0 +1,70 @@
+<svg width="113" height="184" viewBox="0 0 113 184" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Prysm</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-262 540)">
+<g id="Prysm">
+<g id="Group 2">
+<g id="Polygon 2">
+<use xlink:href="#path0_fill" transform="matrix(-5.55112e-17 -1 1 -5.55112e-17 263 -408)" fill="#00FFFF"/>
+</g>
+<g id="Polygon 2.2">
+<use xlink:href="#path0_fill" transform="matrix(5.55112e-17 -1 -1 -5.55112e-17 374 -408)" fill="#009695"/>
+</g>
+<g id="Polygon 2">
+<use xlink:href="#path1_fill" transform="matrix(0.939693 -0.34202 0.34202 0.939693 257 -462.1)" fill="#00FFFF"/>
+</g>
+<g id="Polygon 2.1">
+<use xlink:href="#path2_fill" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 380.229 -463.63)" fill="#009695"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path3_fill" transform="translate(268 -540)" fill="#00FFFF"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path4_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 361.603 -414)" fill="#00C1C1"/>
+<use xlink:href="#path5_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 361.603 -414)" fill="#00C1C1"/>
+</g>
+</g>
+<g id="Group 9">
+<g id="Group 4">
+<g id="Polygon">
+<use xlink:href="#path6_fill" transform="matrix(0.669131 -0.743145 0.743145 0.669131 253 -416.907)" fill="#00C1C1"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path7_fill" transform="matrix(-0.669131 -0.743145 -0.743145 0.669131 383.291 -416.207)" fill="#00FFFF"/>
+</g>
+<g id="Group 3">
+<g id="Polygon 2">
+<use xlink:href="#path8_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 300.257 -353.657)" fill="#009695"/>
+</g>
+<g id="Polygon 2.1">
+<use xlink:href="#path8_fill" transform="matrix(-6.12323e-17 -1 -1 6.12323e-17 336.257 -353.657)" fill="#009695"/>
+</g>
+</g>
+</g>
+</g>
+<g id="Polygon">
+<use xlink:href="#path9_fill" transform="matrix(1 -3.46945e-18 3.46945e-18 1 273 -489)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 2">
+<use xlink:href="#path10_fill" transform="translate(366 -458)" fill="#009695"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path11_fill" transform="translate(361 -465)" fill="#009695"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 38.5 0L 71.842 55.5L 5.15802 55.5L 38.5 0Z"/>
+<path id="path1_fill" d="M 21.9818 -1.92238e-06L 43.9637 16.8652L -2.14839e-05 16.8652L 21.9818 -1.92238e-06Z"/>
+<path id="path2_fill" d="M 22.4697 -2.06306e-06L 44.9394 18.0995L -2.19607e-05 18.0995L 22.4697 -2.06306e-06Z"/>
+<path id="path3_fill" d="M 51 0L 95.1673 75L 6.8327 75L 51 0Z"/>
+<path id="path4_fill" d="M 43.1025 -7.10543e-15L 86.6025 51L 0 51L 43.1025 -7.10543e-15Z"/>
+<path id="path5_fill" d="M 43.1025 -7.10543e-15L 86.6025 51L 0 51L 43.1025 -7.10543e-15Z"/>
+<path id="path6_fill" d="M 15.5372 0L 28.9927 62.0315L 2.08158 62.0315L 15.5372 0Z"/>
+<path id="path7_fill" d="M 15.7226 0L 29.3388 61.5551L 2.10643 61.5551L 15.7226 0Z"/>
+<path id="path8_fill" d="M 23.5 0L 43.8516 18L 3.1484 18L 23.5 0Z"/>
+<path id="path9_fill" d="M 15.5 0L 28.9234 24L 2.07661 24L 15.5 0Z"/>
+<path id="path10_fill" d="M 0 0L 1 0L 1 2L 0 2L 0 0Z"/>
+<path id="path11_fill" d="M 0 0L 2 0L 2 3L 0 3L 0 0Z"/>
+</defs>
+</svg>
