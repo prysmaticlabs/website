@@ -1,5 +1,8 @@
 import React from 'react';
+import TeamMember from './TeamMember'
 import { Card, Image } from 'semantic-ui-react'
+
+import Team from './team'
 
 const TeamContainer = (props) => {
   return (
