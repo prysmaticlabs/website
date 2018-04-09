@@ -7,10 +7,15 @@ body {
   font-family: Work Sans;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: Oxygen;
+}
+
 .app {
   color: white;
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 20px;
 }
 
 .header {
@@ -18,17 +23,14 @@ body {
   flex-direction: row;
   justify-content: start;
   align-items: center;
-}
-
-.logo {
-  height: 80px;
-  width: auto;
+  font-size: 30px;
 }
 
 .col {
   margin-right: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: Oxygen;
+.logo {
+  height: 140px;
+  width: auto;
 }
