@@ -1,5 +1,5 @@
 import React from 'react';
-import Prysm from './Prysm-4.svg'
+import Prysm from './Prysm.svg'
 
 const Header= () => (
 	<div className="header">
