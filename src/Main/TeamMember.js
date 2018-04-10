@@ -3,10 +3,12 @@ import React from 'react';
 const TeamMember = ({ member }) => {
   return (
   	<div className="team-member">
-	    <img alt={member.name} src={member.image} />
-	    <h3>{member.name}</h3>
+  		<a href={member.github}>
+		    <img alt={member.name} src={member.image} />
+	    </a>
+	    <h5>{member.name}</h5>
 	    <h5>{member.title}</h5>
-	    {member.description}
+	    <p>{member.description}</p>
     </div>
   )
 }

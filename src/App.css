@@ -34,6 +34,10 @@ h1, h2, h3, h4, h5, h6, a {
   font-size: 20px;
 }
 
+.navbar-item:hover {
+  color: #eb4a9d;
+}
+
 @keyframes float {
   0% {
     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -60,10 +64,11 @@ h1, h2, h3, h4, h5, h6, a {
 
 .jumbo {
   display: grid;
-  position: absolute;
+  margin-right: 40px;
   justify-content: center;
   font-size: 36px;
   margin-bottom: 40px;
+  flex: 1;
 }
 
 .jumbo > img {
@@ -71,12 +76,12 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 .intro {
-  border-bottom: 8px solid #fbe5a0;
+  flex: 1;
 }
 
-.morph-container {
-  position: relative;
-  margin-bottom: 200px;
+.split-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .team-container {
@@ -89,11 +94,16 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 .team-member {
-  width: 250px;
+  width: 160px;
   height: auto;
   margin-bottom: 5%;
-  margin-right: 3%;
-  margin-left: 3%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.team-member img {
+  height: auto;
+  width: 160px;
 }
 
 @media only screen and (max-width: 600px) {
