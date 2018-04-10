@@ -1,9 +1,9 @@
 import React from 'react';
-import Prysm from './Prysm.svg'
+import PrysmStripe from './PrysmStripe.png'
 
 const Header= () => (
 	<div className="header">
-		<img alt="Prysmatic Labs Logo" className="logo col" src={Prysm} />
+		<img alt="Prysmatic Labs Logo" className="logo col" src={PrysmStripe} />
 		<h1 className="col">Prysmatic Labs</h1>
 	</div>
 )
