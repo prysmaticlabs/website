@@ -28,11 +28,6 @@ h1, h2, h3, h4, h5, h6, a {
   border-bottom: 2px solid #eb4a9d;
 }
 
-.navbar:after {
-  border-bottom-width: 1px;
-  border-bottom-color: #eb4a9d;
-}
-
 
 .navbar-item {
   margin-left: 20px;
@@ -65,6 +60,7 @@ h1, h2, h3, h4, h5, h6, a {
 
 .jumbo {
   display: grid;
+  position: absolute;
   justify-content: center;
   font-size: 36px;
   margin-bottom: 40px;
@@ -75,7 +71,12 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 .intro {
-  border-bottom: 2px solid #fbe5a0;
+  border-bottom: 8px solid #fbe5a0;
+}
+
+.morph-container {
+  position: relative;
+  margin-bottom: 200px;
 }
 
 .team-container {
@@ -83,7 +84,7 @@ h1, h2, h3, h4, h5, h6, a {
   display: flex;
   justify-content: start;
   flex-wrap: wrap;
-  border-bottom: 2px solid #52b0f8;
+  border-bottom: 8px solid #52b0f8;
   margin-bottom: 10px;
 }
 
