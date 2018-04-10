@@ -1,12 +1,12 @@
 import React from 'react';
 
-import PrysmStripe from './PrysmStripe.png'
+import PrysmStripe from '../logos/PrysmStripe.png'
 
 const Jumbo = (props) => {
   return (
   	<div className="jumbo">
 		<h1>Prysmatic Labs</h1>
-		<img className="prysm-stripe" src={PrysmStripe} />
+		<img alt="logo with stripe" className="prysm-stripe" src={PrysmStripe} />
     </div>
   )
 }

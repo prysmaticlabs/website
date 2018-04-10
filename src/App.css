@@ -7,8 +7,10 @@ body {
   font-family: Work Sans;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, a {
   font-family: Oxygen;
+  color: white;
+  text-decoration: none;
 }
 
 .app {
@@ -61,7 +63,6 @@ h1, h2, h3, h4, h5, h6 {
   img { width: 100%; height: auto; }
 }
 
-
 .jumbo {
   display: grid;
   justify-content: center;
@@ -73,17 +74,33 @@ h1, h2, h3, h4, h5, h6 {
   height: 300px;
 }
 
+.intro {
+  border-bottom: 2px solid #fbe5a0;
+}
+
 .team-container {
   width: 100%;
   display: flex;
   justify-content: start;
   flex-wrap: wrap;
-  margin-left: 1%;
+  border-bottom: 2px solid #52b0f8;
+  margin-bottom: 10px;
 }
 
 .team-member {
   width: 250px;
   height: auto;
-  margin-bottom: 1%;
-  margin-right: 2%;
+  margin-bottom: 5%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+    .app {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .team-container {
+      justify-content: center;
+    }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const IntroContainer = (props) => {
   return (
-    <div>
+    <div className="intro">
         <h3>A team of blockchain engineers committed to scaling Ethereum</h3>
         <p>We are implementing the first sharding client for the go-ethereum project.</p>
         <p>Currently, blockchains do not scale. With Ethereum receiving over a million transactions per day, the network is desperate for a solution that will help sustain its massive growth and adoption.</p> 
