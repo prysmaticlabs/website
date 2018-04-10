@@ -35,10 +35,6 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-item {
   margin-left: 20px;
   font-size: 20px;
-  /*theme gradient*/
-  /*background: -webkit-linear-gradient(left, rgba(235,74,157,1) 0%,rgba(251,229,160,1) 38%,rgba(251,229,160,1) 61%,rgba(82,176,248,1) 91%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
 }
 
 @keyframes float {
