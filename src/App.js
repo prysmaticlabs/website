@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Header from './Header';
+import NavBar from './NavBar';
+import Jumbo from './Jumbo'
 import IntroContainer from './IntroContainer'
 import TeamContainer from './TeamContainer';
 
@@ -9,9 +10,10 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <Header />
+        <NavBar />
+        <Jumbo />
         <IntroContainer />
-    		<TeamContainer />
+		<TeamContainer />
       </div>
     );
   }
