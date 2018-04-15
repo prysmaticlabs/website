@@ -33,10 +33,6 @@ yel {
   color: #fbe5a0;
 }
 
-#name {
-  font-family: Oxygen;
-}
-
 .app {
   color: white;
   margin-left: 200px;
@@ -56,6 +52,14 @@ yel {
 .navbar-item {
   margin-left: 20px;
   font-size: 22px;
+}
+
+.footer {
+  text-align: end;
+}
+
+#name {
+  font-family: Oxygen;
 }
 
 @keyframes float {
