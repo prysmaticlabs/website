@@ -6,9 +6,9 @@ const TeamMember = ({ member }) => {
   		<a href={member.github}>
 		    <img alt={member.name} src={member.image} />
 	    </a>
-	    <h5>{member.name}</h5>
-	    <h5>{member.title}</h5>
-	    <p>{member.description}</p>
+	    <span>{member.name}</span><br/>
+	    <span className="team-member-title">{member.title}</span><br/>
+	    <span className="team-member-info">{member.description}</span>
     </div>
   )
 }

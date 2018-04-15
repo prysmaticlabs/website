@@ -8,8 +8,8 @@ const MainPage = (props) => {
   return (
     <div> 
     	<div className="split-container">
-	    	<IntroContainer />
 	    	<Jumbo />
+	    	<IntroContainer />
     	</div>
 		<TeamContainer />
     </div>

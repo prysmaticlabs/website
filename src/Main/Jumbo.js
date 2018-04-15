@@ -6,7 +6,7 @@ const Jumbo = (props) => {
   return (
   	<div className="jumbo">
 		<img alt="logo with stripe" className="prysm-stripe" src={PrysmStripe} />
-		<h1>Prysmatic Labs</h1>
+		<h1 id="name">Prysmatic Labs</h1>
     </div>
   )
 }
