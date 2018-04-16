@@ -98,7 +98,7 @@ yel {
 }
 
 .intro {
-  flex: 1.5;
+  flex: 1;
 }
 
 .intro h2 {
@@ -113,13 +113,14 @@ yel {
 .split-container {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 50px;
   margin-bottom: 40px;
   border-bottom: 4px solid #eb4a9d;
 }
 
 .team-container {
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .team-container h2 {
