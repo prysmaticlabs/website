@@ -2,13 +2,13 @@ import React from 'react';
 
 import PrysmStripe from '../logos/PrysmStripe.png'
 
-const Jumbo = (props) => {
+const BigLogo = (props) => {
   return (
-  	<div className="jumbo">
+  	<div className="big-logo">
 		<img alt="logo with stripe" className="prysm-stripe" src={PrysmStripe} />
 		<h1 id="name">Prysmatic Labs</h1>
     </div>
   )
 }
 
-export default Jumbo;
+export default BigLogo;

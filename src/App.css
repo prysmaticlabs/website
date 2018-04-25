@@ -1,18 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700|Work+Sans|Open+Sans');
-/* open sans seems to be a bit more elegant than work sans */
-/* Oxygen is perfect for Prysmatic Labs name*/
-/* can't decide if Work Sans or Open Sans should be big headers */
-
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400|Work+Sans|Open+Sans|Nanum+Gothic:400');
 
 body {
   height: 100%;
   width: 100%;
   background-color: black;
-  font-family: Open Sans;
+  font-family: 'Nanum Gothic';
 }
 
 h1, h2, h3, h4, h5, h6, a {
-  font-family: Work Sans;
+  font-family: 'Nanum Gothic';
   color: white;
   text-decoration: none;
 }
@@ -27,7 +23,7 @@ blue {
 
 pink {
   color: #eb4a9d;
-}
+} 
 
 yel {
   color: #fbe5a0;
@@ -48,6 +44,11 @@ yel {
   border-bottom: 4px solid #52b0f8;
 }
 
+.navbar-title {
+  margin-left: 15px;
+  font-size: 36px;
+  font-weight: bold;
+}
 
 .navbar-item {
   margin-left: 20px;
@@ -58,8 +59,8 @@ yel {
   text-align: end;
 }
 
-#name {
-  font-family: Oxygen;
+#name, .navbar-title {
+  font-family: 'Oxygen';
 }
 
 @keyframes float {
@@ -86,19 +87,25 @@ yel {
   img { width: 100%; height: auto; }
 }
 
-.jumbo {
-  display: grid;
-  justify-content: center;
-  font-size: 36px;
-  flex: 1;
+.intro-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+  border-bottom: 4px solid #eb4a9d;
 }
 
-.jumbo > img {
+.big-logo {
+  text-align: center;
+  font-size: 36px;
+}
+
+.big-logo > img {
   height: 300px;
 }
 
 .intro {
-  flex: 1;
+  width: 50%;
 }
 
 .intro h2 {
@@ -107,16 +114,73 @@ yel {
 }
 
 .intro p {
-  font-size: 22px;
+  font-size: 24px;
 }
 
-.split-container {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 50px;
-  margin-bottom: 40px;
-  border-bottom: 4px solid #eb4a9d;
+.intro a {
+  font-size: 30px;
 }
+
+.subscribe {
+  margin-top: 60px;
+}
+
+.subscribe a {
+  font-size: 36px;
+}
+
+.fade-in {
+  -webkit-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+          animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slide-in-bottom {
+  -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+            transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+            transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 
 .team-container {
   margin-left: 1%;

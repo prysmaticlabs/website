@@ -2,7 +2,7 @@ import React from 'react';
 
 const TeamMember = ({ member }) => {
   return (
-  	<div className="team-member">
+  	<div className="team-member slide-in-bottom">
   		<a href={member.github}>
 		    <img alt={member.name} src={member.image} />
 	    </a>
