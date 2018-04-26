@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 a:hover{
-  color: #eb4a9d;
+  color: #52b0f8;
 }
 
 blue {
@@ -41,7 +41,7 @@ yel {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
-  border-bottom: 4px solid #52b0f8;
+  border-bottom: 4px solid #eb4a9d;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -123,7 +123,7 @@ yel {
 }
 
 .intro h2 {
-  color: #eb4a9d;
+  color: #52b0f8;
   font-size: 36px;
 }
 
