@@ -3,7 +3,7 @@
 body {
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: #080808;
   font-family: 'Nanum Gothic';
 }
 
@@ -42,6 +42,8 @@ yel {
   align-items: center;
   margin-bottom: 40px;
   border-bottom: 4px solid #52b0f8;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .navbar-title {
@@ -93,6 +95,8 @@ yel {
   padding-bottom: 50px;
   margin-bottom: 40px;
   border-bottom: 4px solid #eb4a9d;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .big-logo {
@@ -152,14 +156,14 @@ yel {
 }
 
 .slide-in-bottom {
-  -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-          animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-in-bottom 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-bottom 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes slide-in-bottom {
   0% {
-    -webkit-transform: translateY(1000px);
-            transform: translateY(1000px);
+    -webkit-transform: translateY(300px);
+            transform: translateY(300px);
     opacity: 0;
   }
   100% {
@@ -168,10 +172,11 @@ yel {
     opacity: 1;
   }
 }
+
 @keyframes slide-in-bottom {
   0% {
-    -webkit-transform: translateY(1000px);
-            transform: translateY(1000px);
+    -webkit-transform: translateY(300px);
+            transform: translateY(300px);
     opacity: 0;
   }
   100% {
@@ -203,6 +208,33 @@ yel {
 .team-member {
   width: 200px;
   height: 300px;
+  animation: lower 0.5s backwards;
+}
+
+.team-member:hover {
+  animation: raise 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+}
+
+@keyframes raise {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+@keyframes lower {
+  0% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
 }
 
 .team-member img {
@@ -219,6 +251,9 @@ yel {
   font-size: 16px;
 }
 
+
+/* need to update mobile views 
+
 @media only screen and (max-width: 600px) {
     .app {
       margin-left: 10px;
@@ -227,4 +262,4 @@ yel {
     .team-container {
       justify-content: center;
     }
-}
+}*/
