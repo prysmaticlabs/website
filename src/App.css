@@ -57,6 +57,16 @@ yel {
   font-size: 22px;
 }
 
+.navbar-item {
+  position: relative;
+  top: 0px;
+  transition: top ease 0.5s;
+}
+
+.navbar-item:hover {
+  top: -5px;
+}
+
 .footer {
   text-align: end;
 }
@@ -150,6 +160,10 @@ yel {
   animation: slide-in-bottom 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
 }
 
+.slide-in-bottom-long {
+  animation: slide-in-bottom 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
+}
+
 @keyframes slide-in-bottom {
   0% {
     -webkit-transform: translateY(300px);
@@ -184,43 +198,36 @@ yel {
 .team-member {
   width: 200px;
   height: 300px;
-  animation: lower 0.5s backwards;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
 }
 
 .team-member:hover {
-  animation: raise 0.5s both;
+  top: -20px;
 }
 
-@keyframes raise {
-  0% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-  100% {
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
-  }
-}
-
-@keyframes lower {
-  0% {
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
-  }
-  100% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-}
-
-.team-member img {
+.team-member a img {
   height: auto;
   width: 200px;
 }
 
-.team-member img:hover {
-  height: auto;
-  width: 200px;
+.team-member a:hover img{
+  opacity: 0.1;
+}
+
+.team-member a span {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  top: 25%;
+  color: white;
+  opacity: 0;
+}
+
+.team-member a:hover span {
+  opacity: 1;
 }
 
 .team-member-title {

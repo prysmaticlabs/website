@@ -5,7 +5,7 @@ import TeamContainer from './TeamContainer';
 
 const MainPage = (props) => {
   return (
-    <div className="slide-in-bottom"> 
+    <div> 
     	<IntroContainer />
 		<TeamContainer />
     </div>

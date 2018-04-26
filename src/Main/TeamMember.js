@@ -2,8 +2,9 @@ import React from 'react';
 
 const TeamMember = ({ member }) => {
   return (
-  	<div className="team-member">
+  	<div className="team-member">	
   		<a href={member.github}>
+	  		<span>View on Github</span>
 		    <img alt={member.name} src={member.image} />
 	    </a>
 	    <span>{member.name}</span><br/>
