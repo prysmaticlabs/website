@@ -10,13 +10,7 @@ import Footer from './Footer'
 
 
 class App extends Component {
-  handleScroll = e => {
-    console.log(window.scrollX, window.scrollY)
-    console.log(e)
-  }
-
   render() {
-    window.addEventListener("scroll", this.handleScroll)
     return (
       <div className="app" onScroll={this.handleScroll}>
         <NavBar />

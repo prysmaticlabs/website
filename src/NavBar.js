@@ -7,7 +7,7 @@ const NavBar= () => (
 	<div className="navbar">
 		<img alt="logo" className="logo col" src={Prysm} />
 		
-		<div>
+		<div className="navbar-links">
 			<Link to="/">
 				<span className="navbar-item">About</span>
 			</Link>

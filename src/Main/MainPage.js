@@ -5,7 +5,7 @@ import TeamContainer from './TeamContainer';
 
 const MainPage = (props) => {
   return (
-    <div> 
+    <div className="main"> 
     	<IntroContainer />
 		<TeamContainer />
     </div>
