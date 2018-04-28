@@ -13,7 +13,7 @@ const Intro = (props) => {
         <a href="http://rauljordan.us14.list-manage.com/subscribe?u=7bcfcec175d2461e541a3f2a8&id=3a2a17337c">
           <button className="mail-button">Join Our Mailing List <img src={Email} alt="email icon"/></button>
         </a>
-        <a href="http://rauljordan.us14.list-manage.com/subscribe?u=7bcfcec175d2461e541a3f2a8&id=3a2a17337c">
+        <a href="https://gitter.im/prysmaticlabs/geth-sharding?source=orgpage">
           <button className="gitter-button">Join Our Gitter Channel <img src={Gitter} alt="gitter icon"/></button>
         </a>
   		</div>
