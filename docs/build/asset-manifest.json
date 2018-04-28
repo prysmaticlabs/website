@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.cf6131f2.css",
-  "main.css.map": "static/css/main.cf6131f2.css.map",
-  "main.js": "static/js/main.f9f302e9.js",
-  "main.js.map": "static/js/main.f9f302e9.js.map",
+  "main.css": "static/css/main.84d73064.css",
+  "main.css.map": "static/css/main.84d73064.css.map",
+  "main.js": "static/js/main.788cc17a.js",
+  "main.js.map": "static/js/main.788cc17a.js.map",
   "static/media/Enrique.jpeg": "static/media/Enrique.360031cc.jpeg",
   "static/media/Nishant.jpg": "static/media/Nishant.af604c8c.jpg",
   "static/media/Preston.jpeg": "static/media/Preston.f767a015.jpeg",
@@ -10,5 +10,6 @@
   "static/media/PrysmStripe.png": "static/media/PrysmStripe.adb3720d.png",
   "static/media/Raul.jpeg": "static/media/Raul.399ab827.jpeg",
   "static/media/Sylvain.jpeg": "static/media/Sylvain.6a66482e.jpeg",
-  "static/media/Terence.png": "static/media/Terence.19c027e4.png"
+  "static/media/Terence.png": "static/media/Terence.19c027e4.png",
+  "static/media/gitter-icon.png": "static/media/gitter-icon.2654ee9b.png"
 }
