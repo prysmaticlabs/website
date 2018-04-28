@@ -15,17 +15,18 @@ h1, h2, h3, h4, h5, h6, a {
 
 a:hover{
   color: #52b0f8;
+  cursor: pointer;
 }
 
-blue {
+blue, .blue {
   color: #52b0f8;
 }
 
-pink {
+pink, .pink {
   color: #eb4a9d;
 } 
 
-yel {
+yel, .yel {
   color: #fbe5a0;
 }
 
@@ -47,6 +48,12 @@ yel {
   animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
+.logo {
+  height: 60px;
+  width: auto;
+  animation: float 4s ease-in-out infinite;
+}
+
 .navbar-item {
   margin-left: 20px;
   font-size: 22px;
@@ -61,32 +68,14 @@ yel {
 
 .footer {
   text-align: end;
+  animation: slide-in ease-in-out 1.3s
 }
 
-#name, .navbar-item, .subscribe button {
+.big-logo h1, .navbar-item, .subscribe button {
   font-family: 'Oxygen';
 }
 
-@keyframes float {
-  0% {
-    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-    transform: translatey(0px);
-  }
-  50% {
-    box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-    transform: translatey(-10px);
-  }
-  100% {
-    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-    transform: translatey(0px);
-  }
-}
-
-.logo {
-  height: 60px;
-  width: auto;
-  animation: float 4s ease-in-out infinite;
-}
+/* main page */
 
 .intro-container {
   display: flex;
@@ -96,6 +85,7 @@ yel {
   border-bottom: 4px solid #eb4a9d;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+  animation: slide-in 1.3s ease-in-out both;
 }
 
 .big-logo {
@@ -118,10 +108,6 @@ yel {
 
 .intro p {
   font-size: 22px;
-}
-
-.intro a {
-  font-size: 30px;
 }
 
 .subscribe {
@@ -166,37 +152,10 @@ yel {
   background-color: #eb4a9d;
 }
 
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.slide-in-bottom {
-  animation: slide-in-bottom 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
-}
-
-.slide-in-bottom-delay {
-  animation: slide-in-bottom 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
-}
-
-@keyframes slide-in-bottom {
-  0% {
-    transform: translateY(300px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
 .team-container {
   margin-left: 1%;
   margin-right: 1%;
+  animation: slide-in 1.3s ease-in-out 0.75s both;
 }
 
 .team-container h2 {
@@ -257,7 +216,52 @@ yel {
   font-size: 16px;
 }
 
+/* FAQ Page */
+
+.faq-page {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 28px;
+  animation: slide-in ease-in-out 1.3s
+}
+
 /* animations */
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+    transform: translatey(-10px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(500px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 
 /* need to update mobile views 
 
