@@ -44,23 +44,15 @@ yel {
   border-bottom: 4px solid #eb4a9d;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-}
-
-.navbar-title {
-  margin-left: 15px;
-  font-size: 36px;
-  font-weight: bold;
+  animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .navbar-item {
   margin-left: 20px;
   font-size: 22px;
-}
-
-.navbar-item {
   position: relative;
   top: 0px;
-  transition: top ease 0.5s;
+  transition: top ease 0.25s;
 }
 
 .navbar-item:hover {
@@ -71,7 +63,7 @@ yel {
   text-align: end;
 }
 
-#name, .navbar-title {
+#name, .navbar-item, .subscribe button {
   font-family: 'Oxygen';
 }
 
@@ -93,10 +85,7 @@ yel {
 .logo {
   height: 60px;
   width: auto;
-  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-  transform: translatey(0px);
   animation: float 4s ease-in-out infinite;
-  img { width: 100%; height: auto; }
 }
 
 .intro-container {
@@ -128,7 +117,7 @@ yel {
 }
 
 .intro p {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .intro a {
@@ -136,15 +125,45 @@ yel {
 }
 
 .subscribe {
+  display: flex;
   margin-top: 60px;
 }
 
-.subscribe a {
-  font-size: 36px;
+.subscribe button {
+  display: flex;
+  align-items: middle;
+  margin-right: 20px;
+  padding: 12px 12px;
+  border: 0 none;
+  border-radius: 4px;
+  text-align: center;
+  transition: all  150ms linear;
+
+  font-size: 22px;
+  color: white;
+  
+  cursor: pointer;
+  user-select: none;
 }
 
-.fade-in {
-  animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+.subscribe button img {
+  padding-left: 10px;
+  height: 32px;
+  width: auto;
+}
+
+.subscribe button:hover {
+  opacity: 0.85;
+  transform: scale(1.1);
+
+}
+
+.subscribe .mail-button {
+  background-color: #52b0f8;
+}
+
+.subscribe .gitter-button {
+  background-color: #eb4a9d;
 }
 
 @keyframes fade-in {
@@ -160,19 +179,17 @@ yel {
   animation: slide-in-bottom 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
 }
 
-.slide-in-bottom-long {
-  animation: slide-in-bottom 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
+.slide-in-bottom-delay {
+  animation: slide-in-bottom 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
 }
 
 @keyframes slide-in-bottom {
   0% {
-    -webkit-transform: translateY(300px);
-            transform: translateY(300px);
+    transform: translateY(300px);
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
@@ -210,6 +227,7 @@ yel {
 .team-member a img {
   height: auto;
   width: 200px;
+  transition: opacity 100ms;
 }
 
 .team-member a:hover img{
@@ -239,10 +257,13 @@ yel {
   font-size: 16px;
 }
 
+/* animations */
 
 /* need to update mobile views 
 
 @media only screen and (max-width: 600px) {
+display flex
+
     .app {
       margin-left: 10px;
       margin-right: 10px;

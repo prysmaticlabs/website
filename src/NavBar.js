@@ -4,10 +4,9 @@ import Prysm from './logos/Prysm.svg'
 import { Link } from 'react-router-dom'
 
 const NavBar= () => (
-	<div className="navbar fade-in">
-		<div>
-			<img alt="logo" className="logo col" src={Prysm} />
-		</div>
+	<div className="navbar">
+		<img alt="logo" className="logo col" src={Prysm} />
+		
 		<div>
 			<Link to="/">
 				<span className="navbar-item">About</span>
@@ -17,6 +16,12 @@ const NavBar= () => (
 			</Link>
 			<a href="http://github.com/prysmaticlabs/geth-sharding">
 				<span className="navbar-item">Github</span>
+			</a>			
+			<a href="https://medium.com/prysmatic-labs">
+				<span className="navbar-item">Blog</span>
+			</a>
+			<a href="https://twitter.com/prylabs">
+				<span className="navbar-item">Twitter</span>
 			</a>
 			<a href="http://gitter.im/prysmaticlabs/geth-sharding?source=orgpage">
 				<span className="navbar-item">Gitter</span>

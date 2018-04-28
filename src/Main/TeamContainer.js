@@ -1,10 +1,10 @@
 import React from 'react';
 import TeamMember from './TeamMember'
-import Team from '../team'
+import Team from '../assets/team'
 
 const TeamContainer = (props) => {
   return (
-    <div className="team-container slide-in-bottom-long">
+    <div className="team-container slide-in-bottom-delay">
     	<h2>Who We Are</h2>
     	<p>We are a team of individuals with a deep understanding of the Ethereum protocol.</p>
   		<p>Armed with diverse backgrounds ranging from distributed systems to cloud computing, we emphasize a test driven approach to implementing the system's first sharding client.</p>
