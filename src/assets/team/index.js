@@ -5,7 +5,7 @@ import TerenceImage from './Terence.png'
 import SylvainImage from './Sylvain.jpeg'
 import NishantImage from './Nishant.jpg'
 
-const Team = [
+const team = [
 	{
 		image: RaulImage,
 		github: "https://github.com/rauljordan",
@@ -50,4 +50,4 @@ const Team = [
 	}
 ]
 
-export default Team
+export default team
