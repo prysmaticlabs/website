@@ -8,7 +8,7 @@ const TeamMember = ({ member }) => {
 		    <img alt={member.name} src={member.image} />
 	    </a>
 	    <span>{member.name}</span><br/>
-	    <span className="team-member-title">{member.title}</span><br/>
+	    <span className="team-member-title pink">{member.title}</span><br/>
 	    <span className="team-member-info">{member.description}</span>
     </div>
   )

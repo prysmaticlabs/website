@@ -1,11 +1,11 @@
 import React from 'react';
+import './NavBar.css'
 import Prysm from '../assets/logos/Prysm.svg'
-
 import { Link } from 'react-router-dom'
 
 const NavBar= () => (
 	<div className="navbar">
-		<img alt="logo" className="logo col" src={Prysm} />
+		<img alt="logo" className="navbar-logo" src={Prysm} />
 		
 		<div className="navbar-links">
 			<Link to="/">

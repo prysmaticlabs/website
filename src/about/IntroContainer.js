@@ -1,4 +1,5 @@
 import React from 'react';
+import './IntroContainer.css'
 
 import BigLogo from './BigLogo'
 import Intro from './Intro'

@@ -1,6 +1,9 @@
 import React from 'react';
-import TeamMember from './TeamMember'
+import './TeamContainer.css'
+
 import team from '../assets/team'
+import TeamMember from './TeamMember'
+
 
 const TeamContainer = (props) => {
   return (
