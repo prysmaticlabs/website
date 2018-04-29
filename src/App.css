@@ -45,7 +45,7 @@ a:hover{
   border-bottom: 4px solid #eb4a9d;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in 1.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .logo {
@@ -85,7 +85,6 @@ a:hover{
   border-bottom: 4px solid #eb4a9d;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  animation: slide-in 1.3s ease-in-out both;
 }
 
 .big-logo {
@@ -155,7 +154,6 @@ a:hover{
 .team-container {
   margin-left: 1%;
   margin-right: 1%;
-  animation: slide-in 1.3s ease-in-out 0.75s both;
 }
 
 .team-container h2 {
@@ -253,7 +251,7 @@ a:hover{
 
 @keyframes slide-in {
   0% {
-    transform: translateY(500px);
+    transform: translateY(5%);
     opacity: 0;
   }
   100% {

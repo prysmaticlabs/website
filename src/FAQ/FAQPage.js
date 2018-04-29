@@ -42,9 +42,9 @@ const FAQPage = (props) => {
         <span className="blue">A: </span> 
         Join our <a className="pink" href={mailingListURL}>mailing list</a>! We 
         will also be posting major milestones on the 
-        <a className="pink" href={rEthereumURL}>/r/ethereum</a> Reddit. We also 
+        <a className="pink" href={rEthereumURL}> /r/ethereum</a> Reddit. We also 
         provide updates on <a className="pink" href={youTubeURL}>YouTube</a> and 
-        <a className="pink" href={mediumURL}>Medium</a>.
+        <a className="pink" href={mediumURL}> Medium</a>.
       </p>
     </div>
   )
