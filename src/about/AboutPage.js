@@ -3,13 +3,13 @@ import React from 'react';
 import IntroContainer from './IntroContainer';
 import TeamContainer from './TeamContainer';
 
-const MainPage = (props) => {
+const AboutPage = (props) => {
   return (
-    <div className="main"> 
+    <div className="about"> 
     	<IntroContainer />
 		<TeamContainer />
     </div>
   )
 }
 
-export default MainPage;
+export default AboutPage;

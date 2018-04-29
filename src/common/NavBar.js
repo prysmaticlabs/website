@@ -1,5 +1,5 @@
 import React from 'react';
-import Prysm from './assets/logos/Prysm.svg'
+import Prysm from '../assets/logos/Prysm.svg'
 
 import { Link } from 'react-router-dom'
 

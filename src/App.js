@@ -3,10 +3,10 @@ import './App.css';
 
 import { Switch, Route, Redirect } from 'react-router-dom'
 
-import NavBar from './NavBar';
-import MainPage from './Main/MainPage'
-import FAQPage from './FAQ/FAQPage'
-import Footer from './Footer'
+import NavBar from './common/NavBar';
+import MainPage from './main/MainPage'
+import FAQPage from './faq/FAQPage'
+import Footer from './common/Footer'
 
 
 class App extends Component {
