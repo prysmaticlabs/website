@@ -1,0 +1,389 @@
+body {
+  background-color: #000000;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+/* 10a98d #102027;*/
+h1 {
+  font-size: 50px;
+}
+
+.caption {
+  color: #959595;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.red {
+  color: #F30861;
+}
+
+.lead {
+  color: #F30861;
+}
+
+a:hover {
+  color: #F30861;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 110px;
+}
+
+.col-left {
+  width: 50%;
+  margin-top: -40px;
+}
+
+.col-left p {
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  line-height: 30px;
+}
+
+.col-left .caption {
+  color: #959595;
+}
+
+.col-right {
+  width: 45%;
+}
+
+.second-flex-row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+
+.second-col-left {
+  width: 40%;
+  padding-top: 40px;
+}
+
+.second-col-right {
+  width: 50%;
+  padding-left: 60px;
+}
+
+.second-col-right p {
+  font-size: 20px;
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+.prysm {
+  width: 100%;
+  animation-name: pulse_animation;
+  animation-duration: 5000ms;
+  transform-origin:70% 70%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 40px;
+}
+
+.nav-wrapper div {
+  margin-left: 60px;
+}
+
+.github {
+  text-decoration: none;
+  color: white;
+}
+
+.github:hover {
+  color: #F30861;
+}
+
+.github-button {
+  position: relative;
+  border: 4px solid #00C1C1;
+  border-radius: 2px;
+  color: white;
+  padding: 20px 70px 20px 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.github-button img {
+  position: absolute;
+  right: 22px;
+  top: 17px;
+  width: 30px;
+}
+
+.gitter {
+  border-radius: 2px;
+  padding: 15px 20px 15px 50px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  background-image: linear-gradient(-180deg, #F30861 0%, #D2094F 100%);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.gitter:hover {
+  color: white;
+}
+
+.svg {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  width: 18px;
+}
+
+@keyframes pulse_animation {
+  0% { transform: scale(1.05); }
+  30% { transform: scale(1); }
+  40% { transform: scale(1.08); }
+  50% { transform: scale(1); }
+  60% { transform: scale(1); }
+  70% { transform: scale(1.05); }
+  80% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+
+.primary-button {
+  /* Rectangle 6: */
+  background-image: linear-gradient(-180deg, #00C1C1 0%, #309999 98%);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 2px;
+}
+
+input {
+  padding: 20px 100px 20px 20px;
+  border: none;
+  border-radius: 2px;
+  font-size: 20px;
+  margin-right: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #959595;
+  font-size: 20px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #C8C8C8;
+  font-size: 20px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #C8C8C8;
+  font-size: 20px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #C8C8C8;
+  font-size: 20px;
+}
+
+.divider {
+  height: 10px;
+  width: 100%;
+  background-color: #00C1C1;
+  margin-top: 90px;
+}
+
+.divider-secondary {
+  height: 10px;
+  width: 100%;
+  background-color: #F30861;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 40px;
+}
+
+.footer-wrapper div {
+  margin-right: 15px;
+}
+
+.footer-wrapper div:nth-child(2n) {
+  color: #F30861;
+}
+
+.eth {
+  width: 100%;
+}
+
+.regular-p {
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  line-height: 30px;
+}
+
+.faq ul {
+  font-size: 20px;
+}
+
+.faq ul {
+  margin-left: -20px;
+}
+
+.faq ul li {
+  margin-bottom: 40px;
+}
+
+.photos {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.photos div {
+  width: 192px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.photos div img {
+  width: 192px;
+  margin-bottom: 10px;
+}
+
+.last {
+  margin-top: 40px;
+}
+
+.q {
+  color: #F30861;
+}
+
+.a {
+  color: #00C1C1;
+}
+
+.mobile-nav-wrapper {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .flex-row {
+    flex-flow: row wrap-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  .col-left {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .col-left p {
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+  .col-right {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .nav-wrapper {
+    display: none;
+  }
+  .mobile-nav-wrapper {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .prysm {
+    width: 50%;
+    padding-bottom: 40px;
+  }
+
+  .divider {
+    margin-top: 60px;
+  }
+
+  .second-flex-row {
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  .second-col-left {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+  }
+  .second-col-left p {
+    padding: 0px;
+  }
+  .second-col-right {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+  .github-button {
+    font-size: 16px;
+  }
+  .regular-p {
+    padding: 0px;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  .photos {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .photos div {
+    text-align: center;
+  }
+  .footer-wrapper {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .github-button {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .github-button img {
+    display: none;
+  }
+}
