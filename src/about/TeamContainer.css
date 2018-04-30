@@ -57,16 +57,16 @@
 }
 
 @media only screen and (max-width: 825px) {
-    .team-container {
-      justify-content: center;
-    }
+  .team-container {
+    justify-content: center;
+  }
 
-    .team-card-container {
-      justify-content: center;
-    }
+  .team-card-container {
+    justify-content: center;
+  }
 
-    .team-member {
-      margin-right: 2%;
-      margin-bottom: 10%;
-    }
+  .team-member {
+    margin-right: 2%;
+    margin-bottom: 10%;
+  }
 }

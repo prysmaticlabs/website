@@ -17,12 +17,12 @@ const Intro = (props) => {
         <span className="pink"> a million transactions per day</span>, the network is desperate for 
         a solution that will help sustain its massive growth and adoption.
       </p> 
-  		<p>
+      <p>
         We are building out the first sharding implementation for the
         <a className="pink" href={urls.geth}> Geth (go-ethereum)</a> client, allowing the system to 
         process transactions at over 10x - 100x of its current speed!
       </p>
-  		<div className="subscribe">
+      <div className="subscribe">
         <a href={urls.mailingList}>
           <button className="mail-button">
             Join Our Mailing List <img src={Email} alt="email icon"/>
@@ -33,7 +33,7 @@ const Intro = (props) => {
             Join Our Gitter Channel <img src={Gitter} alt="gitter icon"/>
           </button>
         </a>
-  		</div>
+      </div>
     </div>
   )
 }

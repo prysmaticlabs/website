@@ -71,23 +71,23 @@
 }
 
 @media only screen and (max-width: 825px) {
-    .intro {
-      width: 100%;
-      font-size: 72px;
-    }
+  .intro {
+    width: 100%;
+    font-size: 72px;
+  }
 
-    .intro-container {
-      justify-content: center;
-      flex-wrap: wrap-reverse;
-    }
+  .intro-container {
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
 
-    .big-logo {
-      font-size: 26px;
-    }
+  .big-logo {
+    font-size: 26px;
+  }
 
-    .big-logo img {
-      align-items: center;
-      height: 55%;
-      width: auto;
-    }
+  .big-logo img {
+    align-items: center;
+    height: 55%;
+    width: auto;
+  }
 }

@@ -6,8 +6,8 @@ import TeamContainer from './TeamContainer';
 const AboutPage = (props) => {
   return (
     <div> 
-    	<IntroContainer />
-		<TeamContainer />
+      <IntroContainer />
+      <TeamContainer />
     </div>
   )
 }

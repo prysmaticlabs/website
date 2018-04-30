@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = (props) => {
   return (
     <div className="footer">
-		© Copyright 2018 Prysmatic Labs	
+      © Copyright 2018 Prysmatic Labs 
     </div>
   )
 }
