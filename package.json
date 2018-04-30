@@ -1,0 +1,18 @@
+{
+  "name": "prysmatic-labs-website",
+  "version": "0.1.0",
+  "homepage": "https://www.prysmaticlabs.com",
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "gh-build": "rm -rf docs && mkdir docs && react-scripts build && mv build/* docs/ && touch docs/CNAME && echo 'prysmaticlabs.com' >> docs/CNAME && rm -rf build/" ,
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
