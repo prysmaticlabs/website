@@ -1,7 +1,7 @@
 {
   "name": "prysmatic-labs-website",
   "version": "0.1.0",
-  "homepage": "https://www.prysmaticlabs.com",
+  "homepage": "https://prysmaticlabs.com",
   "dependencies": {
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
