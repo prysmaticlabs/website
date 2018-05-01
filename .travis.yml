@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - "9"
+cache:
+    yarn: true
+script: 
+  - yarn build
+  - yarn test
+deploy:
+  provider: gcs
+  access_key_id: GOOGQY52LLWJC54VGSIM
+  secret_access_key:
+    secure: Ju46ExdWmW4JM20Ub7onOfgZJCEmoaRxSO9OCOmo37SIIEwsWPpQdgcCmtn6WAJRWT6/75GmybY6O2HQfQuYj0iHqazZrd8KJRp0JFOZBldd1N5UmCIgh6AP3rtvPgYinlNCF/ZKcDEAB1WtytDk35t1oBe3T3Jbq6ovX1JJGLdbZKwgIFLb5diLzVNI32sFW/neRR5PwKwHv94OF8NEw4F0h3/do6NcfVg9mG3vLgCOZn7dzO+hvaWURfYK5cBOrt+XKppooMSO6oo/hFawpsltToep3orfkDFA/KdwsnkgcV8m4vJXqmmfX552lCjHcTQz1rAbzzjPNcSMqpHCbf6/ve4YAW2HheZzJk9XimjYp4EXWdr2yujKdqeLIGCyUdMmtZnf/mzjMW5/6T74DIlaPmW4fzSA8aJjBGNVNo2PE3wrdI4DnUBy4wmjDphVxyWlQTgC7B8rDHpc/Ycf/HhXyZwcSNY1pXzW49fWP0eQY5GepLeRD9F0klk0S7oJObs9Vtl25YFtRRjbeY26WDytVw1Iar6dImyMFwGHv9khqc3kSpOUKAvyqgEWjPc28CegobKbos0zuujRaLz5gSU9c6uiLGXFSN8+6YDKTymuD0eMStbiOvvYZYhnk1UjgeCArZ2/6ofD/ileU9Wl4x2Bl7u6N4jlPpCv/WHR0gM=
+  bucket: gs://prysmaticlabs.com
+  acl: public-read
+  local-dir: build
+  skip_cleanup: true
+  on:
+    repo: prysmaticlabs/website
+    branch: master
