@@ -5,7 +5,7 @@ import { Switch, Route, Redirect } from 'react-router-dom'
 
 import NavBar from './common/NavBar';
 import AboutPage from './about/AboutPage'
-import FAQPage from './faq/FAQPage'
+import FAQPage from './FAQ/FAQPage'
 import Footer from './common/Footer'
 
 
