@@ -5,6 +5,7 @@ body {
   width: 100%;
   background-color: #080808;
   font-family: 'Nanum Gothic';
+  line-height: 1.7;
 }
 
 h2, h3, h4, h5, h6, a {
