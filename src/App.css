@@ -17,9 +17,9 @@ h1, button {
   font-family: 'Oxygen';
 }
 
-h2 { 
+h2 {
   font-size: 36px;
-  color: #52b0f8;
+  color: #68b0f2;
 }
 
 p {
@@ -27,7 +27,7 @@ p {
 }
 
 a:hover{
-  color: #52b0f8;
+  color: #418fcc;
   cursor: pointer;
 }
 
@@ -37,7 +37,7 @@ a:hover{
 
 .pink {
   color: #eb4a9d;
-} 
+}
 
 .yel {
   color: #fbe5a0;

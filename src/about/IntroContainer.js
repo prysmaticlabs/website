@@ -6,10 +6,14 @@ import Intro from './Intro'
 
 const IntroContainer = (props) => {
   return (
+    <div>
     <div className="intro-container">
-      <Intro />
       <BigLogo />
     </div>
+    <div className="intro-container">
+      <Intro />
+    </div>
+  </div>
   )
 }
 

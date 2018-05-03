@@ -5,7 +5,10 @@ const urls = {
   rEthereum: "https://www.reddit.com/r/ethereum/",
   youTube: "https://www.youtube.com/channel/UCxnN_5jJaU6y--dDQI7qO-Q",
   medium: "https://medium.com/prysmatic-labs",
-  geth: "https://github.com/ethereum/go-ethereum"
+  geth: "https://github.com/ethereum/go-ethereum",
+  shardingExplained: "https://medium.com/prysmatic-labs/how-to-scale-ethereum-sharding-explained-ba2e283b7fce",
+  contribGuidelines: "https://github.com/prysmaticlabs/geth-sharding#contribution-guidelines",
+  openProjects: "https://github.com/prysmaticlabs/geth-sharding/projects"
 }
 
 export default urls
