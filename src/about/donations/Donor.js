@@ -1,8 +1,13 @@
 import React from 'react';
 
-const Donor = (props) => {
+const Donor = ({ donor }) => {
   return (
-    <div></div>
+    <div className="donor">
+      <a href={donor.website}>
+        <img src={donor.logo} alt={donor.name + " logo"}/>
+        <p>{donor.name}</p>
+      </a>
+    </div>
   )
 }
 

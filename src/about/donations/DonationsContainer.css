@@ -1,3 +1,39 @@
 .donations-container {
   border-bottom: 0px;
+  text-align: center;
 }
+
+.donations-container > a {
+  font-size: 30px;
+  color: #eb4a9d;
+}
+
+.donations-container > a:hover {
+  color: #52b0f8;
+}
+
+.donations-container p, h2 {
+  text-align: left;
+}
+
+.donors {
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.donor p {
+  font-size: 28px;
+  text-align: center;
+}
+
+.donor img {
+  height: 300px;
+  transition: all 0.75s;
+}
+
+.donor:hover img {
+  transform: scale(1.1);
+}
+
+

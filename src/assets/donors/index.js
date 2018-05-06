@@ -1,7 +1,7 @@
-import EthereumLogo from './district0x.svg'
-import ECFLogo from './district0x.svg'
+import EthereumLogo from './Ethereum.svg'
+import ECFLogo from './ECF.svg'
 import district0xLogo from './district0x.svg'
-import SpankChainLogo from './district0x.svg'
+import SpankChainLogo from './SpankChain.svg'
 
 const donors = [
   {
