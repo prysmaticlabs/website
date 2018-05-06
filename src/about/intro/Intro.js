@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Email from '../assets/email-icon.png'
-import Gitter from '../assets/gitter-icon.png'
-import urls from '../assets/urls'
+import Email from '../../assets/email-icon.png'
+import Gitter from '../../assets/gitter-icon.png'
+import urls from '../../assets/urls'
 
 const Intro = (props) => {
   return (

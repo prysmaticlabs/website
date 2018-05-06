@@ -1,13 +1,6 @@
 .intro-container {
   display: flex;
   justify-content: space-between;
-  padding-right: 2%;
-  padding-left: 2%;
-  margin-bottom: 40px;
-  padding-bottom: 50px;
-  border-bottom: 4px solid #eb4a9d;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
 }
 
 .big-logo {

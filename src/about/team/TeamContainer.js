@@ -1,13 +1,13 @@
 import React from 'react';
 import './TeamContainer.css'
 
-import team from '../assets/team'
+import team from '../../assets/team'
 import TeamMember from './TeamMember'
 
 
 const TeamContainer = (props) => {
   return (
-    <div className="team-container">
+    <div className="container team-container">
       <h2>Who We Are</h2>
       <p>We are a team of individuals with a deep understanding of the Ethereum protocol.</p>
       <p>Armed with diverse backgrounds ranging from distributed systems to cloud computing, we 
