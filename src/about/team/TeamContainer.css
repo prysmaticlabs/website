@@ -68,5 +68,13 @@
   .team-member {
     margin-right: 2%;
     margin-bottom: 12%;
+    width: 60%;
+    height: auto;
+  }
+
+  .team-member a img {
+    height: auto;
+    width: 100%;
+    transition: opacity 100ms;
   }
 }
