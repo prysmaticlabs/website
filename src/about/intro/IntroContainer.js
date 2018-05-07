@@ -6,10 +6,6 @@ import Intro from './Intro'
 
 class IntroContainer extends React.Component {
 
-  state = {
-    inputVisibility: false
-  }
-
   render(){
     return (
       <div className="container intro-container">

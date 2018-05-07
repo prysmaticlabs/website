@@ -23,6 +23,7 @@ const Intro = (props) => {
         <a className="pink" href={urls.geth}> Geth (go-ethereum)</a> client, allowing the system to 
         process transactions at over 10x - 100x of its current speed!
       </p>
+      
       <div className="subscribe">
         <a>
           <button className="mail-button">
@@ -35,6 +36,7 @@ const Intro = (props) => {
           </button>
         </a>
       </div>
+
       <MailchimpSubscribe
         url={urls.mailChimp}
         render={({ subscribe, status, message }) => (

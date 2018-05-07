@@ -48,7 +48,7 @@
   }
 }
 
-@media only screen and (max-width: 825px) {
+@media only screen and (max-width: 975px) {
     .navbar, .navbar-links {
       justify-content: center;
       display: flex;

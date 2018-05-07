@@ -6,6 +6,7 @@
 .donations-container > a {
   font-size: 30px;
   color: #eb4a9d;
+  overflow-wrap: break-word;
 }
 
 .donations-container > a:hover {
@@ -17,9 +18,14 @@
 }
 
 .donors {
-  margin-top: 4%;
   display: flex;
+  margin-top: 4%;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.donor {
+  margin-right: 2%
 }
 
 .donor p {
@@ -36,4 +42,12 @@
   transform: scale(1.1);
 }
 
+@media only screen and (max-width: 963px) {
+  .donors {
+    justify-content: center;
+  }
 
+  .donor {
+    margin-right: 5%;
+  }
+}

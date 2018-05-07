@@ -3,3 +3,9 @@
   margin-right: 3%;
   text-align: end;
 }
+
+@media only screen and (max-width: 963px){
+  .footer {
+    text-align: center;
+  }
+}
