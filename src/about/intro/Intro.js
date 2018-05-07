@@ -5,7 +5,7 @@ import Email from '../../assets/email-icon.png'
 import Gitter from '../../assets/gitter-icon.png'
 import urls from '../../assets/urls'
 
-const Intro = (props) => {
+const Intro = ({ formVisibility, toggleForm }) => {
   return (
     <div className="intro">
       <h2>A team of blockchain engineers committed to scaling Ethereum.</h2>
@@ -26,7 +26,7 @@ const Intro = (props) => {
       
       <div className="subscribe">
         <a>
-          <button className="mail-button">
+          <button className="mail-button" onClick={toggleForm}>
             Join Our Mailing List <img src={Email} alt="email icon"/>
           </button>
         </a>
@@ -37,18 +37,21 @@ const Intro = (props) => {
         </a>
       </div>
 
-      <MailchimpSubscribe
-        url={urls.mailChimp}
-        render={({ subscribe, status, message }) => (
-          <div className="subscribe-form">
-            <input className="subscribe-input" type="email" />
-            <input className="subscribe-input" type="submit" onClick={e => subscribe({EMAIL: e.target.previousSibling.value})}/>
-            {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
-            {status === "error" && <div style={{ color: "red" }}>{message}</div>}
-            {status === "success" && <div style={{ color: "green" }}>Subscribed !</div>}
-          </div>
-        )}
-      />
+      { formVisibility ?
+        <MailchimpSubscribe
+          url={urls.mailChimp}
+          render={({ subscribe, status, message }) => (
+            <div className="subscribe-form">
+              <input className="subscribe-input" type="email" placeholder="Enter your email"/>
+              <input className="subscribe-input" type="submit" onClick={e => subscribe({EMAIL: e.target.previousSibling.value})}/>
+              {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
+              {status === "error" && <div style={{ color: "red" }}>{message}</div>}
+              {status === "success" && <div style={{ color: "green" }}>Subscribed !</div>}
+            </div>
+          )}
+        /> :
+        null
+      }
     </div>
   )
 }

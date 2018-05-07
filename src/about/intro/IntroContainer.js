@@ -6,10 +6,21 @@ import Intro from './Intro'
 
 class IntroContainer extends React.Component {
 
+  state = {
+    formVisibility: false
+  }
+
+  toggleForm = e => {
+    this.setState({formVisibility: !this.state.formVisibility})
+  }
+
   render(){
     return (
       <div className="container intro-container">
-        <Intro />
+        <Intro 
+          formVisibility={this.state.formVisibility}
+          toggleForm={this.toggleForm}
+        />
         <BigLogo />
       </div>
     )

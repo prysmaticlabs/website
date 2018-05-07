@@ -23,7 +23,8 @@
 
 .subscribe {
   display: flex;
-  margin-top: 60px;
+  flex-wrap: wrap-reverse;
+  margin-top: 4%;
 }
 
 .subscribe button {
@@ -65,7 +66,6 @@
 
 .subscribe-form {
   margin-top: 2%;
-  opacity: 0;
 }
 
 .subscribe-input {
