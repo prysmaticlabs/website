@@ -40,18 +40,30 @@ const Intro = ({ formVisibility, toggleForm }) => {
       { formVisibility ?
         <MailchimpSubscribe
           url={urls.mailChimp}
-          render={({ subscribe, status, message }) => (
+          render={({ subscribe, status, message }) => {
+            if (message && message.includes("0 - ")){
+              message = message.split("0 - ")[1]
+            }
+            return (
             <div className="subscribe-form">
-              <input className="subscribe-input" type="email" placeholder="Enter your email"/>
-              <input className="subscribe-input" type="submit" onClick={e => subscribe({EMAIL: e.target.previousSibling.value})}/>
+              <input 
+                className="subscribe-input" 
+                type="email" 
+                placeholder="Enter your email"
+              />
+              <input 
+                className="subscribe-input" 
+                type="submit" 
+                onClick={e => subscribe({EMAIL: e.target.previousSibling.value})}
+              />
               {status === "sending" && 
-                <div className="subscribe-status" style={{ color: "blue" }}>sending...</div>}
+                <div className="subscribe-status yellow">sending...</div>}
               {status === "error" && 
-                <div className="subscribe-status" style={{ color: "red" }} dangerouslySetInnerHTML={{__html: message}}></div>}
+                <div className="subscribe-status pink" dangerouslySetInnerHTML={{__html: message}}></div>}
               {status === "success" && 
-                <div className="subscribe-status" style={{ color: "green" }}>Subscribed!</div>}
+                <div className="subscribe-status blue">Subscribed!</div>}
             </div>
-          )}
+          )}}
         /> :
         null
       }
