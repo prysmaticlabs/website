@@ -62,6 +62,23 @@
   background-color: #eb4a9d;
 }
 
+.subscribe-form {
+  display: flex;
+  align-items: middle;
+  margin-right: 20px;
+  padding: 12px 12px;
+  border: 0 none;
+  border-radius: 4px;
+  text-align: center;
+  transition: all  150ms linear;
+
+  font-size: 22px;
+  color: white;
+  
+  cursor: pointer;
+  user-select: none;
+}
+
 @media only screen and (max-width: 825px) {
   .intro {
     width: 100%;

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import MailchimpSubscribe from "react-mailchimp-subscribe"
+
 import Email from '../../assets/email-icon.png'
 import Gitter from '../../assets/gitter-icon.png'
 import urls from '../../assets/urls'
@@ -34,6 +36,18 @@ const Intro = (props) => {
           </button>
         </a>
       </div>
+      <MailchimpSubscribe
+        url={urls.mailChimp}
+        render={({ subscribe, status, message }) => (
+          <div>
+            <input type="email" />
+            <input type="submit" onClick={e => subscribe({EMAIL: e.target.previousSibling.value})}/>
+            {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
+            {status === "error" && <div style={{ color: "red" }}>{message}</div>}
+            {status === "success" && <div style={{ color: "green" }}>Subscribed !</div>}
+          </div>
+        )}
+      />
     </div>
   )
 }

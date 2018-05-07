@@ -10,14 +10,15 @@ import Footer from './common/Footer'
 
 
 class App extends Component {
+
   render() {
     return (
-      <div className="app" onScroll={this.handleScroll}>
+      <div className="app">
         <NavBar />
         <Switch>
-        	<Route exact path="/" component={AboutPage}/>
-        	<Route exact path="/faq" component={FAQPage}/>
-        	<Redirect to="/" />
+          <Route exact path="/" component={AboutPage} />
+          <Route exact path="/faq" component={FAQPage}/>
+          <Redirect to="/" />
         </Switch>
         <Footer />
       </div>
