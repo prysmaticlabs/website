@@ -1,5 +1,4 @@
 import React from 'react';
-
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 import Email from '../../assets/email-icon.png'
@@ -25,7 +24,7 @@ const Intro = (props) => {
         process transactions at over 10x - 100x of its current speed!
       </p>
       <div className="subscribe">
-        <a href={urls.mailingList}>
+        <a>
           <button className="mail-button">
             Join Our Mailing List <img src={Email} alt="email icon"/>
           </button>
@@ -39,9 +38,9 @@ const Intro = (props) => {
       <MailchimpSubscribe
         url={urls.mailChimp}
         render={({ subscribe, status, message }) => (
-          <div>
-            <input type="email" />
-            <input type="submit" onClick={e => subscribe({EMAIL: e.target.previousSibling.value})}/>
+          <div className="subscribe-form">
+            <input className="subscribe-input" type="email" />
+            <input className="subscribe-input" type="submit" onClick={e => subscribe({EMAIL: e.target.previousSibling.value})}/>
             {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
             {status === "error" && <div style={{ color: "red" }}>{message}</div>}
             {status === "success" && <div style={{ color: "green" }}>Subscribed !</div>}
