@@ -44,9 +44,12 @@ const Intro = ({ formVisibility, toggleForm }) => {
             <div className="subscribe-form">
               <input className="subscribe-input" type="email" placeholder="Enter your email"/>
               <input className="subscribe-input" type="submit" onClick={e => subscribe({EMAIL: e.target.previousSibling.value})}/>
-              {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
-              {status === "error" && <div style={{ color: "red" }}>{message}</div>}
-              {status === "success" && <div style={{ color: "green" }}>Subscribed !</div>}
+              {status === "sending" && 
+                <div className="subscribe-status" style={{ color: "blue" }}>sending...</div>}
+              {status === "error" && 
+                <div className="subscribe-status" style={{ color: "red" }} dangerouslySetInnerHTML={{__html: message}}></div>}
+              {status === "success" && 
+                <div className="subscribe-status" style={{ color: "green" }}>Subscribed!</div>}
             </div>
           )}
         /> :

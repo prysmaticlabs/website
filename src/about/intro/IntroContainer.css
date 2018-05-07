@@ -34,6 +34,7 @@
   padding: 12px 12px;
   border: 0 none;
   border-radius: 4px;
+  margin-bottom: 1%;
   text-align: center;
   transition: all  150ms linear;
 
@@ -66,6 +67,11 @@
 
 .subscribe-form {
   margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.subscribe-form div {
+  font-size: 16px;
 }
 
 .subscribe-input {
@@ -76,6 +82,10 @@
   border: 0 none;
   border-radius: 4px;
   font-size: 18px;
+}
+
+.subscribe-status {
+  margin-top: 1%;
 }
 
 @media only screen and (max-width: 975px) {
@@ -97,5 +107,13 @@
     align-items: center;
     height: auto;
     width: 100%;
+  }
+
+  .subscribe, .subscribe-form {
+    justify-content: center;
+  }
+
+  .subscribe-input {
+    margin-right: 1%;
   }
 }
