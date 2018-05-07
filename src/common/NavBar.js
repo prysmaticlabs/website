@@ -26,9 +26,6 @@ const NavBar= () => (
       <a href="http://gitter.im/prysmaticlabs/geth-sharding?source=orgpage">
         <span className="navbar-item">Gitter</span>
       </a>
-      <a href="http://rauljordan.us14.list-manage.com/subscribe?u=7bcfcec175d2461e541a3f2a8&id=3a2a17337c">
-        <span className="navbar-item">Mailing List</span>
-      </a>
     </div>
   </div>
 )
