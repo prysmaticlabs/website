@@ -56,6 +56,7 @@ const Intro = ({ formVisibility, toggleForm }) => {
                 type="submit" 
                 onClick={e => subscribe({EMAIL: e.target.previousSibling.value})}
               />
+              <span className="subscribe-exit" onClick={toggleForm}>&times;</span>
               {status === "sending" && 
                 <div className="subscribe-status yellow">sending...</div>}
               {status === "error" && 

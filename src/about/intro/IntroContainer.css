@@ -84,6 +84,10 @@
   font-size: 18px;
 }
 
+.subscribe-exit {
+  cursor: pointer;
+}
+
 .subscribe-status {
   margin-top: 1%;
 }
