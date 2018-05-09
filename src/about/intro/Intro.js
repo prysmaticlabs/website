@@ -1,5 +1,6 @@
 import React from 'react';
-import MailchimpSubscribe from "react-mailchimp-subscribe"
+import MailchimpSubscribeForm from './MailchimpSubscribeForm'
+import BigButton from '../../common/BigButton'
 
 import Email from '../../assets/email-icon.png'
 import Gitter from '../../assets/gitter-icon.png'
@@ -8,6 +9,7 @@ import urls from '../../assets/urls'
 const Intro = ({ formVisibility, toggleForm }) => {
   return (
     <div className="intro">
+
       <h2>A team of blockchain engineers committed to scaling Ethereum.</h2>
       <p>
         We are implementing the first <a className="pink" href={urls.sharding}>sharding</a> client 
@@ -25,11 +27,10 @@ const Intro = ({ formVisibility, toggleForm }) => {
       </p>
       
       <div className="subscribe">
-        <a>
-          <button className="mail-button" onClick={toggleForm}>
-            Join Our Mailing List <img src={Email} alt="email icon"/>
-          </button>
-        </a>
+        <button className="mail-button" onClick={toggleForm}>
+          Join Our Mailing List <img src={Email} alt="email icon"/>
+        </button>
+
         <a href={urls.gitter}>
           <button className="gitter-button">
             Join Our Gitter Channel <img src={Gitter} alt="gitter icon"/>
@@ -37,37 +38,12 @@ const Intro = ({ formVisibility, toggleForm }) => {
         </a>
       </div>
 
-      { formVisibility ?
-        <MailchimpSubscribe
-          url={urls.mailChimp}
-          render={({ subscribe, status, message }) => {
-            if (message && message.includes("0 - ")){
-              message = message.split("0 - ")[1]
-            }
-            return (
-            <div className="subscribe-form">
-              <input 
-                className="subscribe-input" 
-                type="email" 
-                placeholder="Enter your email"
-              />
-              <input 
-                className="subscribe-input" 
-                type="submit" 
-                onClick={e => subscribe({EMAIL: e.target.previousSibling.value})}
-              />
-              <span className="subscribe-exit" onClick={toggleForm}>&times;</span>
-              {status === "sending" && 
-                <div className="subscribe-status yellow">sending...</div>}
-              {status === "error" && 
-                <div className="subscribe-status pink" dangerouslySetInnerHTML={{__html: message}}></div>}
-              {status === "success" && 
-                <div className="subscribe-status blue">Subscribed!</div>}
-            </div>
-          )}}
-        /> :
-        null
-      }
+      <MailchimpSubscribeForm 
+        formVisibility={formVisibility} 
+        toggleForm={toggleForm} 
+        url={urls.mailchimp}
+      />
+
     </div>
   )
 }
