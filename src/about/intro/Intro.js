@@ -1,6 +1,5 @@
 import React from 'react';
 import MailchimpSubscribeForm from './MailchimpSubscribeForm'
-import BigButton from '../../common/BigButton'
 
 import Email from '../../assets/email-icon.png'
 import Gitter from '../../assets/gitter-icon.png'
@@ -36,6 +35,7 @@ const Intro = ({ formVisibility, toggleForm }) => {
             Join Our Gitter Channel <img src={Gitter} alt="gitter icon"/>
           </button>
         </a>
+
       </div>
 
       <MailchimpSubscribeForm 
