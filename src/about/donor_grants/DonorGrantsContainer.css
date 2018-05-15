@@ -1,44 +1,47 @@
-.donations-container {
+.donor-grants-container {
+  margin-top: 1%;
   border-bottom: 0px;
   text-align: center;
 }
 
-.donations-container > a {
+.donor-grants-container > a {
   font-size: 30px;
   color: #eb4a9d;
   overflow-wrap: break-word;
 }
 
-.donations-container > a:hover {
+.donor-grants-container > a:hover {
   color: #52b0f8;
 }
 
-.donations-container p, h2 {
+.donor-grants-container p, h2 {
   text-align: left;
 }
 
-.donors {
+.contributors {
   display: flex;
   margin-top: 4%;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.donor {
-  margin-right: 2%
+.contributor {
+  margin-top: 2%;
+  margin-right: 6%;
 }
 
-.donor p {
+.contributor p {
   font-size: 28px;
   text-align: center;
+  margin-bottom: 0px;
 }
 
-.donor img {
+.contributor img {
   height: 300px;
   transition: all 0.75s;
 }
 
-.donor:hover img {
+.contributor:hover img {
   transform: scale(1.1);
 }
 
@@ -47,7 +50,7 @@
     justify-content: center;
   }
 
-  .donor {
+  .contributor {
     margin-right: 5%;
   }
 }

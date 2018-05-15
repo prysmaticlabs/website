@@ -2,14 +2,14 @@ import React from 'react';
 
 import IntroContainer from './intro/IntroContainer';
 import TeamContainer from './team/TeamContainer';
-import DonationsContainer from './donations/DonationsContainer'
+import DonorGrantsContainer from './donor_grants/DonorGrantsContainer'
 
 const AboutPage = (props) => {
   return (
     <div> 
       <IntroContainer />
       <TeamContainer />
-      <DonationsContainer />
+      <DonorGrantsContainer />
     </div>
   )
 }
