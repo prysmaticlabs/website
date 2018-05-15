@@ -9,36 +9,31 @@ const donors = [
     logo: aragonNestLogo,
     name: "Aragon Nest",
     type: "Grant Award",
-    website: "https://www.aragon.one",
-    transaction: "https://"
+    website: "https://www.aragon.one"
   },
   {
     logo: district0xLogo,
     name: "district0x",
     type: "Donation",
-    website: "https://district0x.io/",
-    transaction: "https://"
+    website: "https://district0x.io/"
   },
   {
     logo: EthereumLogo,
     name: "Ethereum Foundation",
     type: "Grant Award",
-    website: "https://www.ethereum.org/foundation",
-    transaction: "https://"
+    website: "https://www.ethereum.org/foundation"
   },
   {
     logo: ECFLogo,
     name: "Ethereum Community Fund",
     type: "Grant Award",
-    website: "https://ecf.network/",
-    transaction: "https://"
+    website: "https://ecf.network/"
   },
   {
     logo: SpankChainLogo,
     name: "SpankChain",
     type: "Donation",
-    website: "https://spankchain.com/",
-    transaction: "https://"
+    website: "https://spankchain.com/"
   },
 ]
 
