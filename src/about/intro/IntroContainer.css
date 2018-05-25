@@ -1,6 +1,8 @@
 .intro-container {
   display: flex;
   justify-content: space-between;
+  padding-top: 2.5%;
+  padding-bottom: 7.5%;
 }
 
 .big-logo {
