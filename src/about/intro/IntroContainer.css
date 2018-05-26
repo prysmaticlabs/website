@@ -1,16 +1,12 @@
 .intro-container {
   display: flex;
   justify-content: space-between;
-  padding-right: 2%;
-  padding-left: 2%;
-  margin-bottom: 40px;
-  padding-bottom: 50px;
-  border-bottom: 4px solid #eb4a9d;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+  padding-top: 2.5%;
+  padding-bottom: 7.5%;
 }
 
 .big-logo {
+  margin-top: 5%;
   text-align: center;
   font-size: 36px;
 }
@@ -29,7 +25,8 @@
 
 .subscribe {
   display: flex;
-  margin-top: 60px;
+  flex-wrap: wrap-reverse;
+  margin-top: 4%;
 }
 
 .subscribe button {
@@ -39,6 +36,7 @@
   padding: 12px 12px;
   border: 0 none;
   border-radius: 4px;
+  margin-bottom: 1%;
   text-align: center;
   transition: all  150ms linear;
 
@@ -69,7 +67,34 @@
   background-color: #eb4a9d;
 }
 
-@media only screen and (max-width: 825px) {
+.subscribe-form {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.subscribe-form div {
+  font-size: 16px;
+}
+
+.subscribe-input {
+  display: inline;
+  align-items: middle;
+  margin-right: 20px;
+  padding: 12px 12px;
+  border: 0 none;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.subscribe-exit {
+  cursor: pointer;
+}
+
+.subscribe-status {
+  margin-top: 1%;
+}
+
+@media only screen and (max-width: 975px) {
   .intro {
     width: 100%;
     font-size: 72px;
@@ -86,7 +111,15 @@
 
   .big-logo img {
     align-items: center;
-    height: 55%;
-    width: auto;
+    height: auto;
+    width: 100%;
+  }
+
+  .subscribe, .subscribe-form {
+    justify-content: center;
+  }
+
+  .subscribe-input {
+    margin-right: 1%;
   }
 }

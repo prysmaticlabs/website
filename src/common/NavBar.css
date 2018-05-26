@@ -2,11 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
-  border-bottom: 4px solid #eb4a9d;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
   animation: fade-in 1.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  padding-bottom: 0px;
 }
 
 .navbar-logo {
@@ -51,7 +48,7 @@
   }
 }
 
-@media only screen and (max-width: 825px) {
+@media only screen and (max-width: 975px) {
     .navbar, .navbar-links {
       justify-content: center;
       display: flex;

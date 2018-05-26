@@ -1,0 +1,56 @@
+.donor-grants-container {
+  margin-top: 1%;
+  border-bottom: 0px;
+  text-align: center;
+}
+
+.donor-grants-container > a {
+  font-size: 30px;
+  color: #eb4a9d;
+  overflow-wrap: break-word;
+}
+
+.donor-grants-container > a:hover {
+  color: #52b0f8;
+}
+
+.donor-grants-container p, h2 {
+  text-align: left;
+}
+
+.contributors {
+  display: flex;
+  margin-top: 4%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contributor {
+  margin-top: 2%;
+  margin-right: 6%;
+}
+
+.contributor p {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.contributor img {
+  height: 300px;
+  transition: all 0.75s;
+}
+
+.contributor:hover img {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 963px) {
+  .donors {
+    justify-content: center;
+  }
+
+  .contributor {
+    margin-right: 5%;
+  }
+}

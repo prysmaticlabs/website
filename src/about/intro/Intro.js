@@ -1,12 +1,14 @@
 import React from 'react';
+import MailchimpSubscribeForm from './MailchimpSubscribeForm'
 
-import Email from '../assets/email-icon.png'
-import Gitter from '../assets/gitter-icon.png'
-import urls from '../assets/urls'
+import Email from '../../assets/email-icon.png'
+import Gitter from '../../assets/gitter-icon.png'
+import urls from '../../assets/urls'
 
-const Intro = (props) => {
+const Intro = ({ formVisibility, toggleForm }) => {
   return (
     <div className="intro">
+
       <h2>A team of blockchain engineers committed to scaling Ethereum.</h2>
       <p>
         We are implementing the first <a className="pink" href={urls.sharding}>sharding</a> client 
@@ -22,18 +24,26 @@ const Intro = (props) => {
         <a className="pink" href={urls.geth}> Geth (go-ethereum)</a> client, allowing the system to 
         process transactions at over 10x - 100x of its current speed!
       </p>
+      
       <div className="subscribe">
-        <a href={urls.mailingList}>
-          <button className="mail-button">
-            Join Our Mailing List <img src={Email} alt="email icon"/>
-          </button>
-        </a>
+        <button className="mail-button" onClick={toggleForm}>
+          Join Our Mailing List <img src={Email} alt="email icon"/>
+        </button>
+
         <a href={urls.gitter}>
           <button className="gitter-button">
             Join Our Gitter Channel <img src={Gitter} alt="gitter icon"/>
           </button>
         </a>
+
       </div>
+
+      <MailchimpSubscribeForm 
+        formVisibility={formVisibility} 
+        toggleForm={toggleForm} 
+        url={urls.mailchimp}
+      />
+
     </div>
   )
 }
