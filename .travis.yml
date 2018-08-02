@@ -5,7 +5,7 @@ cache:
     yarn: true
 script: 
   - yarn build
-  - yarn test
+# - yarn test
 deploy:
   provider: gcs
   access_key_id: GOOGLNNCWKFXELJCXFBT
