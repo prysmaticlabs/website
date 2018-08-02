@@ -1,11 +1,14 @@
-import React from 'react';
-import MailchimpSubscribeForm from './MailchimpSubscribeForm'
+import * as React from 'react';
+import MailchimpSubscribeForm from './MailchimpSubscribeForm';
 
-import Email from '../../assets/email-icon.png'
-import Gitter from '../../assets/gitter-icon.png'
-import urls from '../../assets/urls'
+import * as Email from '../../assets/email-icon.png';
+import * as Gitter from '../../assets/gitter-icon.png';
+import urls from '../../assets/urls';
 
-const Intro = ({ formVisibility, toggleForm }) => {
+const Intro = ({ formVisibility, 
+  toggleForm }: {
+    formVisibility: boolean, 
+    toggleForm: () => void}) => {
   return (
     <div className="intro">
 
@@ -45,7 +48,7 @@ const Intro = ({ formVisibility, toggleForm }) => {
       />
 
     </div>
-  )
-}
+  );
+};
 
 export default Intro;

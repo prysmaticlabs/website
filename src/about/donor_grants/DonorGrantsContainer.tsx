@@ -1,10 +1,9 @@
-import React from 'react';
-import './DonorGrantsContainer.css'
-import Contributors from './Contributors'
+import * as React from 'react';
+import './DonorGrantsContainer.css';
+import Contributors from './Contributors';
 
 class DonorGrantsContainer extends React.Component {
-
-  render(){
+  render() {
     return (
       <div className="container donor-grants-container">
         <h2>Donors & Granters</h2>
@@ -18,8 +17,8 @@ class DonorGrantsContainer extends React.Component {
         out some of our awesome patrons below.</p>
         <Contributors/>
       </div> 
-    )
+    );
   }
 }
 
-export default DonorGrantsContainer
+export default DonorGrantsContainer;
