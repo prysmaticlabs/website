@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './NavBar.css';
-import Prysm from '../assets/logos/Prysm.svg';
+import * as Prysm from '../assets/logos/Prysm.svg';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => (

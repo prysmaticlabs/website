@@ -27,7 +27,8 @@ const MailchimpSubscribeForm = ({
             <input
               className="subscribe-input"
               type="submit"
-              onClick={e => subscribe({ EMAIL: 'todo' })}
+              // tslint:disable-next-line:no-any I don't know what this is.
+              onClick={e => subscribe({ EMAIL: (e.target as any).previousSibling.value })}
             />
             <span className="subscribe-exit" onClick={toggleForm}>&times;</span>
             {status === 'sending' &&

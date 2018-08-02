@@ -1,8 +1,8 @@
 import * as React from 'react';
 import MailchimpSubscribeForm from './MailchimpSubscribeForm';
 
-import Email from '../../assets/email-icon.png';
-import Gitter from '../../assets/gitter-icon.png';
+import * as Email from '../../assets/email-icon.png';
+import * as Gitter from '../../assets/gitter-icon.png';
 import urls from '../../assets/urls';
 
 const Intro = ({ formVisibility, 

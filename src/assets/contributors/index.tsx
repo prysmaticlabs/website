@@ -1,8 +1,8 @@
-import aragonNestLogo from './aragonnest.png';
-import district0xLogo from './district0x.svg';
-import EthereumLogo from './Ethereum.svg';
-import ECFLogo from './ECF.svg';
-import SpankChainLogo from './SpankChain.svg';
+import * as aragonNestLogo from './aragonnest.png';
+import * as district0xLogo from './district0x.svg';
+import * as EthereumLogo from './Ethereum.svg';
+import * as ECFLogo from './ECF.svg';
+import * as SpankChainLogo from './SpankChain.svg';
 
 const donors = [
   {

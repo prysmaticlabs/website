@@ -1,9 +1,9 @@
-import RaulImage from './Raul.jpeg';
-import PrestonImage from './Preston.jpeg';
-import EnriqueImage from './Enrique.jpeg';
-import TerenceImage from './Terence.png';
-import SylvainImage from './Sylvain.jpeg';
-import NishantImage from './Nishant.jpg';
+import * as RaulImage from './Raul.jpeg';
+import * as PrestonImage from './Preston.jpeg';
+import * as EnriqueImage from './Enrique.jpeg';
+import * as TerenceImage from './Terence.png';
+import * as SylvainImage from './Sylvain.jpeg';
+import * as NishantImage from './Nishant.jpg';
 
 export interface TeamMember {
   image: string;

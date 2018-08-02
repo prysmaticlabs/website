@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import PrysmStripe from '../../assets/logos/PrysmStripe.png';
+import * as PrysmStripe from '../../assets/logos/PrysmStripe.png';
 
 const BigLogo = () => {
   return (
