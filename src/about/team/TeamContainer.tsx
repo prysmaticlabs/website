@@ -1,11 +1,10 @@
-import React from 'react';
-import './TeamContainer.css'
+import * as React from 'react';
+import './TeamContainer.css';
 
-import team from '../../assets/team'
-import TeamMember from './TeamMember'
+import team from '../../assets/team';
+import TeamMember from './TeamMember';
 
-
-const TeamContainer = (props) => {
+const TeamContainer = () => {
   return (
     <div className="container team-container">
       <h2>Who We Are</h2>
@@ -16,7 +15,7 @@ const TeamContainer = (props) => {
         {team.map(member => <TeamMember key={member.name} member={member}/>)}
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default TeamContainer;

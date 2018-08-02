@@ -1,6 +1,7 @@
-import React from 'react';
+import * as React from 'react';
+import { TeamMember } from '../../assets/team/index';
 
-const TeamMember = ({ member }) => {
+const TeamMember = ({ member }: {member: TeamMember}) => {
   return (
     <div className="team-member">   
       <a href={member.github}>
@@ -11,7 +12,7 @@ const TeamMember = ({ member }) => {
       <span className="team-member-title pink">{member.title}</span><br/>
       <span className="team-member-info">{member.description}</span>
     </div>
-  )
-}
+  );
+};
 
 export default TeamMember;

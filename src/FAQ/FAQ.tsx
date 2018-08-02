@@ -1,7 +1,7 @@
-import React from 'react';
-import urls from '../assets/urls'
+import * as React from 'react';
+import urls from '../assets/urls';
 
-const FAQ = (props) => {
+const FAQ = () => {
   return (
     <div>
       <h2 className="yel">FAQ</h2>
@@ -41,7 +41,7 @@ const FAQ = (props) => {
         <a className="pink" href={urls.medium}> Medium</a>.
       </p>
     </div>
-  )
-}
+  );
+};
 
 export default FAQ;

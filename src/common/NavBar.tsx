@@ -1,9 +1,9 @@
-import React from 'react';
-import './NavBar.css'
-import Prysm from '../assets/logos/Prysm.svg'
-import { Link } from 'react-router-dom'
+import * as React from 'react';
+import './NavBar.css';
+import Prysm from '../assets/logos/Prysm.svg';
+import { Link } from 'react-router-dom';
 
-const NavBar= () => (
+const NavBar = () => (
   <div className="container navbar">
     <img alt="logo" className="navbar-logo" src={Prysm} />
     
@@ -28,6 +28,6 @@ const NavBar= () => (
       </a>
     </div>
   </div>
-)
+);
 
 export default NavBar;

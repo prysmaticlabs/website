@@ -3,16 +3,23 @@
   "version": "0.1.0",
   "homepage": "https://prysmaticlabs.com",
   "dependencies": {
+    "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-mailchimp-subscribe": "^2.0.0",
+    "@types/react-router-dom": "^4.3.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-mailchimp-subscribe": "^2.0.1",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4"
+    "typescript": "^3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "react-scripts-ts": "^2.16.0"
   }
 }
