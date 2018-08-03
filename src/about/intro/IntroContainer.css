@@ -1,18 +1,20 @@
 .intro-container {
   display: flex;
-  justify-content: space-between;
-  padding-top: 2.5%;
-  padding-bottom: 7.5%;
+  justify-content: space-between;;
 }
 
 .big-logo {
-  margin-top: 5%;
+  margin-top: 16px;
   text-align: center;
   font-size: 36px;
 }
 
 .big-logo > img {
   height: 300px;
+}
+
+.big-logo > h1 {
+    margin-bottom: 0;
 }
 
 .intro {
@@ -26,7 +28,7 @@
 .subscribe {
   display: flex;
   flex-wrap: wrap-reverse;
-  margin-top: 4%;
+  margin-top: 16px;
 }
 
 .subscribe button {
@@ -36,7 +38,7 @@
   padding: 12px 12px;
   border: 0 none;
   border-radius: 4px;
-  margin-bottom: 1%;
+  margin-bottom: 4px;
   text-align: center;
   transition: all  150ms linear;
 
@@ -68,8 +70,7 @@
 }
 
 .subscribe-form {
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin: 8px 0px;
 }
 
 .subscribe-form div {
@@ -91,7 +92,7 @@
 }
 
 .subscribe-status {
-  margin-top: 1%;
+  margin-top: 4px;
 }
 
 @media only screen and (max-width: 975px) {
@@ -120,6 +121,6 @@
   }
 
   .subscribe-input {
-    margin-right: 1%;
+    margin-right: 4px;
   }
 }

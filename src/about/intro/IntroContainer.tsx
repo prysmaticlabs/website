@@ -3,6 +3,7 @@ import './IntroContainer.css';
 
 import BigLogo from './BigLogo';
 import Intro from './Intro';
+import Buttons from './Buttons';
 
 class IntroContainer extends React.Component {
 
@@ -16,12 +17,15 @@ class IntroContainer extends React.Component {
 
   render() {
     return (
-      <div className="container intro-container">
-        <Intro 
+      <div className="container">
+        <div className="intro-container">
+          <Intro />
+          <BigLogo />
+        </div>
+        <Buttons
           formVisibility={this.state.formVisibility}
           toggleForm={this.toggleForm}
         />
-        <BigLogo />
       </div>
     );
   }
