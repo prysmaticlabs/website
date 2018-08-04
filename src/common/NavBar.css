@@ -12,6 +12,12 @@
   animation: float 4s ease-in-out infinite;
 }
 
+@media only screen and (max-width: 500px) {
+    .navbar-logo {
+        display: none;
+    }
+}
+
 .navbar-item {
   margin-left: 20px;
   font-size: 22px;
