@@ -4,6 +4,7 @@ import * as EnriqueImage from './Enrique.jpeg';
 import * as TerenceImage from './Terence.png';
 import * as SylvainImage from './Sylvain.jpeg';
 import * as NishantImage from './Nishant.jpg';
+import * as YutaroImage from './Yutaro.jpeg';
 
 export interface TeamMember {
   image: string;
@@ -27,21 +28,21 @@ const team: TeamMember[] = [
     name: 'Preston Van Loon',
     title: 'Team Lead',
     description: 'Software Engineer @GoogleNYC & Ethereum Dev'
-  },  
+  },
   {
     image: EnriqueImage,
     github: 'https://github.com/enriquefynn',
     name: 'Enrique Finn',
     title: null,
     description: 'Ph.D Candidate in Distributed Systems & Ethereum Dev'
-  },  
+  },
   {
     image: TerenceImage,
     github: 'https://github.com/terenc3t',
     name: 'Terence Tsao',
     title: null,
     description: 'Software Engineer @Riverbed & Ethereum Dev'
-  },  
+  },
   {
     image: SylvainImage,
     github: 'https://github.com/Magicking',
@@ -53,6 +54,13 @@ const team: TeamMember[] = [
     image: NishantImage,
     github: 'https://github.com/nisdas',
     name: 'Nishant Das',
+    title: null,
+    description: 'Ethereum Dev'
+  },
+  {
+    image: YutaroImage,
+    github: 'https://github.com/rawfalafel',
+    name: 'Yutaro Mori',
     title: null,
     description: 'Ethereum Dev'
   }
