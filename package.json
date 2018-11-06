@@ -4,7 +4,7 @@
   "homepage": "https://prysmaticlabs.com",
   "dependencies": {
     "@types/react": "16.4.7",
-    "@types/react-dom": "16.0.6",
+    "@types/react-dom": "16.0.9",
     "@types/react-mailchimp-subscribe": "2.0.0",
     "@types/react-router-dom": "4.3.0",
     "react": "16.3.1",
