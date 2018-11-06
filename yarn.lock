@@ -6810,10 +6810,10 @@ react-router@^4.2.0:
     prop-types "^15.5.4"
     warning "^3.0.0"
 
-react-scripts-ts@2.16.0:
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/react-scripts-ts/-/react-scripts-ts-2.16.0.tgz#45f831a12139c3b59d6bb729c1b6ef51e0f22908"
-  integrity sha512-yDGiqlse3DSOIgerpgkhjrA457JtK5LOMLsS3iMN3x6H3wO6YBPfcSy/9A40kiIRFBiMMwe0zSftooNdOPT4WA==
+react-scripts-ts@2.17.0:
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/react-scripts-ts/-/react-scripts-ts-2.17.0.tgz#398bae19a30c9b39b3dfe0720ebb40c60c2f6574"
+  integrity sha512-d1GYqxJ0cvMmUEueG7Yhl9guJLPQyQQFwyawVQejNoGvkcsFCdiG1CMUwFY6fDH/EWj0sLmneUe4DnuO07wGgg==
   dependencies:
     autoprefixer "7.1.6"
     babel-jest "^22.1.0"
