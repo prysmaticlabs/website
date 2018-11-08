@@ -41,10 +41,10 @@
     "@types/node" "*"
     "@types/react" "*"
 
-"@types/react-mailchimp-subscribe@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@types/react-mailchimp-subscribe/-/react-mailchimp-subscribe-2.0.0.tgz#21408bdd2848b63a118a0d5c87f766652ebaff52"
-  integrity sha512-0ljJcV026pOOGAeE7qr+JxkndtlA0U6rkztbhF5Vn1ZPnjxF0u85pM6Z7Uf/OrQNCkY34jE4HNP5tUK+bEnCzg==
+"@types/react-mailchimp-subscribe@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/react-mailchimp-subscribe/-/react-mailchimp-subscribe-2.0.2.tgz#38b5dfabdef0effa8ab390b8c85eb81a3e3078f3"
+  integrity sha512-iaWidwphVN0ZhvbcE4ODiEqZ8zsnX5FPGy1ZqS2I7OuX7mMXuIY8GyL1uxAML15Opl1+S0V4h8zT9IjdFixCDg==
   dependencies:
     "@types/react" "*"
 
