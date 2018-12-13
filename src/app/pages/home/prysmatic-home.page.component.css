@@ -1,0 +1,64 @@
+/* .section-background{
+    width: 100%;
+    background-image: url('/assets/backgrounds/test.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+     */
+table.prysm-specifcations-table tbody tr th{
+    padding-left:0px;
+}
+
+.pink-border {
+    border-bottom:#cb6399 solid 2px; 
+}
+
+.pink-text {
+    color:#cb6399;
+}
+
+.yellow-border {
+    border-bottom:#f5e5af solid 2px;
+}
+
+.yellow-text {
+    color:#f5e5af;
+}
+
+.blue-border {
+    border-bottom:#78b0ec solid 2px;
+}
+
+.blue-text {
+    color:#78b0ec;
+}
+
+.github-container {
+    position:absolute; 
+    top:0px; 
+    z-index: 10; 
+    opacity:0.8;
+}
+
+.team-image:hover .github-container {
+    display:flex;
+}
+
+.planet-background{
+    width: 100%;
+    background-image: url('/assets/backgrounds/prysm-space.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.team-background{
+    width: 100%;
+    background-image: url('/assets/backgrounds/team.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sponsor:hover{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}

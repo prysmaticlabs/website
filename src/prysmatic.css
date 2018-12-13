@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('./assets/fonts/Roboto-Thin.ttf') format('truetype');
+}
+* { font-family: 'Robot-Thin', sans-serif !important }
+
+.navbar-logo {
+    height: 60px;
+    width: auto;
+    -webkit-animation: float 4s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite;
+}
+
+.grayscale-transform{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+@keyframes float {
+    0% {
+        /* -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.6);
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.6); */
+        -webkit-transform: translatey(0);
+        transform: translatey(0);
+    }
+	50% {
+        /* -webkit-box-shadow: 0 25px 15px 0 rgba(0,0,0,.2);
+        box-shadow: 0 25px 15px 0 rgba(0,0,0,.2); */
+        -webkit-transform: translatey(-10px);
+        transform: translatey(-10px);
+    }
+	100% {
+        /* -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.6);
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.6); */
+        -webkit-transform: translatey(0);
+        transform: translatey(0);
+    }
+}

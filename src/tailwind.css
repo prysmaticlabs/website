@@ -1,0 +1,9 @@
+@import '~bulma/css/bulma.css';
+@import 'prysmatic.css';
+
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+
+
