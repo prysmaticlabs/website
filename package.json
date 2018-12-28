@@ -1,6 +1,7 @@
 {
-  "name": "prysmaticlabs",
-  "version": "0.0.0",
+  "name": "prysmatic-labs-website",
+  "version": "0.2.0",
+  "homepage": "https://prysmaticlabs.com",
   "scripts": {
     "ng": "ng",
     "start": "ng serve & ngtw watch",
