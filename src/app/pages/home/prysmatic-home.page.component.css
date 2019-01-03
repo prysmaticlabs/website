@@ -1,10 +1,12 @@
-/* .section-background{
-    width: 100%;
-    background-image: url('/assets/backgrounds/test.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
+.prysmatic-labs-title-color{
+    color:#22292f
 }
-     */
+
+.github-widget {
+    width:160px;
+    height:30px;
+}
+
 table.prysm-specifcations-table tbody tr th{
     padding-left:0px;
 }
@@ -65,4 +67,8 @@ table.prysm-specifcations-table tbody tr th{
 
 .team-column{
     flex-basis: 230px;
+}
+
+.sponsor-image {
+    width:100px;
 }

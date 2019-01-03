@@ -21,21 +21,21 @@
                         </div>
                         <div class="level">
                             <p>
-                                <iframe src="https://ghbtns.com/github-btn.html?user=prysmaticlabs&repo=prysm&type=star&count=true&size=large"
-                                    frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                                <iframe class="github-widget" src="https://ghbtns.com/github-btn.html?user=prysmaticlabs&repo=prysm&type=star&count=true&size=large"
+                                    frameborder="0" scrolling="0"></iframe>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="column">
                     <img src="./assets/PrysmStripe.png" alt="prysm" class="has-text-centered" />
-                    <h2 class="title flex justify-center is-hidden-touch" style="color:#22292f">Prysmatic Labs</h2>
+                    <h2 id="prismatic-labs-title" class="prysmatic-labs-title-color title flex justify-center is-hidden-touch" >Prysmatic Labs</h2>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="section" #test>
+<section class="section" >
     <div class="container ">
         <div class="columns">
             <div class="column">
@@ -48,7 +48,7 @@
                             <fa-icon class="pr-6" [icon]="faTwitter"></fa-icon> Twitter
                         </span>
                     </a>
-                    <a class="navbar-item" href="http://gitter.im/prysmaticlabs/geth-sharding?source=orgpage">
+                    <a class="navbar-item" href="http://gitter.im/prysmaticlabs/prysm">
                         <span>
                             <fa-icon class="pr-6" [icon]="faGitter"></fa-icon> Gitter
                         </span>
@@ -145,27 +145,27 @@
         <div class="columns m-auto is-multiline is-mobile">
             <div class="column text-center is-half-mobile ">
                 <a href="https://www.aragon.one" alt="argon-one">
-                    <img src="./assets/sponsors/aragonnest.svg" alt="aragonnest" width="100px" />
+                    <img class="sponsor-image" src="./assets/sponsors/aragonnest.svg" alt="aragonnest" />
                 </a>
             </div>
             <div class="column text-center is-half-mobile">
                 <a href="https://district0x.io" alt="district0x">
-                    <img src="./assets/sponsors/district0x.svg" alt="district0x" width="100px" />
+                    <img class="sponsor-image" src="./assets/sponsors/district0x.svg" alt="district0x" />
                 </a>
             </div>
             <div class="column text-center">
                 <a href="https://ecf.network" alt="ECF">
-                    <img src="./assets/sponsors/ECF.svg" alt="Ethereum Community Fund" width="100px" />
+                    <img class="sponsor-image" src="./assets/sponsors/ECF.svg" alt="Ethereum Community Fund"/>
                 </a>
             </div>
             <div class="column text-center">
                 <a href="https://www.ethereum.org/foundation" alt="Ethereum">
-                    <img src="./assets/sponsors/Ethereum.svg" alt="Ethereum Foundation" width="100px" />
+                    <img class="sponsor-image" src="./assets/sponsors/Ethereum.svg" alt="Ethereum Foundation"/>
                 </a>
             </div>
             <div class="column text-center">
                 <a href="https://spankchain.com" alt="Spank Chain">
-                    <img src="./assets/sponsors/SpankChain.svg" alt="Spank Chain" width="100px" />
+                    <img class="sponsor-image" src="./assets/sponsors/SpankChain.svg" alt="Spank Chain"/>
                 </a>
             </div>
         </div>
@@ -186,7 +186,7 @@
                         <span class="button is-static is-large">Address: </span>
                     </p>
                     <p class="control">
-                        <input class="input is-large" type="text" value="0x9B984D5a03980D8dc0a24506c968465424c81DbE" />
+                        <label class="input is-large" type="text">0x9B984D5a03980D8dc0a24506c968465424c81DbE</label>
                     </p>
                     <p class="control">
                         <button class="button is-large" ngxClipboard [cbContent]="'0x9B984D5a03980D8dc0a24506c968465424c81DbE'">Copy</button>
