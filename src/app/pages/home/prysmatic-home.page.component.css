@@ -72,3 +72,8 @@ table.prysm-specifcations-table tbody tr th{
 .sponsor-image {
     width:100px;
 }
+
+.donation-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
