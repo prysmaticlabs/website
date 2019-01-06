@@ -4,7 +4,7 @@ node_js:
 cache:
     yarn: true
 script: 
-  - yarn build
+  - yarn build-prod
 # - yarn test
 deploy:
   provider: gcs
@@ -13,7 +13,7 @@ deploy:
     secure: "oDHstdU0FxIeDDnRyidDqdygYYnVeFuOYLrux20dhAofB3L3NOV7oRIOGLjkgQxYUrTnVUQrSd7kg627luTQWXdEolL8hK9JYDHzJLnm8vVQ1Et7omkW1gwtxF/YTs0s7dXBGlJ0X2011k+ifY1SofkIEjtagKXu0SOiMgHMpm3vQCl6cc1pJKo+LocZLMRFHRYgW7LcmV7UD3g8EBg3y4cUefpCDEpOtREzYjlWCaTOnM5hNWFtZp9U0/Y9TO5AQzCioY+0nQkPMM5yQTpFZWPs5tLgUkiZAE5FtymgXQWVMRyh4EBiYdP5vDcPh+PwW8Hi7X7tc+KgQzXfkf8VL+pAFMeF6XC8D8A99gfM+s43y0atxMeswFBbDhQlCr/8zGi+TW3DI/+k/hRtoBCXP2QSpsaMvLv/uwAcMQ+7cdu+Hp34Hbd7aohMuAa4rHrQJcCWEL9Q+raxtlzpxe7ydfgbzJWudWjUFbdiouWz3BtSLUEkgIp9bzLt0qVtF7ZQXRSMjWhModGMMUZ/DfzzJPfg+9UHtCVAsBGiFgzb9CjqzDgJ7p8sBwgy62/8p5hgLHCZSitm0N4tRhRZqdQDvwVAmaFEnExy55Ob6o188UbzyszAetuHXXTKJ5P6qnn06dSfPaPpvIO9LztEIz50XkBGI4/WYOwvTzJkZ0PyLK0="
   bucket: prysmaticlabs.com
   acl: public-read
-  local-dir: build
+  local-dir: dist/prysmaticlabs
   skip_cleanup: true
   on:
     repo: prysmaticlabs/website

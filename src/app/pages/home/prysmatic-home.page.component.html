@@ -1,0 +1,371 @@
+<section parallax [config]="{
+	initialValue: -10, ratio: .8}" #colorChange class="hero is-medium planet-background">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-two-thirds">
+                    <div class="container">
+                        <h1 class="title text-white is-size-2">
+                            We are committed to scaling Ethereum.
+                        </h1>
+                        <h2 class="subtitle text-grey pt-2 text-2xl">
+                            <b class="text-grey-light">Prsymatic Labs</b> is developing
+                            <b class="text-teal-light">Prysm</b>, a
+                            <b class="text-grey-light">full featured sharding client</b> for
+                            <b class="text-grey-light">Ethereum 2.0</b>, that can process transactions faster than ever
+                            before!
+                        </h2>
+                        <div class="level">
+                            <a class="button is-primary is-large" target="_blank" href="https://github.com/prysmaticlabs/prysm/blob/master/docs/READINGS.md">LEARN
+                                MORE</a>
+                        </div>
+                        <div class="level">
+                            <p>
+                                <iframe class="github-widget" src="https://ghbtns.com/github-btn.html?user=prysmaticlabs&repo=prysm&type=star&count=true&size=large"
+                                    frameborder="0" scrolling="0"></iframe>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="./assets/PrysmStripe.png" alt="prysm" class="has-text-centered" />
+                    <h2 id="prismatic-labs-title" class="prysmatic-labs-title-color title flex justify-center is-hidden-touch" >Prysmatic Labs</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section" >
+    <div class="container ">
+        <div class="columns">
+            <div class="column">
+                <h2 class="title p-3 pink-border bg-grey-lightest rounded-t-lg">
+                    <fa-icon class="pink-text" [icon]="faComments"></fa-icon> Follow Us
+                </h2>
+                <div class="content is-size-5">
+                    <a class="navbar-item" href="https://twitter.com/prylabs">
+                        <span>
+                            <fa-icon class="pr-6" [icon]="faTwitter"></fa-icon> Twitter
+                        </span>
+                    </a>
+                    <a class="navbar-item" href="http://gitter.im/prysmaticlabs/prysm">
+                        <span>
+                            <fa-icon class="pr-6" [icon]="faGitter"></fa-icon> Gitter
+                        </span>
+                    </a>
+                    <a class="navbar-item" href="https://discord.gg/KSA7rPr">
+                        <span>
+                            <fa-icon class="pr-6" [icon]="faDiscord"></fa-icon> Discord
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <h2 class="title p-3 yellow-border bg-grey-lightest rounded-t-lg">
+                    <fa-icon class="yellow-text" [icon]="faMedium"></fa-icon> Publications
+                </h2>
+                <div class="container ">
+                    <p class="is-size-4">
+                        Every part of our progress is documented in articles that are published bi-weekly on
+                        <a href="https://medium.com/prysmatic-labs" target="_blank">Medium</a>
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <h2 class="title p-3 blue-border bg-grey-lightest rounded-t-lg">
+                    <fa-icon class="blue-text" [icon]="faCode"></fa-icon> Contribute
+                </h2>
+                <div class="content">
+                    <p class="is-size-4">
+                        Excited by our work and want to get involved in building out our sharding releases? Learn about
+                        how you can contribute
+                        <a class="is-link" target="_blank" href="https://github.com/prysmaticlabs/prysm/blob/master/CONTRIBUTING.md">here</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section bg-grey-lightest section-background is-size-5 shadow-lg">
+    <div class="container ">
+        <div class="columns">
+            <div class="column">
+                <h1 class="title">
+                    <b class="text-teal">Prysm</b> Specifications</h1>
+                <table class="table w-full bg-transparent prysm-specifcations-table">
+                    <tbody>
+                        <tr>
+                            <th>Network</th>
+                            <td>
+                                <p>Ethereum
+                                    <fa-icon [icon]="faEthereum"></fa-icon> Serenity, Shasper</p>
+                                <p>(Sharding + Casper Proof of Stake)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Implementation Language</th>
+                            <td>Golang</td>
+                        </tr>
+                        <tr>
+                            <th>networking protocol</th>
+                            <td>Libp2p from Protocol Labs</td>
+                        </tr>
+                        <tr>
+                            <th>Interprocess Communication</th>
+                            <td>Google's gRPC framework</td>
+                        </tr>
+                        <tr>
+                            <th>Test and Build Pipeline</th>
+                            <td>Google's Bazel build tool</td>
+                        </tr>
+                        <tr>
+                            <th>Database</th>
+                            <td>BoltDB, a write-optimized, persistent key-value store</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="column">
+                <div class="w-full">
+                    <figure class="image is-square">
+                        <img src="./assets/product/prysm.gif" class="rounded shadow-lg" alt="product prysm">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section bg-grey-light ">
+    <div class="container bg-grey-light ">
+        <h1 class="title">Sponsors and Grants</h1>
+        <h2 class="subtitle">
+            Thank you to all who have contributed to Prysmatic Labs; we are eternally grateful.
+        </h2>
+
+        <div class="columns m-auto is-multiline is-mobile">
+            <div class="column text-center is-half-mobile ">
+                <a href="https://www.aragon.one" alt="argon-one">
+                    <img class="sponsor-image" src="./assets/sponsors/aragonnest.svg" alt="aragonnest" />
+                </a>
+            </div>
+            <div class="column text-center is-half-mobile">
+                <a href="https://district0x.io" alt="district0x">
+                    <img class="sponsor-image" src="./assets/sponsors/district0x.svg" alt="district0x" />
+                </a>
+            </div>
+            <div class="column text-center">
+                <a href="https://ecf.network" alt="ECF">
+                    <img class="sponsor-image" src="./assets/sponsors/ECF.svg" alt="Ethereum Community Fund"/>
+                </a>
+            </div>
+            <div class="column text-center">
+                <a href="https://www.ethereum.org/foundation" alt="Ethereum">
+                    <img class="sponsor-image" src="./assets/sponsors/Ethereum.svg" alt="Ethereum Foundation"/>
+                </a>
+            </div>
+            <div class="column text-center">
+                <a href="https://spankchain.com" alt="Spank Chain">
+                    <img class="sponsor-image" src="./assets/sponsors/SpankChain.svg" alt="Spank Chain"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section bg-grey-lightest">
+    <div parallax class="container">
+        <h1 class="title">Donations</h1>
+        <h2 class="subtitle">
+            <p>
+                Your support means a lot to us. With your help, we're able to accelerate our work on sharding,
+                furthering our goal to scale
+                the Ethereum blockchain for all. We have set up a multisig smart contract to accept donations.
+            </p>
+            <div class="flex justify-center p-3">
+                <div class="field has-addons ">
+                    <p class="control">
+                        <span class="button is-static is-large is-hidden-touch">Address: </span>
+                    </p>
+                    <p class="control">
+                        <label class="input is-large donation-label is-size-7-touch" >0x9B984D5a03980D8dc0a24506c968465424c81DbE</label>
+                    </p>
+                    <p class="control">
+                        <button class="button is-large is-hidden-touch" ngxClipboard [cbContent]="'0x9B984D5a03980D8dc0a24506c968465424c81DbE'">Copy</button>
+                    </p>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <a class="is-link" href="https://etherscan.io/address/0x9B984D5a03980D8dc0a24506c968465424c81DbE">Etherscan</a>
+            </div>
+        </h2>
+    </div>
+</section>
+<section class="section team-background">
+    <div class="container shadow-lg p-6">
+        <h1 class="title">Who We Are</h1>
+        <h2 class="subtitle">We are a team of individuals with a deep understanding of the Ethereum protocol. Armed
+            with diverse backgrounds ranging
+            from distributed systems to cloud computing, we emphasize a test driven approach to implementing the
+            system's
+            first sharding client.</h2>
+        <div class="level ">
+            <div class="columns is-multiline is-mobile">
+                <div class="column is-flex team-column">
+                    <div class="card shadow-none w-full">
+                        <div class="team-image card-image relative">
+                            <a class="is-size-5 has-text-white-ter" href="https://github.com/rauljordan">
+                                <span class="github-container bg-black text-white hidden justify-center items-center w-full h-full">
+                                    View on Github
+                                </span>
+                            </a>
+
+                            <figure class="image">
+                                <img src="./assets/team/raul.jpg" alt="raul jordan">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-3">Raul Jordan</p>
+                                    <p class="subtitle is-6">
+                                        <a class="is-link" href="https://twitter.com/raulitojordan">@raulitojordan</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <p>
+                                    <strong>Team Lead</strong>
+                                </p>
+                                <p>Thiel Fellow & Ethereum Dev</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-flex team-column">
+                    <div class="card shadow-none w-full">
+                        <div class="team-image card-image">
+                            <a class="is-size-5 has-text-white-ter" href="https://github.com/prestonvanloon">
+                                <span class="github-container bg-black text-white hidden justify-center items-center w-full h-full">
+                                    View on Github
+                                </span>
+                            </a>
+                            <figure class="image">
+                                <img src="./assets/team/preston.jpg" alt="Preston Van Loon">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-3">Preston Van Loon</p>
+                                    <p class="subtitle is-6">
+                                        <a class="is-link" href="https://twitter.com/preston_vanloon">@preston_vanloon</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <p>
+                                    <strong>Team Lead</strong>
+                                </p>
+                                <p>Software Engineer @GoogleNYC & Ethereum Dev</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-flex team-column">
+                    <div class="card shadow-none w-full">
+                        <div class="team-image card-image">
+                            <a class="is-size-5 has-text-white-ter" href="https://github.com/terenc3t">
+                                <span class="github-container bg-black text-white hidden justify-center items-center w-full h-full">
+                                    View on Github
+                                </span>
+                            </a>
+                            <figure class="image">
+                                <img src="./assets/team/terence1.png" alt="Terence Tsao">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-3">Terence Tsao</p>
+                                    <p class="subtitle is-6">
+                                        <a class="is-link" href="https://twitter.com/terenc3t">@terenc3t</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <p>
+                                    Team Member
+                                </p>
+                                <p>Software Engineer @Riverbed & Ethereum Dev</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-flex team-column">
+                    <div class="card shadow-none w-full">
+                        <div class="team-image card-image">
+                            <a class="is-size-5 has-text-white-ter" href="https://github.com/rawfalafel">
+                                <span class="github-container bg-black text-white hidden justify-center items-center w-full h-full">
+                                    View on Github
+                                </span>
+                            </a>
+                            <figure class="image ">
+                                <img src="./assets/team/yutaro.jpg" alt="Yutaro Mori">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-3">Yutaro Mori</p>
+                                    <p class="subtitle is-6">
+                                        <a class="is-link" href="https://twitter.com/rawfalafel">@rawfalafel</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <p>
+                                    Team Member
+                                </p>
+                                <p>Ethereum Dev</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-flex team-column">
+                    <div class="card shadow-none w-full">
+                        <div class="team-image card-image">
+                            <a class="is-size-5 has-text-white-ter" href="https://github.com/nisdas">
+                                <span class="github-container bg-black text-white hidden justify-center items-center w-full h-full">
+                                    View on Github
+                                </span>
+                            </a>
+                            <figure class="image">
+                                <img src="./assets/team/nishant1.jpg" alt="Nishant Das">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-3">Nishant Das</p>
+                                    <p class="subtitle is-6">
+                                        <a class="is-link" href="https://medium.com/@nish1993">@nish1993</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <p>
+                                    Team Member
+                                </p>
+                                <p>Ethereum Dev</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
