@@ -302,10 +302,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@fortawesome/angular-fontawesome@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@fortawesome/angular-fontawesome/-/angular-fontawesome-0.2.1.tgz#8278e73b45e01496c587fb75914cad22a66fe551"
-  integrity sha512-B77fIEjq9bgHGncx5sfFuANh6qow6+MLHbU6C7lMIdeLXykkWTWOiPk+CqlmPOYXIpUH1lNaVykgTSqAk65pIw==
+"@fortawesome/angular-fontawesome@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/angular-fontawesome/-/angular-fontawesome-0.3.0.tgz#380492f186469ce03d6fdbb3ec719810f771bf62"
+  integrity sha512-wXvyPI7GidoNiqeMz2re9iemUMFH4zBmuv94CfXlaanQ8+kMP/fYs/k69PLVN1KsebQY4kRA9GHmc1U1ndBkJg==
   dependencies:
     tslib "^1.9.0"
 
