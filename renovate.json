@@ -4,6 +4,6 @@
     "enabled": false
   }],
   "vulnerabilityAlerts": {
-    "enabled": "true"
+    "enabled": true
   }
 }
