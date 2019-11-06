@@ -32,7 +32,6 @@
     "core-js": "^2.5.4",
     "lodash": "^4.17.11",
     "ngx-clipboard": "^11.1.7",
-    "ngx-parallax": "^4.0.0",
     "rxjs": "~6.3.3",
     "tailwindcss": "^0.7.3",
     "tslib": "^1.9.0",
