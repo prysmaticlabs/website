@@ -554,6 +554,10 @@ table {
   background-color: transparent;
 }
 
+.bg-discord {
+  background-color: #7289da;
+}
+
 .bg-black {
   background-color: #22292f;
 }
@@ -846,6 +850,10 @@ table {
   background-color: transparent;
 }
 
+.hover\:bg-discord:hover {
+  background-color: #7289da;
+}
+
 .hover\:bg-black:hover {
   background-color: #22292f;
 }
@@ -1136,6 +1144,10 @@ table {
 
 .focus\:bg-transparent:focus {
   background-color: transparent;
+}
+
+.focus\:bg-discord:focus {
+  background-color: #7289da;
 }
 
 .focus\:bg-black:focus {
@@ -1502,6 +1514,10 @@ table {
   border-color: transparent;
 }
 
+.border-discord {
+  border-color: #7289da;
+}
+
 .border-black {
   border-color: #22292f;
 }
@@ -1794,6 +1810,10 @@ table {
   border-color: transparent;
 }
 
+.hover\:border-discord:hover {
+  border-color: #7289da;
+}
+
 .hover\:border-black:hover {
   border-color: #22292f;
 }
@@ -2084,6 +2104,10 @@ table {
 
 .focus\:border-transparent:focus {
   border-color: transparent;
+}
+
+.focus\:border-discord:focus {
+  border-color: #7289da;
 }
 
 .focus\:border-black:focus {
@@ -4841,6 +4865,10 @@ table {
   color: transparent;
 }
 
+.text-discord {
+  color: #7289da;
+}
+
 .text-black {
   color: #22292f;
 }
@@ -5133,6 +5161,10 @@ table {
   color: transparent;
 }
 
+.hover\:text-discord:hover {
+  color: #7289da;
+}
+
 .hover\:text-black:hover {
   color: #22292f;
 }
@@ -5423,6 +5455,10 @@ table {
 
 .focus\:text-transparent:focus {
   color: transparent;
+}
+
+.focus\:text-discord:focus {
+  color: #7289da;
 }
 
 .focus\:text-black:focus {
@@ -6151,6 +6187,10 @@ table {
     background-color: transparent;
   }
 
+  .sm\:bg-discord {
+    background-color: #7289da;
+  }
+
   .sm\:bg-black {
     background-color: #22292f;
   }
@@ -6443,6 +6483,10 @@ table {
     background-color: transparent;
   }
 
+  .sm\:hover\:bg-discord:hover {
+    background-color: #7289da;
+  }
+
   .sm\:hover\:bg-black:hover {
     background-color: #22292f;
   }
@@ -6733,6 +6777,10 @@ table {
 
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
+  }
+
+  .sm\:focus\:bg-discord:focus {
+    background-color: #7289da;
   }
 
   .sm\:focus\:bg-black:focus {
@@ -7091,6 +7139,10 @@ table {
     border-color: transparent;
   }
 
+  .sm\:border-discord {
+    border-color: #7289da;
+  }
+
   .sm\:border-black {
     border-color: #22292f;
   }
@@ -7383,6 +7435,10 @@ table {
     border-color: transparent;
   }
 
+  .sm\:hover\:border-discord:hover {
+    border-color: #7289da;
+  }
+
   .sm\:hover\:border-black:hover {
     border-color: #22292f;
   }
@@ -7673,6 +7729,10 @@ table {
 
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
+  }
+
+  .sm\:focus\:border-discord:focus {
+    border-color: #7289da;
   }
 
   .sm\:focus\:border-black:focus {
@@ -10414,6 +10474,10 @@ table {
     color: transparent;
   }
 
+  .sm\:text-discord {
+    color: #7289da;
+  }
+
   .sm\:text-black {
     color: #22292f;
   }
@@ -10706,6 +10770,10 @@ table {
     color: transparent;
   }
 
+  .sm\:hover\:text-discord:hover {
+    color: #7289da;
+  }
+
   .sm\:hover\:text-black:hover {
     color: #22292f;
   }
@@ -10996,6 +11064,10 @@ table {
 
   .sm\:focus\:text-transparent:focus {
     color: transparent;
+  }
+
+  .sm\:focus\:text-discord:focus {
+    color: #7289da;
   }
 
   .sm\:focus\:text-black:focus {
@@ -11725,6 +11797,10 @@ table {
     background-color: transparent;
   }
 
+  .md\:bg-discord {
+    background-color: #7289da;
+  }
+
   .md\:bg-black {
     background-color: #22292f;
   }
@@ -12017,6 +12093,10 @@ table {
     background-color: transparent;
   }
 
+  .md\:hover\:bg-discord:hover {
+    background-color: #7289da;
+  }
+
   .md\:hover\:bg-black:hover {
     background-color: #22292f;
   }
@@ -12307,6 +12387,10 @@ table {
 
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
+  }
+
+  .md\:focus\:bg-discord:focus {
+    background-color: #7289da;
   }
 
   .md\:focus\:bg-black:focus {
@@ -12665,6 +12749,10 @@ table {
     border-color: transparent;
   }
 
+  .md\:border-discord {
+    border-color: #7289da;
+  }
+
   .md\:border-black {
     border-color: #22292f;
   }
@@ -12957,6 +13045,10 @@ table {
     border-color: transparent;
   }
 
+  .md\:hover\:border-discord:hover {
+    border-color: #7289da;
+  }
+
   .md\:hover\:border-black:hover {
     border-color: #22292f;
   }
@@ -13247,6 +13339,10 @@ table {
 
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
+  }
+
+  .md\:focus\:border-discord:focus {
+    border-color: #7289da;
   }
 
   .md\:focus\:border-black:focus {
@@ -15988,6 +16084,10 @@ table {
     color: transparent;
   }
 
+  .md\:text-discord {
+    color: #7289da;
+  }
+
   .md\:text-black {
     color: #22292f;
   }
@@ -16280,6 +16380,10 @@ table {
     color: transparent;
   }
 
+  .md\:hover\:text-discord:hover {
+    color: #7289da;
+  }
+
   .md\:hover\:text-black:hover {
     color: #22292f;
   }
@@ -16570,6 +16674,10 @@ table {
 
   .md\:focus\:text-transparent:focus {
     color: transparent;
+  }
+
+  .md\:focus\:text-discord:focus {
+    color: #7289da;
   }
 
   .md\:focus\:text-black:focus {
@@ -17299,6 +17407,10 @@ table {
     background-color: transparent;
   }
 
+  .lg\:bg-discord {
+    background-color: #7289da;
+  }
+
   .lg\:bg-black {
     background-color: #22292f;
   }
@@ -17591,6 +17703,10 @@ table {
     background-color: transparent;
   }
 
+  .lg\:hover\:bg-discord:hover {
+    background-color: #7289da;
+  }
+
   .lg\:hover\:bg-black:hover {
     background-color: #22292f;
   }
@@ -17881,6 +17997,10 @@ table {
 
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
+  }
+
+  .lg\:focus\:bg-discord:focus {
+    background-color: #7289da;
   }
 
   .lg\:focus\:bg-black:focus {
@@ -18239,6 +18359,10 @@ table {
     border-color: transparent;
   }
 
+  .lg\:border-discord {
+    border-color: #7289da;
+  }
+
   .lg\:border-black {
     border-color: #22292f;
   }
@@ -18531,6 +18655,10 @@ table {
     border-color: transparent;
   }
 
+  .lg\:hover\:border-discord:hover {
+    border-color: #7289da;
+  }
+
   .lg\:hover\:border-black:hover {
     border-color: #22292f;
   }
@@ -18821,6 +18949,10 @@ table {
 
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
+  }
+
+  .lg\:focus\:border-discord:focus {
+    border-color: #7289da;
   }
 
   .lg\:focus\:border-black:focus {
@@ -21562,6 +21694,10 @@ table {
     color: transparent;
   }
 
+  .lg\:text-discord {
+    color: #7289da;
+  }
+
   .lg\:text-black {
     color: #22292f;
   }
@@ -21854,6 +21990,10 @@ table {
     color: transparent;
   }
 
+  .lg\:hover\:text-discord:hover {
+    color: #7289da;
+  }
+
   .lg\:hover\:text-black:hover {
     color: #22292f;
   }
@@ -22144,6 +22284,10 @@ table {
 
   .lg\:focus\:text-transparent:focus {
     color: transparent;
+  }
+
+  .lg\:focus\:text-discord:focus {
+    color: #7289da;
   }
 
   .lg\:focus\:text-black:focus {
@@ -22873,6 +23017,10 @@ table {
     background-color: transparent;
   }
 
+  .xl\:bg-discord {
+    background-color: #7289da;
+  }
+
   .xl\:bg-black {
     background-color: #22292f;
   }
@@ -23165,6 +23313,10 @@ table {
     background-color: transparent;
   }
 
+  .xl\:hover\:bg-discord:hover {
+    background-color: #7289da;
+  }
+
   .xl\:hover\:bg-black:hover {
     background-color: #22292f;
   }
@@ -23455,6 +23607,10 @@ table {
 
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
+  }
+
+  .xl\:focus\:bg-discord:focus {
+    background-color: #7289da;
   }
 
   .xl\:focus\:bg-black:focus {
@@ -23813,6 +23969,10 @@ table {
     border-color: transparent;
   }
 
+  .xl\:border-discord {
+    border-color: #7289da;
+  }
+
   .xl\:border-black {
     border-color: #22292f;
   }
@@ -24105,6 +24265,10 @@ table {
     border-color: transparent;
   }
 
+  .xl\:hover\:border-discord:hover {
+    border-color: #7289da;
+  }
+
   .xl\:hover\:border-black:hover {
     border-color: #22292f;
   }
@@ -24395,6 +24559,10 @@ table {
 
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
+  }
+
+  .xl\:focus\:border-discord:focus {
+    border-color: #7289da;
   }
 
   .xl\:focus\:border-black:focus {
@@ -27136,6 +27304,10 @@ table {
     color: transparent;
   }
 
+  .xl\:text-discord {
+    color: #7289da;
+  }
+
   .xl\:text-black {
     color: #22292f;
   }
@@ -27428,6 +27600,10 @@ table {
     color: transparent;
   }
 
+  .xl\:hover\:text-discord:hover {
+    color: #7289da;
+  }
+
   .xl\:hover\:text-black:hover {
     color: #22292f;
   }
@@ -27718,6 +27894,10 @@ table {
 
   .xl\:focus\:text-transparent:focus {
     color: transparent;
+  }
+
+  .xl\:focus\:text-discord:focus {
+    color: #7289da;
   }
 
   .xl\:focus\:text-black:focus {

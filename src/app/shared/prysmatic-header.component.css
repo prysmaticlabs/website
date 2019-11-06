@@ -1,3 +1,7 @@
 nav {
     border-bottom: 5px solid #eb4a9d;
 }
+
+.discord-button {
+    border-radius: 3px;
+}
