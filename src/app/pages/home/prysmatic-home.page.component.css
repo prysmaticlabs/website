@@ -1,4 +1,4 @@
-.prysmatic-labs-title-color{
+.prysmatic-labs-title-color {
     color:#22292f
 }
 
@@ -7,7 +7,7 @@
     height:30px;
 }
 
-table.prysm-specifcations-table tbody tr th{
+table.prysm-specifcations-table tbody tr th {
     padding-left:0px;
 }
 
@@ -46,7 +46,7 @@ table.prysm-specifcations-table tbody tr th{
     display:flex;
 }
 
-.planet-background{
+.planet-background {
     width: 100%;
     background-image: url('/assets/backgrounds/prysm-space.svg');
     background-size: cover;
