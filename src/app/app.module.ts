@@ -8,7 +8,7 @@ import { ExternalsModule } from './shared/externals.module';
 @NgModule({
   declarations: [
     AppComponent,
-    RouteComponents
+    RouteComponents,
   ],
   imports: [
     BrowserModule,
