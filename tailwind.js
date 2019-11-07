@@ -47,7 +47,8 @@ let colors = {
   'transparent': 'transparent',
   'discord': '#7289da',
 
-  'pitch-black': '#1b1b1b',
+  'pitch-black': '#141414',
+  'near-pitch-black': '#1e1e1e',
   'black': '#22292f',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
