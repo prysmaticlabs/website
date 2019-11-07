@@ -7,6 +7,18 @@
     height:30px;
 }
 
+.cloud-eth img {
+    width: 200px;
+}
+
+.read-more-btn {
+    border-radius: 3px;
+    border: none;
+}
+.read-more-btn:hover {
+    color: white;
+}
+
 table.prysm-specifcations-table tbody tr th {
     padding-left:0px;
 }

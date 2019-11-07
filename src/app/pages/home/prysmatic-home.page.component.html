@@ -9,10 +9,10 @@
                         </h1>
                         <h2 class="subtitle text-grey pt-2 text-2xl">
                             We are a passionate team of <b class="text-grey-light">software engineers</b> who believe in building a
-                            more fair, open, and <b class="text-teal-light">censorship-resistant</b> internet through the <b class="text-pink">Ethereum</b> blockchain project
+                            more fair, open, and <b class="text-teal-light">censorship-resistant</b> internet through the <b class="text-pink">Ethereum</b> blockchain
                         </h2>
                         <div class="level">
-                            <a class="button is-primary is-large text-base" target="_blank" href="/about-us">
+                            <a class="button is-primary is-large text-base" routerLink="/about-us">
                                 Learn More</a>
                         </div>
                     </div>
@@ -26,52 +26,54 @@
     </div>
 </section>
 <section class="section" >
-
-</section>
-<section class="section bg-grey-lightest section-background is-size-5 shadow-lg">
-    <div class="container ">
-        <div class="columns">
-            <div class="column">
-                <h1 class="title">
-                    <b class="text-teal">Prysm</b> Specifications</h1>
-                <table class="table w-full bg-transparent prysm-specifcations-table">
-                    <tbody>
-                        <tr>
-                            <th>Network</th>
-                            <td>
-                                <p>Ethereum
-                                    <fa-icon [icon]="faEthereum"></fa-icon> Serenity, Shasper</p>
-                                <p>(Sharding + Casper Proof of Stake)</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>Implementation Language</th>
-                            <td>Golang</td>
-                        </tr>
-                        <tr>
-                            <th>networking protocol</th>
-                            <td>Libp2p from Protocol Labs</td>
-                        </tr>
-                        <tr>
-                            <th>Interprocess Communication</th>
-                            <td>Google's gRPC framework</td>
-                        </tr>
-                        <tr>
-                            <th>Test and Build Pipeline</th>
-                            <td>Google's Bazel build tool</td>
-                        </tr>
-                        <tr>
-                            <th>Database</th>
-                            <td>BoltDB, a write-optimized, persistent key-value store</td>
-                        </tr>
-                    </tbody>
-                </table>
+    <div class="container text-center">
+        <h1 class="title pt-12">
+            Our Expertise
+        </h1>
+        <div class="flex pb-6 justify-center">
+            <div class="md:w-1/2 w-full">
+                Prysmatic Labs currently builds technical infrastructure for the Ethereum blockchain. Our goal is to create valuable tooling and reduce UX friction for users, validators, and developers of the Ethereum ecosystem through our expertise.
             </div>
-            <div class="column">
-                <div class="w-full">
-                    <figure class="image is-square">
-                        <img src="./assets/product/prysm.gif" class="rounded shadow-lg" alt="product prysm">
-                    </figure>
+        </div>
+        <img src="./assets/stripes.svg"/>
+        <div class="flex py-6 justify-center">
+            <div class="md:w-1/2 w-full">
+              Our flagship project, Prysm, as a production client for anyone to participate in consensus of the blockchain.
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section bg-near-pitch-black py-20">
+    <div class="container">
+        <div class="flex">
+            <div class="w-full md:w-2/3">
+                <h2 class="title text-grey">
+                    <span class="text-primary">Why</span> Ethereum?
+                </h2>
+                <div class="text-white">
+                    We are strong believers in Ethereum, a public blockchain that allows anyone to build unstoppable, censorship-resistant applications. On Ethereum, anyone can deploy software that controls digital value and is accessible by anyone across the world. Born in 2014, the Ethereum network houses over $20 billion worth of value today, hosting projects such as:
+                    <ul class="py-4">
+                        <li>
+                            <span class="text-xl">—</span> Global, decentralized organizations
+                        </li>
+                        <li>
+                            <span class="text-xl">—</span> Non-reserve backed, stable-value currencies
+                        </li>
+                        <li>
+                            <span class="text-xl">—</span> Provably scarce, digital collectibles
+                        </li>
+                    </ul>
+                    We believe Ethereum represents a fundamental shift in how the Internet works and are dedicated to its mission.
+                </div>
+                <div class="mt-6">
+                    <a class="read-more-btn bg-black-light button text-grey-light text-sm" routerLink="/about-us">
+                        Read More About Ethereum
+                    </a>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3 text-center">
+                <div class="cloud-eth pt-10">
+                    <img src="./assets/cloudeth.svg"/>
                 </div>
             </div>
         </div>
