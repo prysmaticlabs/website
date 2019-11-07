@@ -7,6 +7,16 @@
     height:30px;
 }
 
+.prysm-card {
+    margin-bottom: -90px;
+    height: 200px;
+    background-color: white;
+}
+
+.smart-contract img {
+    height: 150px;
+}
+
 .cloud-eth img {
     width: 200px;
 }
@@ -15,6 +25,7 @@
     border-radius: 3px;
     border: none;
 }
+
 .read-more-btn:hover {
     color: white;
 }
