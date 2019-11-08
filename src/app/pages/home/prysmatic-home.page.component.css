@@ -7,6 +7,9 @@
 }
 
 .github-widget {
+    margin-top:3px;
+    padding-bottom: 0px;
+    margin-left:8px;
     width:160px;
     height:30px;
 }
@@ -32,6 +35,28 @@
 
 .read-more-btn:hover {
     color: white;
+}
+
+.projects-background {
+    width: 100%;
+    background-image: url('/assets/backgrounds/team.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+    .main-project {
+        max-height: 320px;
+    }
+}
+
+.project-card {
+    border: 1px solid #b8c2cc;
+    background-color: white;
+}
+
+.small-project {
+    min-height: 600px;
 }
 
 table.prysm-specifcations-table tbody tr th {

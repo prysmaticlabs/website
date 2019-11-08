@@ -96,6 +96,84 @@
         </div>
     </div>
 </section>
+<section class="section projects-background">
+    <div class="container text-center">
+        <h1 class="title pt-6">
+            Our Projects
+        </h1>
+        <div class="flex justify-center pt-2 pb-4">
+            <div class=" md:w-1/2">
+                Our work on the Ethereum protocol focuses on usability, security, and reliability as key pillars backed by extensive testing and carefully  designed code.
+            </div>
+        </div>
+        <div class="flex flex-wrap">
+            <div class="w-full">
+                <div class="main-project project-card flex flex-wrap text-left pb-0 ml-6 mb-6 mr-6 mt-8">
+                    <div class="w-full md:w-1/4 pb-0">
+                        <div class="main-project-img">
+                            <img src="./assets/drawnbg.png"/>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-3/4 pt-8 px-8 pb-8">
+                        <h2 class="card-title text-3xl">Prysm</h2>
+                        <h4 class="card-subtitle text-grey-darkest text-sm">A full-featured client for the Ethereum Serenity protocol, written in Go</h4>
+                        <p class="py-4">
+                            The <a class="text-primary" href="https://github.com/prysmaticlabs/prysm">Prysm</a> project is a Go implementation of Ethereum Serenity protocol as detailed by its <a href="https://github.com/ethereum/eth2.0-specs" target="_blank" class="text-primary">official specification</a>. It contains a full beacon node implementation as well as a validator client for participating in blockchain consensus. Prysm utilizes the best-in-class tools for production servers and interprocess communication, using Google's <a href="https://grpc.io/" class="text-primary">gRPC library</a>, BoltDB as an optimized, persistent, key-value, and <a href="https://libp2p.io/" class="text-primary">libp2p</a> by Protocol Labs for all peer-to-peer networking.
+                        </p>
+                        <div>
+                            <a class="button is-primary is-narrow shadow" target="_blank" href="https://prysmaticlabs.gitbook.io/prysm/">Read the Docs</a>
+                            <iframe class="github-widget" src="https://ghbtns.com/github-btn.html?user=prysmaticlabs&repo=prysm&type=star&count=true&size=large"
+                                    frameborder="0" scrolling="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2">
+                <div class="project-card small-project flex flex-wrap text-left m-6">
+                    <div class="w-full">
+                        <div>
+                            <img src="./assets/eth2.svg"/>
+                        </div>
+                    </div>
+                    <div class="w-full px-6 pt-4 pb-8">
+                        <h2 class="text-2xl">The Sapphire Public Testnet</h2>
+                        <h4 class="text-grey-darkest text-sm">A public test network for Ethereum Serenity</h4>
+                        <p class="py-4">
+                            Launched in May 2019, the Sapphire Test Network is a publicly accessible network running real Prysm nodes participating in Ethereum Serenity consensus including <a class="text-primary" href="https://blockgeeks.com/guides/ethereum-casper/" target="_blank">Casper Proof of Stake</a>.
+                            </p>
+                        <p class="pb-4">Anyone across the world can sync with the network, stake 3.2 test ETH, and participate in the protocol's consensus.
+                        </p>
+                        <div class="card-buttons">
+                            <a class="button is-primary is-narrow shadow" target="_blank" href="https://prylabs.net">Join the Network</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2">
+                <div class="project-card small-project flex flex-wrap text-left m-6">
+                    <div class="w-full">
+                        <div>
+                            <img src="./assets/ethapis.svg"/>
+                        </div>
+                    </div>
+                    <div class="w-full px-6 pt-4 pb-8">
+                        <h2 class="text-2xl">Ethereum Serenity APIs</h2>
+                        <h4 class="text-grey-darkest text-sm">Thoroughly-documented, schema-based API for Ethereum Serenity</h4>
+                        <p class="py-4">
+                            Ethereum Serenity APIs are a collection of schema-based, protobuf APIs aimed to standardize the efforts for a common API interface used to query information about the blockchain.
+                            </p>
+                        <p class="pb-4">The API is also used for validator clients to interact with a running node for the sake of consensus.
+                        </p>
+                        <div class="card-buttons">
+                            <a class="button is-primary is-narrow shadow" target="_blank" href="https://api.prylabs.network">Interact With the API</a>
+                            <a class="ml-4 button bg-black-light shadow text-white" target="_blank" href="https://github.com/prysmaticlabs/ethereumapis">See it on Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="section bg-grey-light ">
     <div class="container bg-grey-light ">
         <h1 class="title">Sponsors and Grants</h1>
