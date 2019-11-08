@@ -1,29 +1,16 @@
-<section #colorChange class="hero is-medium planet-background">
+<section #colorChange class="hero is-medium planet-background prysmatic-hero">
     <div class="hero-body">
         <div class="container">
             <div class="columns">
                 <div class="column is-two-thirds">
                     <div class="container">
                         <h1 class="title text-white is-size-2">
-                            We are committed to scaling Ethereum.
+                            Building the public infrastructure for the future of the web
                         </h1>
                         <h2 class="subtitle text-grey pt-2 text-2xl">
-                            <b class="text-grey-light">Prysmatic Labs</b> is developing
-                            <b class="text-teal-light">Prysm</b>, a
-                            <b class="text-grey-light">full featured sharding client</b> for
-                            <b class="text-grey-light">Ethereum 2.0</b>, that can process transactions faster than ever
-                            before!
+                            We are a passionate team of <b class="text-grey-light">software engineers</b> who believe in building a
+                            more fair, open, and <b class="text-teal-light">censorship-resistant</b> internet through the <b class="text-pink">Ethereum</b> blockchain
                         </h2>
-                        <div class="level">
-                            <a class="button is-primary is-large" target="_blank" href="https://github.com/prysmaticlabs/prysm/blob/master/docs/READINGS.md">LEARN
-                                MORE</a>
-                        </div>
-                        <div class="level">
-                            <p>
-                                <iframe class="github-widget" src="https://ghbtns.com/github-btn.html?user=prysmaticlabs&repo=prysm&type=star&count=true&size=large"
-                                    frameborder="0" scrolling="0"></iframe>
-                            </p>
-                        </div>
                     </div>
                 </div>
                 <div class="column">
@@ -34,101 +21,76 @@
         </div>
     </div>
 </section>
-<section class="section" >
-    <div class="container ">
-        <div class="columns">
-            <div class="column">
-                <h2 class="title p-3 pink-border bg-grey-lightest rounded-t-lg">
-                    <fa-icon class="pink-text" [icon]="faComments"></fa-icon> Follow Us
-                </h2>
-                <div class="content is-size-5">
-                    <a class="navbar-item" href="https://twitter.com/prylabs">
-                        <span>
-                            <fa-icon class="pr-6" [icon]="faTwitter"></fa-icon> Twitter
-                        </span>
-                    </a>
-                    <a class="navbar-item" href="http://gitter.im/prysmaticlabs/prysm">
-                        <span>
-                            <fa-icon class="pr-6" [icon]="faGitter"></fa-icon> Gitter
-                        </span>
-                    </a>
-                    <a class="navbar-item" href="https://discord.gg/KSA7rPr">
-                        <span>
-                            <fa-icon class="pr-6" [icon]="faDiscord"></fa-icon> Discord
-                        </span>
-                    </a>
+<section class="section">
+    <div class="container text-center pb-0">
+        <h1 class="title pt-6">
+            Our Expertise
+        </h1>
+        <div class="flex justify-center pt-0 py-6">
+            <div class=" md:w-1/2">
+                Prysmatic Labs currently builds technical infrastructure for the Ethereum blockchain. Our mission is to increase adoption through better tooling for users and developers of the Ethereum ecosystem through our expertise.
+            </div>
+        </div>
+        <img src="./assets/stripes.svg"/>
+        <div class="mt-6 flex flex-wrap justify-center">
+           <div class="w-full md:w-1/3 pt-4">
+               <div class="text-center smart-contract">
+                   <img src="./assets/smartcontract.svg"/>
+               </div>
+               <div class="py-4 px-8">
+                   Our flagship project, <a class="text-primary" href="https://cryptocurrencyfacts.com/ethereum-2-0-explained/" target="_blank">Prysm</a>, is a production client for <a class="text-primary" href="https://blog.sfox.com/ethereum-2-0-what-the-next-three-years-of-ethereum-will-look-like-b366a46f9704">Ethereum Serenity</a> anyone can freely use to participate in consensus of the blockchain.
+               </div>
+           </div>
+            <div class="w-full md:w-1/3 pt-4">
+                <div class="text-center smart-contract">
+                    <img src="./assets/server.svg"/>
+                </div>
+                <div class="py-4 px-8">
+                    We believe industry standards are a must for creating robust code. We build our technologies with the best-in-class tooling and design in mind.
                 </div>
             </div>
-            <div class="column">
-                <h2 class="title p-3 yellow-border bg-grey-lightest rounded-t-lg">
-                    <fa-icon class="yellow-text" [icon]="faMedium"></fa-icon> Publications
-                </h2>
-                <div class="container ">
-                    <p class="is-size-4">
-                        Every part of our progress is documented in articles that are published bi-weekly on
-                        <a href="https://medium.com/prysmatic-labs" target="_blank">Medium</a>
-                    </p>
+            <div class="w-full md:w-1/3 pt-4">
+                <div class="text-center smart-contract">
+                    <img src="./assets/world.svg"/>
                 </div>
-            </div>
-            <div class="column">
-                <h2 class="title p-3 blue-border bg-grey-lightest rounded-t-lg">
-                    <fa-icon class="blue-text" [icon]="faCode"></fa-icon> Contribute
-                </h2>
-                <div class="content">
-                    <p class="is-size-4">
-                        Excited by our work and want to get involved in building out our sharding releases? Learn about
-                        how you can contribute
-                        <a class="is-link" target="_blank" href="https://github.com/prysmaticlabs/prysm/blob/master/CONTRIBUTING.md">here</a>
-                    </p>
+                <div class="py-4 px-6">
+                    Our work is free, <a class="text-primary" href="https://github.com/prysmaticlabs">open source</a>, and accessible everywhere. We believe in empowering developers to build a more fair and transparent Internet.
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="section bg-grey-lightest section-background is-size-5 shadow-lg">
-    <div class="container ">
-        <div class="columns">
-            <div class="column">
-                <h1 class="title">
-                    <b class="text-teal">Prysm</b> Specifications</h1>
-                <table class="table w-full bg-transparent prysm-specifcations-table">
-                    <tbody>
-                        <tr>
-                            <th>Network</th>
-                            <td>
-                                <p>Ethereum
-                                    <fa-icon [icon]="faEthereum"></fa-icon> Serenity, Shasper</p>
-                                <p>(Sharding + Casper Proof of Stake)</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>Implementation Language</th>
-                            <td>Golang</td>
-                        </tr>
-                        <tr>
-                            <th>networking protocol</th>
-                            <td>Libp2p from Protocol Labs</td>
-                        </tr>
-                        <tr>
-                            <th>Interprocess Communication</th>
-                            <td>Google's gRPC framework</td>
-                        </tr>
-                        <tr>
-                            <th>Test and Build Pipeline</th>
-                            <td>Google's Bazel build tool</td>
-                        </tr>
-                        <tr>
-                            <th>Database</th>
-                            <td>BoltDB, a write-optimized, persistent key-value store</td>
-                        </tr>
-                    </tbody>
-                </table>
+<section class="section bg-near-pitch-black py-20">
+    <div class="container">
+        <div class="flex">
+            <div class="w-full md:w-2/3">
+                <h2 class="title text-grey">
+                    <span class="text-primary">Why</span> Ethereum?
+                </h2>
+                <div class="text-white">
+                    We are strong believers in Ethereum, a public blockchain that allows anyone to build unstoppable, censorship-resistant applications. On Ethereum, anyone can deploy software that controls digital value and is accessible the world. Born in 2014, the Ethereum network houses over $20 billion worth of value today, hosting projects such as:
+                    <ul class="py-4">
+                        <li>
+                            <span class="text-xl">—</span> Global, decentralized organizations
+                        </li>
+                        <li>
+                            <span class="text-xl">—</span> Non-reserve backed, stable-value currencies
+                        </li>
+                        <li>
+                            <span class="text-xl">—</span> Provably scarce, digital collectibles
+                        </li>
+                    </ul>
+                    We believe Ethereum represents a fundamental shift in how the Internet works and are dedicated to its mission.
+                </div>
+                <div class="mt-6">
+                    <a class="read-more-btn bg-black-light button text-grey-light text-sm" href="https://ethereum.org" target="_blank">
+                        Read More About Ethereum
+                    </a>
+                </div>
             </div>
-            <div class="column">
-                <div class="w-full">
-                    <figure class="image is-square">
-                        <img src="./assets/product/prysm.gif" class="rounded shadow-lg" alt="product prysm">
-                    </figure>
+            <div class="w-full md:w-1/3 text-center is-hidden-mobile">
+                <div class="cloud-eth pt-10">
+                    <img src="./assets/cloudeth.svg"/>
                 </div>
             </div>
         </div>
