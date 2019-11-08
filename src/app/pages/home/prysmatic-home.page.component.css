@@ -41,6 +41,11 @@
     background-repeat: no-repeat;
 }
 
+.project-card {
+    border: 1px solid #b8c2cc;
+    background-color: white;
+}
+
 table.prysm-specifcations-table tbody tr th {
     padding-left:0px;
 }
