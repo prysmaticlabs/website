@@ -34,6 +34,13 @@
     color: white;
 }
 
+.projects-background {
+    width: 100%;
+    background-image: url('/assets/backgrounds/team.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 table.prysm-specifcations-table tbody tr th {
     padding-left:0px;
 }
