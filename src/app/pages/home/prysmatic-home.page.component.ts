@@ -16,6 +16,19 @@ export class PrysmaticHomePageComponent {
     faTwitter = faTwitter;
     faDiscord = faDiscord;
 
+    teammates = [
+        {
+            name: 'Raul Jordan',
+            bio: 'Previously 4+ years of software engineering. Experienced in Golang, Javascript/Node, Machine Learning, and Ethereum Protocol Development.',
+            photo: 'raul.jpg',
+        },
+        {
+            name: 'Preston Van Loon',
+            bio: 'Previously 4+ years of software engineering. Experienced in Golang, Javascript/Node, Machine Learning, and Ethereum Protocol Development.',
+            photo: 'preston.jpg',
+        },
+    ];
+
     constructor() {
 
     }

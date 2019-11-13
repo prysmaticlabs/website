@@ -5,7 +5,7 @@
                 <div class="column is-two-thirds">
                     <div class="container">
                         <h1 class="title text-white is-size-2">
-                            Building the public infrastructure for the future of the web
+                            Building public infrastructure for the future of the web
                         </h1>
                         <h2 class="subtitle text-grey pt-2 text-2xl">
                             We are a passionate team of <b class="text-grey-light">software engineers</b> who believe in building a
@@ -178,44 +178,8 @@
     <div class="container p-6">
         <h1 class="title">Who We Are</h1>
         <p>We are a team of individuals with a deep understanding of the Ethereum protocol. <br> with diverse backgrounds ranging from distributed systems to cloud computing, we emphasize a test driven approach to implementing the future of Ethereum.</p>
-
         <div class="flex flex-wrap">
-
-            <div class="text-left mt-8 md:w-1/2 flex flex-wrap">
-                <div class="team-photo md:w-2/5">
-                    <img src="./assets/team/raul.jpg"/>
-                </div>
-                <div class="md:w-3/5 md:px-6">
-                    <p class="text-lg">Raul Jordan</p>
-                    <div>
-                        <span>
-                            <fa-icon [icon]="faTwitter"></fa-icon>
-                        </span>
-                    </div>
-                    <div class="bio text-sm">
-                        Previously 4+ years of software engineering. Experienced in Golang, Javascript/Node, Machine Learning, and Ethereum Protocol Development.
-                    </div>
-                </div>
-            </div>
-
-            <div class="text-left mt-8 md:w-1/2 flex flex-wrap">
-                <div class="team-photo md:w-2/5">
-                    <img src="./assets/team/preston.jpg"/>
-                </div>
-                <div class="md:w-3/5 md:pl-6">
-                    <p class="text-lg">Preston Van Loon</p>
-                </div>
-            </div>
-
-            <div class="text-left mt-8 md:w-1/2 flex flex-wrap">
-                <div class="team-photo md:w-2/5">
-                    <img src="./assets/team/terence1.png"/>
-                </div>
-                <div class="md:w-3/5 md:pl-6">
-                    <p class="text-lg">Terence Tsao</p>
-                </div>
-            </div>
-
+            <team-item *ngFor="let item of teammates" [teammate]="item" class="text-left mt-8 md:w-1/2 flex flex-wrap"></team-item>
         </div>
     </div>
 </section>

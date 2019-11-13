@@ -6,13 +6,15 @@ import { routes, RouteComponents } from './routes';
 import { ExternalsModule } from './shared/externals.module';
 import { PrysmaticFooterComponent } from './shared/prysmatic-footer.component';
 import { PrysmaticHeaderComponent } from './shared/prysmatic-header.component';
+import { TeamItemComponent } from './shared/team-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RouteComponents,
     PrysmaticFooterComponent,
-    PrysmaticHeaderComponent
+    PrysmaticHeaderComponent,
+    TeamItemComponent,
   ],
   imports: [
     BrowserModule,
