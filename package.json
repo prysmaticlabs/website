@@ -29,6 +29,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.4.2",
     "@fortawesome/free-solid-svg-icons": "^5.4.1",
     "bulma": "^0.7.1",
+    "bulma-divider": "^0.2.0",
     "core-js": "^2.5.4",
     "lodash": "^4.17.11",
     "ngx-clipboard": "^11.1.7",

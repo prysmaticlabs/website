@@ -130,3 +130,8 @@ table.prysm-specifcations-table tbody tr th {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.team-photo img {
+    width: 230px;
+    height: 230px;
+}

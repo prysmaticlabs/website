@@ -27,7 +27,7 @@ export class PrysmaticHomePageComponent {
         {
             name: 'Raul Jordan',
             bio: 'Previously 4+ years of software engineering. Experienced in Golang, Javascript/Node, Machine Learning, and Ethereum Protocol Development.',
-            photo: 'raul.jpg',
+            photo: 'raul.png',
             twitter: 'https://twitter.com/raulitojordan',
             github: 'https://github.com/rauljordan',
         },
@@ -58,6 +58,71 @@ export class PrysmaticHomePageComponent {
             photo: 'shay.jpg',
             twitter: 'https://twitter.com/shayzluf',
             github: 'https://github.com/shayzluf',
+        },
+    ];
+
+    news = [
+        {
+          title: 'Ethereum Foundation Grants $750,000 to Prysmatic Labs for Work on Ethereum Serenity',
+          photo: 'ethgrant.png',
+          url: 'https://blog.ethereum.org/2019/08/26/announcing-ethereum-foundation-and-co-funded-grants/',
+          caption: 'We are today unveiling over $2M USD in Foundation-led and co-funded grant funding aimed at furthering Serenity (Eth2.0)...',
+        },
+        {
+            title: 'Casper proof-of-stake Ethereum live on the Prysm testnet',
+            photo: 'ethbright.png',
+            url: 'https://cryptoslate.com/casper-proof-of-stake-ethereum-live-on-the-prysm-testnet/',
+            caption: 'The next version of Ethereum, which uses Casper proof-of-stake, is live on the Prysm testnet...',
+        },
+        {
+            title: 'Ethereum Gets Second ETH 2.0 Testnet Courtesy of Prysmatic Labs',
+            photo: 'blockonomi.png',
+            url: 'https://blockonomi.com/ethereum-eth-2-0-testnet/',
+            caption: 'Prysmatic Labs, the team developing the “Prysm” Ethereum sharding client, have released a testnet...',
+        },
+        {
+            title: 'Prysmatic Labs Awarded $500,000 from the Ethereum Foundation Wave IV Grants',
+            photo: 'ethanalysis.png',
+            url: 'https://blog.ethereum.org/2018/10/15/ethereum-foundation-grants-update-wave-4/',
+            caption: 'As we go full steam ahead to Devcon 4, we’re back to announce Wave 4 of the Grants Program...',
+        },
+    ];
+
+    podcasts = [
+        {
+            host: 'Software Engineering Daily',
+            title: 'Scaling Ethereum with Raul Jordan and Preston Van Loon',
+            url: 'https://softwareengineeringdaily.com/2018/06/01/scaling-ethereum-with-raul-jordan-and-preston-van-loon/',
+        },
+        {
+            host: 'Into the Ether',
+            title: 'Ethereum 2.0 with Prysmatic Labs: Scaling, Sharding, Proof of Stake, Serenity Phases, and Eth 2.0 Client',
+            url: 'https://podcasts.apple.com/au/podcast/ethereum-2-0-prysmatic-labs-scaling-sharding-proof/id1443920565?i=1000425654959',
+        },
+        {
+            host: 'Zero Knowledge Podcast',
+            title: 'Sharding Update With Prysmatic Labs',
+            url: 'https://www.zeroknowledge.fm/37',
+        },
+        {
+            host: 'Off the chain',
+            title: 'Preston Van Loon, Co-Founder of Prysmatic Labs: The Plan to Scale Ethereum',
+            url: 'https://podtail.com/en/podcast/off-the-chain/preston-van-loon-co-founder-of-prysmatic-labs-the-/',
+        }
+    ];
+
+    videos = [
+        {
+            url: 'https://www.youtube.com/embed/ep2R0e_Cc5w',
+            title: 'What is Ethereum 2.0? - Preston Van Loon',
+        },
+        {
+            url: 'https://www.youtube.com/embed/91ZAFIoha2w',
+            title: 'Implementing Ethereum 2.0 Today',
+        },
+        {
+            url: 'https://www.youtube.com/embed/EWEGBq165ME',
+            title: 'How to Build a Production Ethereum 2.0 Client'
         },
     ];
 
