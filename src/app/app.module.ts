@@ -6,7 +6,10 @@ import { routes, RouteComponents } from './routes';
 import { ExternalsModule } from './shared/externals.module';
 import { PrysmaticFooterComponent } from './shared/prysmatic-footer.component';
 import { PrysmaticHeaderComponent } from './shared/prysmatic-header.component';
-import { TeamItemComponent } from './shared/team-item.component';
+import { TeamItemComponent } from './pages/home/team-item.component';
+import { NewsItemComponent } from './pages/home/news-item.component';
+import { PodcastItemComponent } from './pages/home/podcast-item.component';
+import { VideoItemComponent } from './pages/home/video-item.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { TeamItemComponent } from './shared/team-item.component';
     PrysmaticFooterComponent,
     PrysmaticHeaderComponent,
     TeamItemComponent,
+    NewsItemComponent,
+    PodcastItemComponent,
+    VideoItemComponent,
   ],
   imports: [
     BrowserModule,

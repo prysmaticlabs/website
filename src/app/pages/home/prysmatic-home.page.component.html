@@ -96,7 +96,7 @@
         </div>
     </div>
 </section>
-<section class="section projects-background">
+<section id="projects" class="section projects-background">
     <div class="container text-center">
         <h1 class="title pt-6">
             Our Projects
@@ -174,7 +174,7 @@
         </div>
     </div>
 </section>
-<section class="section team">
+<section id="team" class="section team">
     <div class="container p-6">
         <h1 class="title">Who <span class="text-primary">We</span> Are</h1>
         <div class="flex">
@@ -190,67 +190,51 @@
         </div>
     </div>
 </section>
-<section class="section bg-grey-light ">
-    <div class="container bg-grey-light ">
-        <h1 class="title">Sponsors and Grants</h1>
-        <h2 class="subtitle">
-            Thank you to all who have contributed to Prysmatic Labs; we are eternally grateful.
-        </h2>
-
-        <div class="columns m-auto is-multiline is-mobile">
-            <div class="column text-center is-half-mobile ">
-                <a href="https://www.aragon.one" alt="argon-one">
-                    <img class="sponsor-image" src="./assets/sponsors/aragonnest.svg" alt="aragonnest" />
-                </a>
+<section class="bg-near-pitch-black py-12 px-8">
+    <div class="text-center text-white">
+        <div>
+            <p class="text-2xl">Join Our Public Ethereum Testnet</p>
+        </div>
+        <div class="m-3">
+            <img src="./assets/icon.svg"/>
+        </div>
+        <div class="flex justify-center">
+            <div class=" md:w-1/2 text-grey-light">
+                Participate as a validator in our public Ethereum Serenity test network today - sync with a full proof of stake Ethereum blockchain today and help us improve our work on the cutting-edge.
             </div>
-            <div class="column text-center is-half-mobile">
-                <a href="https://district0x.io" alt="district0x">
-                    <img class="sponsor-image" src="./assets/sponsors/district0x.svg" alt="district0x" />
-                </a>
-            </div>
-            <div class="column text-center">
-                <a href="https://ecf.network" alt="ECF">
-                    <img class="sponsor-image" src="./assets/sponsors/ECF.svg" alt="Ethereum Community Fund"/>
-                </a>
-            </div>
-            <div class="column text-center">
-                <a href="https://www.ethereum.org/foundation" alt="Ethereum">
-                    <img class="sponsor-image" src="./assets/sponsors/Ethereum.svg" alt="Ethereum Foundation"/>
-                </a>
-            </div>
-            <div class="column text-center">
-                <a href="https://spankchain.com" alt="Spank Chain">
-                    <img class="sponsor-image" src="./assets/sponsors/SpankChain.svg" alt="Spank Chain"/>
+        </div>
+        <div class="flex justify-center mt-6">
+            <div class=" md:w-1/2">
+                <a class="read-more-btn bg-primary button text-white text-sm" href="https://prylabs.net" target="_blank">
+                    Participate Today
                 </a>
             </div>
         </div>
     </div>
 </section>
-<section class="section bg-grey-lightest">
-    <div class="container">
-        <h1 class="title">Donations</h1>
-        <h2 class="subtitle">
-            <p>
-                Your support means a lot to us. With your help, we're able to accelerate our work on sharding,
-                furthering our goal to scale
-                the Ethereum blockchain for all. We have set up a multisig smart contract to accept donations.
-            </p>
-            <div class="flex justify-center p-3">
-                <div class="field has-addons ">
-                    <p class="control">
-                        <span class="button is-static is-large is-hidden-touch">Address: </span>
-                    </p>
-                    <p class="control">
-                        <label class="input is-large donation-label is-size-7-touch" >0x9B984D5a03980D8dc0a24506c968465424c81DbE</label>
-                    </p>
-                    <p class="control">
-                        <button class="button is-large is-hidden-touch" ngxClipboard [cbContent]="'0x9B984D5a03980D8dc0a24506c968465424c81DbE'">Copy</button>
-                    </p>
+<section id="news" class="section bg-grey-light">
+    <div class="container bg-grey-light">
+        <h1 class="title">News <span class="text-primary">&</span> Media</h1>
+        <div class="flex flex-wrap">
+            <div class="md:w-1/2">
+                <div class="bg-white shadow-md">
+                   <div class="flex flex-wrap pt-6 px-6">
+                       <news-item *ngFor="let item of news" [newsItem]="item" class="mb-6 flex flex-wrap"></news-item>
+                   </div>
                 </div>
             </div>
-            <div class="flex justify-center">
-                <a class="is-link" href="https://etherscan.io/address/0x9B984D5a03980D8dc0a24506c968465424c81DbE">Etherscan</a>
+            <div class="md:w-1/2 md:px-8 pt-8 md:pt-0">
+                <strong class="text-xl">🔥 Featured Podcasts 🔥</strong>
+                <div class="mt-6">
+                    <podcast-item *ngFor="let item of podcasts" [podcast]="item" class="mb-6"></podcast-item>
+                </div>
             </div>
-        </h2>
+        </div>
+        <div class="md:my-8 mt-2 mb-6 is-hidden-mobile">
+            <strong class="text-xl">🎬 Featured Videos 🎬</strong>
+        </div>
+        <div class="flex flex-wrap is-hidden-mobile">
+            <video-item *ngFor="let item of videos" [video]="item" class="md:w-1/3 md:pr-8"></video-item>
+        </div>
     </div>
 </section>
