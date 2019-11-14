@@ -176,8 +176,15 @@
 </section>
 <section class="section team">
     <div class="container p-6">
-        <h1 class="title">Who We Are</h1>
-        <p>We are a team of individuals with a deep understanding of the Ethereum protocol. <br> with diverse backgrounds ranging from distributed systems to cloud computing, we emphasize a test driven approach to implementing the future of Ethereum.</p>
+        <h1 class="title">Who <span class="text-primary">We</span> Are</h1>
+        <div class="flex">
+            <div class="md:w-1/2">
+                We are a team of individuals with a deep understanding of the Ethereum protocol. With diverse backgrounds ranging from distributed systems to cloud computing, we emphasize a test driven approach to implementing the future of Ethereum.
+            </div>
+        </div>
+        <div class="mt-8">
+            <img src="./assets/stripes.svg"/>
+        </div>
         <div class="flex flex-wrap">
             <team-item *ngFor="let item of teammates" [teammate]="item" class="text-left mt-8 md:w-1/2 flex flex-wrap"></team-item>
         </div>

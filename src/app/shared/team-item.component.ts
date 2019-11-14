@@ -1,6 +1,7 @@
-import {Component, Input} from '@angular/core';
+import { Component, Input } from '@angular/core';
 import {
   faTwitter,
+  faGithub,
 } from '@fortawesome/free-brands-svg-icons';
 import { Teammate } from '../models/teammate';
 
@@ -11,5 +12,6 @@ import { Teammate } from '../models/teammate';
 })
 export class TeamItemComponent {
   faTwitter = faTwitter;
+  faGithub = faGithub;
   @Input() teammate: Teammate;
 }

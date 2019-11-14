@@ -1,11 +1,14 @@
 <div class="team-photo md:w-2/5">
     <img src="./assets/team/{{teammate.photo}}"/>
 </div>
-<div class="md:w-3/5 md:px-6">
-    <p class="text-lg">{{teammate.name}}</p>
-    <div class="py-2">
+<div class="md:w-3/5 pr-6 md:px-6 mt-4 md:mt-0">
+    <p class="text-xl">{{teammate.name}}</p>
+    <div class="py-1 text-lg">
+        <span class="mr-4">
+            <a target="_blank" href="{{teammate.twitter}}" class="text-grey-dark"><fa-icon [icon]="faTwitter"></fa-icon></a>
+        </span>
         <span>
-            <fa-icon [icon]="faTwitter"></fa-icon>
+            <a target="_blank" href="{{teammate.github}}" class="text-grey-dark"><fa-icon [icon]="faGithub"></fa-icon></a>
         </span>
     </div>
     <div class="bio text-sm">
