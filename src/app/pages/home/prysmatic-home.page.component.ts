@@ -105,7 +105,7 @@ export class PrysmaticHomePageComponent {
             url: 'https://www.zeroknowledge.fm/37',
         },
         {
-            host: 'Off the chain',
+            host: 'Off the Chain',
             title: 'Preston Van Loon, Co-Founder of Prysmatic Labs: The Plan to Scale Ethereum',
             url: 'https://podtail.com/en/podcast/off-the-chain/preston-van-loon-co-founder-of-prysmatic-labs-the-/',
         }
