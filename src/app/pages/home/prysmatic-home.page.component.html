@@ -25,7 +25,7 @@
 </section>
 <section class="section">
     <div class="container text-center pb-0">
-        <h1 class="title pt-6">
+        <h1 class="title lg:pt-6">
             Our Expertise
         </h1>
         <img src="./assets/stripes.svg"/>
@@ -120,12 +120,12 @@
         <div class="flex flex-wrap">
             <div class="w-full">
                 <div class="main-project project-card flex flex-wrap text-left pb-0 ml-6 mb-6 mr-6 mt-8">
-                    <div class="w-full md:w-1/4 pb-0">
+                    <div class="w-full lg:w-1/4 pb-0 is-hidden-touch">
                         <div class="main-project-img">
                             <img src="./assets/drawnbg.png"/>
                         </div>
                     </div>
-                    <div class="w-full md:w-3/4 pt-8 px-8 pb-8">
+                    <div class="w-full lg:w-3/4 pt-4 lg:pt-8 px-8 pb-8">
                         <h2 class="card-title text-3xl">
                             <a href="https://github.com/prysmaticlabs/prysm" class="text-grey-darkest">Prysm</a>
                         </h2>
@@ -141,7 +141,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full md:w-1/2">
+            <div class="w-full lg:w-1/2">
                 <div class="project-card small-project flex flex-wrap text-left m-6">
                     <div class="w-full">
                         <div>
@@ -164,7 +164,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full md:w-1/2">
+            <div class="w-full lg:w-1/2">
                 <div class="project-card small-project flex flex-wrap text-left m-6">
                     <div class="w-full">
                         <div>
@@ -183,7 +183,7 @@
                         </p>
                         <div class="card-buttons">
                             <a class="button is-primary is-narrow shadow" target="_blank" href="https://api.prylabs.network">Interact With the API</a>
-                            <a class="ml-4 button bg-black-light shadow text-white" target="_blank" href="https://github.com/prysmaticlabs/ethereumapis">See it on Github</a>
+                            <a class="is-hidden-touch ml-4 button bg-black-light shadow text-white" target="_blank" href="https://github.com/prysmaticlabs/ethereumapis">See it on Github</a>
                         </div>
                     </div>
                 </div>
@@ -328,24 +328,24 @@
         <h1 class="title">News <span class="text-primary">&</span> Media</h1>
         <img src="./assets/stripes.svg"/>
         <div class="flex flex-wrap pt-6">
-            <div class="md:w-1/2">
+            <div class="lg:w-1/2">
                 <div class="bg-white shadow-lg">
                     <div class="flex flex-wrap pt-6 px-6">
                         <news-item *ngFor="let item of news" [newsItem]="item" class="mb-6 flex flex-wrap"></news-item>
                     </div>
                 </div>
             </div>
-            <div class="md:w-1/2 md:px-8 pt-8 md:pt-0">
+            <div class="pt-8 lg:w-1/2 lg:px-8 lg:pt-0">
                 <strong class="text-xl">🔥 Featured Podcasts 🔥</strong>
                 <div class="mt-6">
                     <podcast-item *ngFor="let item of podcasts" [podcast]="item" class="mb-6"></podcast-item>
                 </div>
             </div>
         </div>
-        <div class="md:my-8 mt-2 mb-6 is-hidden-mobile">
+        <div class="lg:my-8 mt-2 mb-6 is-hidden-touch">
             <strong class="text-xl">🎬 Featured Videos 🎬</strong>
         </div>
-        <div class="flex flex-wrap is-hidden-mobile">
+        <div class="flex flex-wrap is-hidden-touch">
             <video-item *ngFor="let item of videos" [video]="item" class="md:w-1/3 md:pr-8"></video-item>
         </div>
     </div>
