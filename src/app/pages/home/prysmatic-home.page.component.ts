@@ -26,7 +26,7 @@ export class PrysmaticHomePageComponent {
         },
         {
             name: 'Raul Jordan',
-            bio: 'Previously 4+ years of software engineering. Experienced in Golang, Javascript/Node, Machine Learning, and Ethereum Protocol Development.',
+            bio: 'Previously 5+ years of software engineering. Experienced in Golang, Javascript/Node, Machine Learning, and Ethereum Protocol Development.',
             photo: 'raul.png',
             twitter: 'https://twitter.com/raulitojordan',
             github: 'https://github.com/rauljordan',
@@ -47,7 +47,7 @@ export class PrysmaticHomePageComponent {
         },
         {
             name: 'Ivan Martinez',
-            bio: 'Previously 2+ years of Software Engineering. Full-stack Web3 developer, Golang Ethereum developer, previously at Zeppelin and AuroraDAO (IDEX).',
+            bio: 'Previously 3+ years of Software Engineering. Full-stack Web3 developer, Golang Ethereum developer, previously at Zeppelin and AuroraDAO (IDEX).',
             photo: 'ivan.jpg',
             twitter: 'https://twitter.com/0xKiwi_',
             github: 'https://github.com/0xKiwi',
@@ -122,7 +122,7 @@ export class PrysmaticHomePageComponent {
         },
         {
             url: 'https://www.youtube.com/embed/EWEGBq165ME',
-            title: 'How to Build a Production Ethereum 2.0 Client'
+            title: 'Building a Production Ethereum 2.0 Client'
         },
     ];
 

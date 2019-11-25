@@ -135,3 +135,7 @@ table.prysm-specifcations-table tbody tr th {
     width: 230px;
     height: 230px;
 }
+
+.font-mini-heading {
+    font-size: 20px;
+}
