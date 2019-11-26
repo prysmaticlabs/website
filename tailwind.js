@@ -44,9 +44,14 @@ View the full documentation at https://tailwindcss.com.
 */
 
 let colors = {
+  'primary': '#ff30a0',
   'transparent': 'transparent',
+  'discord': '#7289da',
 
+  'pitch-black': '#141414',
+  'near-pitch-black': '#1e1e1e',
   'black': '#22292f',
+  'black-light': '#454248',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
   'grey-dark': '#8795a1',

@@ -1,13 +1,65 @@
-.prysmatic-labs-title-color{
+.prysmatic-labs-title-color {
     color:#22292f
 }
 
+.prysmatic-hero {
+    padding-bottom: 0px;
+}
+
 .github-widget {
+    margin-top:3px;
+    padding-bottom: 0px;
+    margin-left:8px;
     width:160px;
     height:30px;
 }
 
-table.prysm-specifcations-table tbody tr th{
+.prysm-card {
+    margin-bottom: -90px;
+    height: 200px;
+    background-color: white;
+}
+
+.smart-contract img {
+    height: 150px;
+}
+
+.cloud-eth img {
+    width: 200px;
+}
+
+.read-more-btn {
+    border-radius: 3px;
+    border: none;
+}
+
+.read-more-btn:hover {
+    color: white;
+}
+
+.projects-background {
+    width: 100%;
+    background-image: url('/assets/backgrounds/team.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+    .main-project {
+        max-height: 320px;
+    }
+}
+
+.project-card {
+    border: 1px solid #b8c2cc;
+    background-color: white;
+}
+
+.small-project {
+    min-height: 600px;
+}
+
+table.prysm-specifcations-table tbody tr th {
     padding-left:0px;
 }
 
@@ -46,7 +98,7 @@ table.prysm-specifcations-table tbody tr th{
     display:flex;
 }
 
-.planet-background{
+.planet-background {
     width: 100%;
     background-image: url('/assets/backgrounds/prysm-space.svg');
     background-size: cover;
@@ -66,8 +118,8 @@ table.prysm-specifcations-table tbody tr th{
 }
 
 .team-column{
-    flex-basis: 230px;
-    max-width: 230px;
+    flex-basis: 380px;
+    max-width: 380px;
 }
 
 .sponsor-image {
@@ -77,4 +129,13 @@ table.prysm-specifcations-table tbody tr th{
 .donation-label {
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.team-photo img {
+    width: 230px;
+    height: 230px;
+}
+
+.font-mini-heading {
+    font-size: 20px;
 }
