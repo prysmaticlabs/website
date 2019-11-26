@@ -15,8 +15,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="column">
-                    <img src="./assets/PrysmStripe.png" alt="prysm" class="has-text-centered" />
+                <div class="column has-text-centered">
+                    <img src="./assets/PrysmStripe.png" alt="prysm"/>
                     <h2 id="prismatic-labs-title" class="prysmatic-labs-title-color title flex justify-center is-hidden-touch" >Prysmatic Labs</h2>
                 </div>
             </div>
@@ -131,11 +131,11 @@
                         </h2>
                         <h4 class="card-subtitle text-grey-darkest text-sm">A full-featured client for the Ethereum Serenity protocol, written in Go</h4>
                         <p class="py-4">
-                            The <a class="text-primary" href="https://github.com/prysmaticlabs/prysm">Prysm</a> project is a Go implementation of Ethereum Serenity protocol as detailed by its <a href="https://github.com/ethereum/eth2.0-specs" target="_blank" class="text-primary">official specification</a>. It contains a full beacon node implementation as well as a validator client for participating in blockchain consensus. Prysm utilizes the best-in-class tools for production servers and interprocess communication, using Google's <a href="https://grpc.io/" class="text-primary">gRPC library</a>, BoltDB as an optimized, persistent, key-value, and <a href="https://libp2p.io/" class="text-primary">libp2p</a> by Protocol Labs for all peer-to-peer networking.
+                            The <a class="text-primary" href="https://github.com/prysmaticlabs/prysm">Prysm</a> project is a Go implementation of Ethereum Serenity protocol as detailed by its <a href="https://github.com/ethereum/eth2.0-specs" target="_blank" class="text-primary">official specification</a>. It contains a full beacon node implementation as well as a validator client for participating in blockchain consensus. Prysm utilizes the best-in-class tools for production servers and interprocess communication, using Google's <a href="https://grpc.io/" class="text-primary">gRPC library</a>, BoltDB as an optimized, persistent, key-value store, and <a href="https://libp2p.io/" class="text-primary">libp2p</a> by Protocol Labs for all peer-to-peer networking.
                         </p>
                         <div>
                             <a class="button is-primary is-narrow shadow" target="_blank" href="https://prysmaticlabs.gitbook.io/prysm/">Read the Docs</a>
-                            <iframe class="github-widget" src="https://ghbtns.com/github-btn.html?user=prysmaticlabs&repo=prysm&type=star&count=true&size=large"
+                            <iframe class="github-widget is-hidden-touch" src="https://ghbtns.com/github-btn.html?user=prysmaticlabs&repo=prysm&type=star&count=true&size=large"
                                     frameborder="0" scrolling="0"></iframe>
                         </div>
                     </div>
@@ -193,14 +193,16 @@
 </section>
 <section id="team" class="section team">
     <div class="container p-6">
-        <h1 class="title">Who <span class="text-primary">We</span> Are</h1>
-        <div class="flex">
-            <div class="md:w-1/2">
-                We are a team of individuals with a <b>deep understanding</b> of blockchain technology. With diverse backgrounds ranging from <b>distributed systems</b> to cloud computing, we emphasize a <b>test-driven approach</b> towards implementing the future of Ethereum.
-            </div>
-        </div>
-        <div class="mt-8">
+        <div class="has-text-centered">
+            <h1 class="title">
+                Who <span class="text-primary">We</span> Are
+            </h1>
             <img src="./assets/stripes.svg"/>
+            <div class="flex justify-center pt-6 py-6">
+                <div class=" md:w-1/2">
+                    We are a team of individuals with a <b>deep understanding</b> of blockchain technology. With diverse backgrounds ranging from <b>distributed systems</b> to cloud computing, we emphasize a <b>test-driven approach</b> towards implementing the future of Ethereum.
+                </div>
+            </div>
         </div>
         <div class="flex flex-wrap">
             <team-item *ngFor="let item of teammates" [teammate]="item" class="text-left mt-8 md:w-1/2 flex flex-wrap"></team-item>
