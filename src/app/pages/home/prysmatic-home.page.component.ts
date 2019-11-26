@@ -33,7 +33,7 @@ export class PrysmaticHomePageComponent {
         },
         {
             name: 'Terence Tsao',
-            bio: 'Previous 7+ years of software engineering. Software engineer at Riverbed and Cisco. Experienced in ML, Python, Golang and system architecture.',
+            bio: 'Previous 11+ years of hardware and software engineering. Previous software engineer at Riverbed and Cisco. Experienced in ML, Python, Golang and distributed systems design.',
             photo: 'terence1.png',
             twitter: 'https://twitter.com/terencechain',
             github: 'https://github.com/terencechain',
