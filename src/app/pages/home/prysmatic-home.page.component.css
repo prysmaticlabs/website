@@ -139,3 +139,8 @@ table.prysm-specifcations-table tbody tr th {
 .font-mini-heading {
     font-size: 20px;
 }
+
+.donate-icon img {
+   width: 40px;
+   height: 40px;
+}
