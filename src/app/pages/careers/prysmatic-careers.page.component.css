@@ -1,0 +1,11 @@
+.bullet > li {
+    list-style-type: none;
+    position: relative;
+}
+
+.bullet > li::before {
+    content: '■';
+    font-size: 25px;
+    padding-right: 8px;
+    
+}
