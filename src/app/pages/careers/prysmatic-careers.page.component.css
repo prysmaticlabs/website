@@ -9,3 +9,9 @@
     padding-right: 8px;
     
 }
+
+.top-space {
+    height: 150px;
+    background-image: url("/assets/backgrounds/prysm-space.svg");
+    background-size: cover;
+}
