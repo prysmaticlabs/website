@@ -4,8 +4,8 @@
 }
 
 .bullet > li::before {
-    content: '■';
-    font-size: 25px;
+    content: '•';
+    font-size: 22px;
     padding-right: 8px;
     
 }
