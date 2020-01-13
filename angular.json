@@ -21,7 +21,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/prysmaticlabs-release.pub.gpg"
+              "src/prysmaticlabs-release.pub.gpg",
+              "src/robots.txt"
             ],
             "styles": [
               "src/styles.css"
