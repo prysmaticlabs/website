@@ -47,7 +47,7 @@ export class PrysmaticHomePageComponent {
         },
         {
             name: 'Ivan Martinez',
-            bio: 'Previously 3+ years of Software Engineering. Full-stack Web3 developer, Golang Ethereum developer, previously at Zeppelin and AuroraDAO (IDEX).',
+            bio: 'Previously 3+ years of Software Engineering. Full-stack Web3 developer, Golang Ethereum developer, previously at AuroraDAO (IDEX).',
             photo: 'ivan.jpg',
             twitter: 'https://twitter.com/0xKiwi_',
             github: 'https://github.com/0xKiwi',
