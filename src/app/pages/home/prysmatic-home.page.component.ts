@@ -59,6 +59,13 @@ export class PrysmaticHomePageComponent {
             twitter: 'https://twitter.com/shayzluf',
             github: 'https://github.com/shayzluf',
         },
+        {
+            name: 'Celeste Seberras',
+            bio: 'ETH2 Technical Writer, Infomation Security Engineer. 7+ years in penetration testing, applied cryptography and webdev. Previously wrote documentation for the Tor Project. Deployed multiple online startups.',
+            photo: 'celeste.jpg',
+            twitter: 'https://twitter.com/har000ga',
+            github: 'https://github.com/har00ga',
+        },
     ];
 
     news = [
