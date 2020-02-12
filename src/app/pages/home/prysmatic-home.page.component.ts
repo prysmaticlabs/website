@@ -60,6 +60,13 @@ export class PrysmaticHomePageComponent {
             github: 'https://github.com/shayzluf',
         },
         {
+            name: 'Victor Farazdagi',
+            bio: 'Software engineer and aspiring mathematician. Experienced in Golang, Python, and machine learning. Research interests include distributed systems, communication protocols, and anonymity.',
+            photo: 'victor.jpg',
+            twitter: 'https://twitter.com/farazdagi',
+            github: 'https://github.com/farazdagi',
+        },
+        {
             name: 'Celeste Seberras',
             bio: 'ETH2 Technical Writer, Infomation Security Engineer. 7+ years in penetration testing, applied cryptography and webdev. Previously wrote documentation for the Tor Project. Deployed multiple online startups.',
             photo: 'celeste.jpg',
