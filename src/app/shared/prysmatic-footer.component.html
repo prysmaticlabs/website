@@ -3,7 +3,7 @@
         <div class="px-12 pt-8 pb-12 container text-white flex flex-wrap">
             <div class="w-full md:w-1/4">
                 <p class="my-4">Company</p>
-                <div class="py-1">
+                <div class="py-1" *ngIf="showCareers()">
                     <a class="text-grey-dark" routerLink="/careers">
                         Careers
                     </a>

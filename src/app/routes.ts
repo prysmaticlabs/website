@@ -1,7 +1,7 @@
 import {Routes} from '@angular/router';
 import { PrysmaticLabsMasterPageComponent } from './pages/prysmatic-master.page.component';
 import { PrysmaticHomePageComponent } from './pages/home/prysmatic-home.page.component';
-import { PrysmaticCareersPageComponent } from './pages/careers/prysmatic-careers.page.component';
+import { CanActivateCareers, PrysmaticCareersPageComponent } from './pages/careers/prysmatic-careers.page.component';
 
 export const RouteComponents = [
     PrysmaticLabsMasterPageComponent,
@@ -10,5 +10,5 @@ export const RouteComponents = [
 ];
 export const routes: Routes = [
     { path: '', component: PrysmaticHomePageComponent },
-    { path: 'careers', component: PrysmaticCareersPageComponent },
+    { path: 'careers', component: PrysmaticCareersPageComponent, canActivate: [CanActivateCareers] },
 ];

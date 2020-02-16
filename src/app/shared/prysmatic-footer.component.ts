@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { faMedium, faGitter,
     faGithub, faTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { environment } from '../../environments/environment';
+
 @Component({
     selector: 'prysmatic-footer',
     templateUrl: './prysmatic-footer.component.html',
@@ -12,7 +14,7 @@ export class PrysmaticFooterComponent {
     faGithub = faGithub;
     faTwitter = faTwitter;
     faDiscord = faDiscord;
-    constructor() {
-
+    showCareers(): boolean {
+        return environment.hiring;
     }
 }
