@@ -10,6 +10,7 @@ import {
   faBlog,
   faNewspaper,
 } from '@fortawesome/free-solid-svg-icons';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'prysmatic-header',
@@ -23,9 +24,11 @@ export class PrysmaticHeaderComponent {
   faBlog = faBlog;
   faNewspaper = faNewspaper;
   faDiscord = faDiscord;
-
-  menuStatus:boolean = false;
-  toggleMenu(){
+  menuStatus = false;
+  toggleMenu() {
     this.menuStatus = !this.menuStatus;
+  }
+  showCareers(): boolean {
+    return environment.hiring;
   }
 }
