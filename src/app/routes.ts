@@ -10,5 +10,5 @@ export const RouteComponents = [
 ];
 export const routes: Routes = [
     { path: '', component: PrysmaticHomePageComponent },
-    { path: 'careers', component: PrysmaticCareersPageComponent },
+    // { path: 'careers', component: PrysmaticCareersPageComponent },
 ];
