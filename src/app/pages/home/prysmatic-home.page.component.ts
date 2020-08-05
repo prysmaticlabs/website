@@ -73,6 +73,12 @@ export class PrysmaticHomePageComponent {
             twitter: 'https://twitter.com/har00ga',
             github: 'https://github.com/har00ga',
         },
+        {
+            name: 'Radosław Kapka',
+            bio: '6 years of professional software development experience, mostly as a full-stack web developer and team lead working with .NET and Angular. Interested in software architecture.',
+            photo: 'radek.jpg',
+            github: 'https://github.com/rkapka',
+        },
     ];
 
     news = [

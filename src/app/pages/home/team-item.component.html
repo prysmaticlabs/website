@@ -6,7 +6,7 @@
         <a href="{{teammate.github}}" class="text-grey-darkest" target="_blank">{{teammate.name}}</a>
     </p>
     <div class="py-1 text-lg">
-        <span class="mr-4">
+        <span *ngIf="teammate.twitter" class="mr-4">
             <a target="_blank" href="{{teammate.twitter}}" class="text-grey-dark"><fa-icon [icon]="faTwitter"></fa-icon></a>
         </span>
         <span>
