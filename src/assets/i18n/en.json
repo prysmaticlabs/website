@@ -1,0 +1,148 @@
+{
+    "Header": 
+    {
+        "Projects": "Projects",
+        "Team": "Team",
+        "News": "News",
+        "Careers": "Careers",
+        "JoinDiscord": "Join Our Discord"
+    },
+    "Footer": 
+    {
+        "Company": "Company",
+        "Careers": "Careers",
+        "Media": "Media",
+        "Bounties": "Bounties",
+        "Donate": "Donate",
+        "ContactUs": "Contact Us",
+        "Community": "Community",
+        "CodeAndProjects": "Code & Projects",
+        "OfficialGithub": "Official Github",
+        "Testnet": "Ethereum Serenity Public Testnet",
+        "Apis": "Ethereum Serenity APIs",
+        "StayUpToDate": "Stay Up to Date",
+        "Chat": "Chat with our team and be the first to find out about latest updates to our work on Ethereum",
+        "JoinDiscord": "Join Our Discord",
+        "Copyright1": "© 2019 Prysmatic Labs — Donate Today ",
+        "Copyright2": " — All Rights Reserved — Some Icons Made by ",
+        "Copyright3": " from "
+    },
+    "Home":
+    {
+        "Prysmatic":
+        {
+            "Title": "We’re building a more fair, open, and censorship-resistant Internet",
+            "Subtitle1": "We are a passionate team of software engineers all around the world building the code behind the ",
+            "Subtitle2": " blockchain",
+            "SeeOurWork": "See Our Work"
+        },
+        "OurExpertise":
+        {
+            "Title": "Our Expertise",
+            "Mission": "Prysmatic Labs currently builds technical infrastructure for the Ethereum blockchain. Our mission is to increase adoption through better tooling for users and developers of the Ethereum ecosystem through our expertise.",
+            "Projects": "Projects at the Cutting-Edge",
+            "PrysmProject1": "Our flagship project, ",
+            "PrysmProject2": ", is a production client for ",
+            "PrysmProject3": " anyone can freely use to participate in consensus of the blockchain.",
+            "BestTechnology": "Best In-Class Technology",
+            "IndustryStandards": "We believe industry standards are a must for creating robust code. We build our technologies with the best-in-class tooling and design in mind.",
+            "OpenSource": "Embracing Open Source",
+            "AccessOurWork1": "Our work is free, ",
+            "AccessOurWork2": "open source",
+            "AccessOurWork3": ", and accessible everywhere. We believe in empowering developers to build a more fair and transparent Internet."
+        },
+        "WhyEthereum":
+        {
+            "Why": "Why",
+            "Belief": "We are strong believers in Ethereum, a public blockchain that allows anyone to build unstoppable, censorship-resistant applications. On Ethereum, anyone can deploy software that controls digital value and is accessible around the world. Born in 2014, the Ethereum network houses over $20 billion worth of value today, hosting projects such as:",
+            "Dao": "Global, decentralized organizations",
+            "Currencies": "Non-reserve backed, stable-value currencies",
+            "Finance": "Fully-open, permissionless, financial applications",
+            "FinanceShift": "We believe Ethereum represents a fundamental shift in how financial systems operate and are dedicated to its mission.",
+            "ReadMore": "Read More About Ethereum"
+        },
+        "OurWork":
+        {
+            "Title": "Our Work",
+            "Ethereum1": "Our work on the ",
+            "Ethereum2": " blockchain focuses on ",
+            "Ethereum3": "usability, security, and reliability",
+            "Ethereum4": " as key pillars backed by extensive testing and carefully designed code.",
+            "GoClient": "A full-featured client for the Ethereum Serenity protocol, written in Go",
+            "PrysmDescription1": "The ",
+            "PrysmDescription2": " project is a Go implementation of Ethereum Serenity protocol as detailed by its ",
+            "PrysmDescription3": "official specification",
+            "PrysmDescription4": ". It contains a full beacon node implementation as well as a validator client for participating in blockchain consensus. Prysm utilizes the best-in-class tools for production servers and interprocess communication, using Google's ",
+            "PrysmDescription5": "gRPC library",
+            "PrysmDescription6": ", BoltDB as an optimized, persistent, key-value store, and ",
+            "PrysmDescription7": " by Protocol Labs for all peer-to-peer networking.",
+            "ReadTheDocs": "Read the Docs",
+            "PublicTestnetTitle": "The Medalla Eth2 Public Testnet",
+            "PublicTestnetSubtitle": "A public test network for Ethereum Serenity",
+            "PublicTestnetDescription": "Launched in August 2020, the Medalla Test Network is a publicly accessible, mainnet scale network running multiple client implementations participating in Ethereum 2.0 consensus including ",
+            "PublicTestnetParticipation": "Anyone across the world can sync with the network, stake 32 test ETH, and participate in the protocol's consensus.",
+            "JoinPublicTestnet": "Join the Network",
+            "SerenityApisTitle": "Ethereum Serenity APIs",
+            "SerenityApisSubtitle": "Thoroughly-documented, schema-based API for Ethereum Serenity",
+            "SerenityApisDescription": "Ethereum Serenity APIs are a collection of schema-based, protobuf APIs aimed to standardize the efforts for a common API interface used to query information about the blockchain.",
+            "SerenityApisForClients": "The API is also used for validator clients to interact with a running node for the sake of consensus.",
+            "SerenityApisInteract": "Interact With the API",
+            "SerenityApisSeeOnGithub": "See it on Github"
+        },
+        "WhoWeAre":
+        {
+            "Title1": "Who ",
+            "Title2": "We",
+            "Title3": " Are",
+            "Description1": "We are a team of individuals with a ",
+            "Description2": "deep understanding",
+            "Description3": " of blockchain technology. With diverse backgrounds ranging from ",
+            "Description4": "distributed systems",
+            "Description5": " to cloud computing, we emphasize a ",
+            "Description6": "test-driven approach",
+            "Description7": " towards implementing the future of Ethereum."
+        },
+        "JoinTestnet":
+        {
+            "Title": "Join Our Public Ethereum Proof-of-Stake Testnet",
+            "Description1": "Participate as a validator in our public ",
+            "Description2": " test network today - sync with a full ",
+            "Description3": " Ethereum blockchain today and help us improve our work on the cutting-edge.",
+            "ParticipateToday": "Participate Today"
+        },
+        "Sponsors":
+        {
+            "Title": "Sponsors & Grants",
+            "Description1": "Prysmatic Labs has received over ",
+            "Description2": "$1.5MM USD",
+            "Description3": " from the following list of donors for which we are eternally grateful",
+            "EthereumFoundation": "Ethereum Foundation",
+            "EthereumCommunityFund1": "Ethereum Community ",
+            "EthereumCommunityFund2": "Fund"
+        },
+        "Donate":
+        {
+            "Title": "Support Our Work",
+            "Description1": "The reason we're around today is due to incredible donations from the community to support development for the future of Ethereum. You can donate ETH or any tokens to our official ENS address ",
+            "Description2": " or directly to ",
+            "Description3": ".",
+            "DonateToday": "Donate Today"
+        },
+        "News":
+        {
+            "Title1": "News ",
+            "Title2": "&",
+            "Title3": " Media",
+            "FeaturedPodcasts": "Featured Podcasts",
+            "FeaturedVideos": "Featured Videos"
+        }
+    },
+    "NewsItem":
+    {
+        "ReadStory": "Read Story"
+    },
+    "PodcastItem":
+    {
+        "ViewEpisode": "View Episode"
+    }
+}

@@ -2,35 +2,35 @@
     <div class="bg-near-pitch-black prysmatic-footer text-sm">
         <div class="px-12 pt-8 pb-12 container text-white flex flex-wrap">
             <div class="w-full md:w-1/4">
-                <p class="my-4">Company</p>
+                <p class="my-4">{{ 'Footer.Company' | translate }}</p>
                 <div class="py-1" *ngIf="showCareers()">
                     <a class="text-grey-dark" routerLink="/careers">
-                        Careers
+                        {{ 'Footer.Careers' | translate }}
                     </a>
                 </div>
                 <div class="py-1">
                     <a class="text-grey-dark" href="#news">
-                        Media
+                        {{ 'Footer.Media' | translate }}
                     </a>
                 </div>
                 <div class="py-1">
                     <a class="text-grey-dark" href="https://gitcoin.co/explorer?applicants=ALL&keywords=prysmatic%20labs,prysm&order_by=-web3_created" target="_blank">
-                        Bounties
+                        {{ 'Footer.Bounties' | translate }}
                     </a>
                 </div>
                 <div class="py-1">
                     <a class="text-grey-dark" href="#donate">
-                        Donate
+                        {{ 'Footer.Donate' | translate }}
                     </a>
                 </div>
                 <div class="py-1">
                     <a class="text-grey-dark" href="mailto:contact@prysmaticlabs.com">
-                        Contact Us
+                        {{ 'Footer.ContactUs' | translate }}
                     </a>
                 </div>
             </div>
             <div class="w-full md:w-1/4">
-                <p class="my-4">Community</p>
+                <p class="my-4">{{ 'Footer.Community' | translate }}</p>
                 <div class="py-1">
                     <a class="text-grey-dark" href="https://twitter.com/prylabs">
                         Twitter
@@ -48,10 +48,10 @@
                 </div>
             </div>
             <div class="w-full md:w-1/4">
-                <p class="my-4">Code & Projects</p>
+                <p class="my-4">{{ 'Footer.CodeAndProjects' | translate }}</p>
                 <div class="py-1">
                     <a class="text-grey-dark" href="https://github.com/prysmaticlabs">
-                        Official Github
+                        {{ 'Footer.OfficialGithub' | translate }}
                     </a>
                 </div>
                 <div class="py-1">
@@ -61,22 +61,22 @@
                 </div>
                 <div class="py-1">
                     <a class="text-grey-dark" href="https://prylabs.net">
-                       Ethereum Serenity Public Testnet
+                        {{ 'Footer.Testnet' | translate }}
                     </a>
                 </div>
                 <div class="py-1">
                     <a class="text-grey-dark" href="https://github.com/prysmaticlabs/ethereumapis">
-                        Ethereum Serenity APIs
+                        {{ 'Footer.Apis' | translate }}
                     </a>
                 </div>
             </div>
             <div class="w-full is-hidden-touch md:w-1/4">
-                <p class="my-4">Stay Up to Date</p>
-                <p class="mb-4 text-grey-dark">Chat with our team and be the first to find out about latest updates to our work on Ethereum</p>
+                <p class="my-4">{{ 'Footer.StayUpToDate' | translate }}</p>
+                <p class="mb-4 text-grey-dark">{{ 'Footer.Chat' | translate }}</p>
                 <div class="mt-3 pt-3">
                     <a class="discord-button bg-discord shadow-md px-10 py-3 w-full" href="https://discord.gg/YMVYzv6">
                       <span class="text-white">
-                        <fa-icon [icon]="faDiscord"></fa-icon> Join Our Discord
+                        <fa-icon [icon]="faDiscord"></fa-icon> {{ 'Footer.JoinDiscord' | translate }}
                       </span>
                     </a>
                 </div>
@@ -85,7 +85,7 @@
     </div>
     <div class="bg-pitch-black text-sm">
         <div class="px-12 py-4 container text-grey-darker">
-            © 2019 Prysmatic Labs — Donate Today <a href="https://etherscan.io/address/prysmatic.eth">@prysmatic.eth</a> — All Rights Reserved — Some Icons Made by <a href="https://www.flaticon.com/authors/flat-icons" target="_blank">Flat Icons</a> from <a href="https://www.flaticon.com/" target="_blank">flaticon.com</a>
+            {{ 'Footer.Copyright1' | translate }}<a href="https://etherscan.io/address/prysmatic.eth">@prysmatic.eth</a>{{ 'Footer.Copyright2' | translate }}<a href="https://www.flaticon.com/authors/flat-icons" target="_blank">Flat Icons</a>{{ 'Footer.Copyright3' | translate }}<a href="https://www.flaticon.com/" target="_blank">flaticon.com</a>
         </div>
     </div>
 </footer>

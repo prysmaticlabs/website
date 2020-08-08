@@ -6,9 +6,8 @@
         <span class="font-bold p-2">Prysmatic Labs</span>
       </div>
 
-
-      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" (click)="toggleMenu()"
-         [ngClass]="menuStatus ? 'is-active':''">
+      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false"
+        (click)="toggleMenu()" [ngClass]="menuStatus ? 'is-active':''">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -17,16 +16,16 @@
     <div class="navbar-menu" id="navMenu" [ngClass]="menuStatus ? 'is-active':''">
       <div class="navbar-start">
         <a class="navbar-item" href="#projects">
-          Projects
+          {{ 'Header.Projects' | translate }}
         </a>
         <a class="navbar-item" href="#team">
-          Team
+          {{ 'Header.Team' | translate }}
         </a>
         <a class="navbar-item" href="#news">
-          News
+          {{ 'Header.News' | translate }}
         </a>
         <a *ngIf="showCareers()" class="navbar-item" routerLink="/careers">
-          Careers
+          {{ 'Header.Careers' | translate }}
         </a>
         <a class="navbar-item" href="https://github.com/prysmaticlabs/prysm" target="_blank">
           Github
@@ -36,9 +35,10 @@
         </a>
       </div>
       <div class="navbar-end">
-        <a class="bg-discord shadow-md is-hidden-touch discord-button bg-discord px-5 py-3" href="https://discord.gg/YMVYzv6">
+        <a class="bg-discord shadow-md is-hidden-touch discord-button bg-discord px-5 py-3"
+          href="https://discord.gg/YMVYzv6">
           <span class="text-white">
-            <fa-icon [icon]="faDiscord"></fa-icon> Join Our Discord
+            <fa-icon [icon]="faDiscord"></fa-icon> {{ 'Header.JoinDiscord' | translate }}
           </span>
         </a>
       </div>

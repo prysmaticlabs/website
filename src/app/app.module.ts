@@ -11,6 +11,13 @@ import { NewsItemComponent } from './pages/home/news-item.component';
 import { PodcastItemComponent } from './pages/home/podcast-item.component';
 import { VideoItemComponent } from './pages/home/video-item.component';
 import { CanActivateCareers } from './pages/careers/prysmatic-careers.page.component';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 @NgModule({
   declarations: [
@@ -26,7 +33,16 @@ import { CanActivateCareers } from './pages/careers/prysmatic-careers.page.compo
   imports: [
     BrowserModule,
     ExternalsModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    HttpClientModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'en',
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [CanActivateCareers],
   bootstrap: [AppComponent]
