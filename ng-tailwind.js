@@ -10,6 +10,5 @@ module.exports = {
   rejected: false,
   whitelist: [],
   whitelistPatterns: [],
-  whitelistPatternsChildren: [],
-  sass: 'dart-sass'
+  whitelistPatternsChildren: []
 }
