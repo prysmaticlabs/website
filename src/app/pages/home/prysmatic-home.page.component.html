@@ -7,9 +7,7 @@
                         <h1 class="title text-white is-size-1">
                             {{ 'Home.Prysmatic.Title' | translate }}
                         </h1>
-                        <h2 class="subtitle text-grey pt-2 text-2xl">
-                            {{ 'Home.Prysmatic.Subtitle1' | translate }}<b class="text-primary">Ethereum</b>{{ 'Home.Prysmatic.Subtitle2' | translate }}
-                        </h2>
+                        <h2 class="subtitle text-grey pt-2 text-2xl" [innerHTML]="'Home.Prysmatic.Subtitle' | translate"></h2>
                         <div class="level">
                             <a class="button is-primary is-medium text-grey-darkest" href="#projects">{{ 'Home.Prysmatic.SeeOurWork' | translate }}</a>
                         </div>
@@ -42,9 +40,7 @@
                <div class="font-mini-heading font-bold pt-4">
                 {{ 'Home.OurExpertise.Projects' | translate }}
                </div>
-               <div class="py-4 px-8">
-                {{ 'Home.OurExpertise.PrysmProject1' | translate }}<a class="text-primary" href="https://cryptocurrencyfacts.com/ethereum-2-0-explained/" target="_blank">Prysm</a>{{ 'Home.OurExpertise.PrysmProject2' | translate }}<a class="text-primary" href="https://blog.sfox.com/ethereum-2-0-what-the-next-three-years-of-ethereum-will-look-like-b366a46f9704">Ethereum Serenity</a>{{ 'Home.OurExpertise.PrysmProject3' | translate }}
-               </div>
+               <div class="py-4 px-8" [innerHTML]="'Home.OurExpertise.PrysmProject' | translate"></div>
            </div>
             <div class="w-full md:w-1/3 pt-4">
                 <div class="text-center smart-contract">
@@ -64,9 +60,7 @@
                 <div class="font-mini-heading font-bold pt-4">
                     {{ 'Home.OurExpertise.OpenSource' | translate }}
                 </div>
-                <div class="py-4 px-6">
-                    {{ 'Home.OurExpertise.AccessOurWork1' | translate }}<a class="text-primary" href="https://github.com/prysmaticlabs">{{ 'Home.OurExpertise.AccessOurWork2' | translate }}</a>{{ 'Home.OurExpertise.AccessOurWork3' | translate }}
-                </div>
+                <div class="py-4 px-6" [innerHTML]="'Home.OurExpertise.AccessOurWork' | translate"></div>
             </div>
         </div>
     </div>
@@ -113,9 +107,7 @@
             {{ 'Home.OurWork.Title' | translate }}
         </h1>
         <div class="flex justify-center pt-2 pb-4">
-            <div class=" md:w-1/2">
-                {{ 'Home.OurWork.Ethereum1' | translate }}<a class="text-primary font-bold" target="_blank" href="https://ethereum.org">Ethereum</a>{{ 'Home.OurWork.Ethereum2' | translate }}<b>{{ 'Home.OurWork.Ethereum3' | translate }}</b>{{ 'Home.OurWork.Ethereum4' | translate }}
-            </div>
+            <div class=" md:w-1/2" [innerHTML]="'Home.OurWork.Ethereum' | translate"></div>
         </div>
         <div class="flex flex-wrap">
             <div class="w-full">
@@ -130,9 +122,7 @@
                             <a href="https://github.com/prysmaticlabs/prysm" class="text-grey-darkest">Prysm</a>
                         </h2>
                         <h4 class="card-subtitle text-grey-darkest text-sm">{{ 'Home.OurWork.GoClient' | translate }}</h4>
-                        <p class="py-4">
-                            {{ 'Home.OurWork.PrysmDescription1' | translate }}<a class="text-primary" href="https://github.com/prysmaticlabs/prysm">Prysm</a>{{ 'Home.OurWork.PrysmDescription2' | translate }}<a href="https://github.com/ethereum/eth2.0-specs" target="_blank" class="text-primary">{{ 'Home.OurWork.PrysmDescription3' | translate }}</a>{{ 'Home.OurWork.PrysmDescription4' | translate }}<a href="https://grpc.io/" class="text-primary">{{ 'Home.OurWork.PrysmDescription5' | translate }}</a>{{ 'Home.OurWork.PrysmDescription6' | translate }}<a href="https://libp2p.io/" class="text-primary">libp2p</a>{{ 'Home.OurWork.PrysmDescription7' | translate }}
-                        </p>
+                        <p class="py-4" [innerHTML]="'Home.OurWork.PrysmDescription' | translate"></p>
                         <div>
                             <a class="button is-primary is-narrow shadow" target="_blank" href="https://docs.prylabs.network">{{ 'Home.OurWork.ReadTheDocs' | translate }}</a>
                             <iframe class="github-widget is-hidden-touch" src="https://ghbtns.com/github-btn.html?user=prysmaticlabs&repo=prysm&type=star&count=true&size=large"
@@ -194,14 +184,10 @@
 <section id="team" class="section team">
     <div class="container p-6">
         <div class="has-text-centered">
-            <h1 class="title">
-                {{ 'Home.WhoWeAre.Title1' | translate }}<span class="text-primary">{{ 'Home.WhoWeAre.Title2' | translate }}</span>{{ 'Home.WhoWeAre.Title3' | translate }}
-            </h1>
+            <h1 class="title" [innerHTML]="'Home.WhoWeAre.Title' | translate"></h1>
             <img src="./assets/stripes.svg"/>
             <div class="flex justify-center pt-6 py-6">
-                <div class=" md:w-1/2">
-                    {{ 'Home.WhoWeAre.Description1' | translate }}<b>{{ 'Home.WhoWeAre.Description2' | translate }}</b>{{ 'Home.WhoWeAre.Description3' | translate }}<b>{{ 'Home.WhoWeAre.Description4' | translate }}</b>{{ 'Home.WhoWeAre.Description5' | translate }}<b>{{ 'Home.WhoWeAre.Description6' | translate }}</b>{{ 'Home.WhoWeAre.Description7' | translate }}
-                </div>
+                <div class=" md:w-1/2" [innerHTML]="'Home.WhoWeAre.Description' | translate"></div>
             </div>
         </div>
         <div class="flex flex-wrap">
@@ -218,9 +204,7 @@
             <img src="./assets/icon.svg"/>
         </div>
         <div class="flex justify-center">
-            <div class=" md:w-1/2 text-grey-light">
-                {{ 'Home.JoinTestnet.Description1' | translate }}<a href="https://cryptocurrencyfacts.com/ethereum-2-0-explained/" target="_blank" class="font-bold text-primary">Ethereum Serenity</a>{{ 'Home.JoinTestnet.Description2' | translate }}<a href="https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ" target="_blank" class="font-bold text-primary">Proof-of-Stake</a>{{ 'Home.JoinTestnet.Description3' | translate }}
-            </div>
+            <div class=" md:w-1/2 text-grey-light" [innerHTML]="'Home.JoinTestnet.Description' | translate"></div>
         </div>
         <div class="flex justify-center mt-6">
             <div class=" md:w-1/2">
@@ -237,9 +221,7 @@
             {{ 'Home.Sponsors.Title' | translate }}
         </h1>
         <div class="flex justify-center">
-            <div class=" md:w-1/2">
-                {{ 'Home.Sponsors.Description1' | translate }}<b>{{ 'Home.Sponsors.Description2' | translate }}</b>{{ 'Home.Sponsors.Description3' | translate }}
-            </div>
+            <div class=" md:w-1/2" [innerHTML]="'Home.Sponsors.Description' | translate"></div>
         </div>
         <div class="flex flex-wrap justify-center pt-6 pb-3">
             <div class="text-center md:w-1/4 w-full my-6">
@@ -268,9 +250,7 @@
                         <img class="sponsor-image" src="./assets/sponsors/ECF.svg" alt="Ethereum Community Fund"/>
                     </a>
                 </div>
-                <div class="mt-2 font-bold">
-                    {{ 'Home.Sponsors.EthereumCommunityFund1' | translate }}<br/>{{ 'Home.Sponsors.EthereumCommunityFund2' | translate }}
-                </div>
+                <div class="mt-2 font-bold" [innerHTML]="'Home.Sponsors.EthereumCommunityFund' | translate"></div>
             </div>
             <div class="text-center md:w-1/4 w-full my-6">
                 <div>
@@ -332,9 +312,7 @@
             <p class="text-2xl">{{ 'Home.Donate.Title' | translate }} 💰</p>
         </div>
         <div class="flex justify-center mt-4">
-            <div class=" md:w-1/2 text-grey-light">
-                {{ 'Home.Donate.Description1' | translate }}<a href="https://etherscan.io/address/prysmatic.eth" target="_blank" class="text-primary font-bold">prysmatic.eth</a>{{ 'Home.Donate.Description2' | translate }}<a class="text-primary font-bold" href="https://etherscan.io/address/0x9B984D5a03980D8dc0a24506c968465424c81DbE">0x9B984D5a03980D8dc0a24506c968465424c81DbE</a>{{ 'Home.Donate.Description3' | translate }}
-            </div>
+            <div class=" md:w-1/2 text-grey-light" [innerHTML]="'Home.Donate.Description' | translate"></div>
         </div>
         <div class="flex justify-center mt-6">
             <div class=" md:w-1/5">
@@ -348,7 +326,7 @@
 
 <section id="news" class="section">
     <div class="container">
-        <h1 class="title">{{ 'Home.News.Title1' | translate }}<span class="text-primary">{{ 'Home.News.Title2' | translate }}</span>{{ 'Home.News.Title3' | translate }}</h1>
+        <h1 class="title" [innerHTML]="'Home.News.Title' | translate"></h1>
         <div class="flex flex-wrap pt-6">
             <div class="lg:w-1/2">
                 <div class="bg-white shadow-lg">

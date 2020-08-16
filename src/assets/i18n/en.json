@@ -23,17 +23,14 @@
         "StayUpToDate": "Stay Up to Date",
         "Chat": "Chat with our team and be the first to find out about latest updates to our work on Ethereum",
         "JoinDiscord": "Join Our Discord",
-        "Copyright1": "© 2019 Prysmatic Labs — Donate Today ",
-        "Copyright2": " — All Rights Reserved — Some Icons Made by ",
-        "Copyright3": " from "
+        "Copyright": "© 2019 Prysmatic Labs — Donate Today <a href=\"https://etherscan.io/address/prysmatic.eth\">@prysmatic.eth</a> — All Rights Reserved — Some Icons Made by <a href=\"https://www.flaticon.com/authors/flat-icons\" target=\"_blank\">Flat Icons</a> from <a href=\"https://www.flaticon.com/\" target=\"_blank\">flaticon.com</a>"
     },
     "Home":
     {
         "Prysmatic":
         {
             "Title": "We’re building a more fair, open, and censorship-resistant Internet",
-            "Subtitle1": "We are a passionate team of software engineers all around the world building the code behind the ",
-            "Subtitle2": " blockchain",
+            "Subtitle": "We are a passionate team of software engineers all around the world building the code behind the <b class=\"text-primary\">Ethereum</b> blockchain",
             "SeeOurWork": "See Our Work"
         },
         "OurExpertise":
@@ -41,15 +38,11 @@
             "Title": "Our Expertise",
             "Mission": "Prysmatic Labs currently builds technical infrastructure for the Ethereum blockchain. Our mission is to increase adoption through better tooling for users and developers of the Ethereum ecosystem through our expertise.",
             "Projects": "Projects at the Cutting-Edge",
-            "PrysmProject1": "Our flagship project, ",
-            "PrysmProject2": ", is a production client for ",
-            "PrysmProject3": " anyone can freely use to participate in consensus of the blockchain.",
+            "PrysmProject": "Our flagship project, <a class=\"text-primary\" href=\"https://cryptocurrencyfacts.com/ethereum-2-0-explained/\" target=\"_blank\">Prysm</a>, is a production client for <a class=\"text-primary\" href=\"https://blog.sfox.com/ethereum-2-0-what-the-next-three-years-of-ethereum-will-look-like-b366a46f9704\">Ethereum Serenity</a> anyone can freely use to participate in consensus of the blockchain.",
             "BestTechnology": "Best In-Class Technology",
             "IndustryStandards": "We believe industry standards are a must for creating robust code. We build our technologies with the best-in-class tooling and design in mind.",
             "OpenSource": "Embracing Open Source",
-            "AccessOurWork1": "Our work is free, ",
-            "AccessOurWork2": "open source",
-            "AccessOurWork3": ", and accessible everywhere. We believe in empowering developers to build a more fair and transparent Internet."
+            "AccessOurWork": "Our work is free, <a class=\"text-primary\" href=\"https://github.com/prysmaticlabs\">open source</a>, and accessible everywhere. We believe in empowering developers to build a more fair and transparent Internet."
         },
         "WhyEthereum":
         {
@@ -64,18 +57,9 @@
         "OurWork":
         {
             "Title": "Our Work",
-            "Ethereum1": "Our work on the ",
-            "Ethereum2": " blockchain focuses on ",
-            "Ethereum3": "usability, security, and reliability",
-            "Ethereum4": " as key pillars backed by extensive testing and carefully designed code.",
+            "Ethereum": "Our work on the <a class=\"text-primary font-bold\" target=\"_blank\" href=\"https://ethereum.org\">Ethereum</a> blockchain focuses on <b>usability, security, and reliability</b> as key pillars backed by extensive testing and carefully  designed code.",
             "GoClient": "A full-featured client for the Ethereum Serenity protocol, written in Go",
-            "PrysmDescription1": "The ",
-            "PrysmDescription2": " project is a Go implementation of Ethereum Serenity protocol as detailed by its ",
-            "PrysmDescription3": "official specification",
-            "PrysmDescription4": ". It contains a full beacon node implementation as well as a validator client for participating in blockchain consensus. Prysm utilizes the best-in-class tools for production servers and interprocess communication, using Google's ",
-            "PrysmDescription5": "gRPC library",
-            "PrysmDescription6": ", BoltDB as an optimized, persistent, key-value store, and ",
-            "PrysmDescription7": " by Protocol Labs for all peer-to-peer networking.",
+            "PrysmDescription": "The <a class=\"text-primary\" href=\"https://github.com/prysmaticlabs/prysm\">Prysm</a> project is a Go implementation of Ethereum Serenity protocol as detailed by its <a href=\"https://github.com/ethereum/eth2.0-specs\" target=\"_blank\" class=\"text-primary\">official specification</a>. It contains a full beacon node implementation as well as a validator client for participating in blockchain consensus. Prysm utilizes the best-in-class tools for production servers and interprocess communication, using Google's <a href=\"https://grpc.io/\" class=\"text-primary\">gRPC library</a>, BoltDB as an optimized, persistent, key-value store, and <a href=\"https://libp2p.io/\" class=\"text-primary\">libp2p</a> by Protocol Labs for all peer-to-peer networking.",
             "ReadTheDocs": "Read the Docs",
             "PublicTestnetTitle": "The Medalla Eth2 Public Testnet",
             "PublicTestnetSubtitle": "A public test network for Ethereum Serenity",
@@ -91,48 +75,31 @@
         },
         "WhoWeAre":
         {
-            "Title1": "Who ",
-            "Title2": "We",
-            "Title3": " Are",
-            "Description1": "We are a team of individuals with a ",
-            "Description2": "deep understanding",
-            "Description3": " of blockchain technology. With diverse backgrounds ranging from ",
-            "Description4": "distributed systems",
-            "Description5": " to cloud computing, we emphasize a ",
-            "Description6": "test-driven approach",
-            "Description7": " towards implementing the future of Ethereum."
+            "Title": "Who <span class=\"text-primary\">We</span> Are",
+            "Description": "We are a team of individuals with a <b>deep understanding</b> of blockchain technology. With diverse backgrounds ranging from <b>distributed systems</b> to cloud computing, we emphasize a <b>test-driven approach</b> towards implementing the future of Ethereum."
         },
         "JoinTestnet":
         {
             "Title": "Join Our Public Ethereum Proof-of-Stake Testnet",
-            "Description1": "Participate as a validator in our public ",
-            "Description2": " test network today - sync with a full ",
-            "Description3": " Ethereum blockchain today and help us improve our work on the cutting-edge.",
+            "Description": "Participate as a validator in our public <a href=\"https://cryptocurrencyfacts.com/ethereum-2-0-explained/\" target=\"_blank\" class=\"font-bold text-primary\">Ethereum Serenity</a> test network today - sync with a full <a href=\"https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ\" target=\"_blank\" class=\"font-bold text-primary\">Proof-of-Stake</a> Ethereum blockchain today and help us improve our work on the cutting-edge.",
             "ParticipateToday": "Participate Today"
         },
         "Sponsors":
         {
             "Title": "Sponsors & Grants",
-            "Description1": "Prysmatic Labs has received over ",
-            "Description2": "$1.5MM USD",
-            "Description3": " from the following list of donors for which we are eternally grateful",
+            "Description": "Prysmatic Labs has received over <b>$1.5MM USD</b> from the following list of donors for which we are eternally grateful",
             "EthereumFoundation": "Ethereum Foundation",
-            "EthereumCommunityFund1": "Ethereum Community ",
-            "EthereumCommunityFund2": "Fund"
+            "EthereumCommunityFund": "Ethereum Community <br/>Fund"
         },
         "Donate":
         {
             "Title": "Support Our Work",
-            "Description1": "The reason we're around today is due to incredible donations from the community to support development for the future of Ethereum. You can donate ETH or any tokens to our official ENS address ",
-            "Description2": " or directly to ",
-            "Description3": ".",
+            "Description": "The reason we're around today is due to incredible donations from the community to support development for the future of Ethereum. You can donate ETH or any tokens to our official ENS address <a href=\"https://etherscan.io/address/prysmatic.eth\" target=\"_blank\" class=\"text-primary font-bold\">prysmatic.eth</a> or directly to <a class=\"text-primary font-bold\" href=\"https://etherscan.io/address/0x9B984D5a03980D8dc0a24506c968465424c81DbE\">0x9B984D5a03980D8dc0a24506c968465424c81DbE</a>.",
             "DonateToday": "Donate Today"
         },
         "News":
         {
-            "Title1": "News ",
-            "Title2": "&",
-            "Title3": " Media",
+            "Title": "News <span class=\"text-primary\">&</span> Media",
             "FeaturedPodcasts": "Featured Podcasts",
             "FeaturedVideos": "Featured Videos"
         }

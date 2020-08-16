@@ -84,8 +84,6 @@
         </div>
     </div>
     <div class="bg-pitch-black text-sm">
-        <div class="px-12 py-4 container text-grey-darker">
-            {{ 'Footer.Copyright1' | translate }}<a href="https://etherscan.io/address/prysmatic.eth">@prysmatic.eth</a>{{ 'Footer.Copyright2' | translate }}<a href="https://www.flaticon.com/authors/flat-icons" target="_blank">Flat Icons</a>{{ 'Footer.Copyright3' | translate }}<a href="https://www.flaticon.com/" target="_blank">flaticon.com</a>
-        </div>
+        <div class="px-12 py-4 container text-grey-darker" [innerHTML]="'Footer.Copyright' | translate"></div>
     </div>
 </footer>
