@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { faEthereum, faMedium,faGitter, faTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faEthereum, faMedium, faGitter, faTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import { faComments } from '@fortawesome/free-regular-svg-icons';
-import { faCode } from '@fortawesome/free-solid-svg-icons'
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { TranslateService } from '@ngx-translate/core';
 @Component({
     selector: 'prysmatic-home-page',
     templateUrl: './prysmatic-home.page.component.html',
@@ -83,50 +84,50 @@ export class PrysmaticHomePageComponent {
 
     news = [
         {
-          title: 'Ethereum Foundation Grants $750,000 to Prysmatic Labs for Work on Ethereum Serenity',
-          photo: 'ethgrant.png',
-          url: 'https://blog.ethereum.org/2019/08/26/announcing-ethereum-foundation-and-co-funded-grants/',
-          caption: 'We are today unveiling over $2M USD in Foundation-led and co-funded grant funding aimed at furthering Serenity (Eth2.0)...',
+            title: 'Home.News.Items.EthereumFoundationGrant.Title',
+            photo: 'ethgrant.png',
+            url: 'https://blog.ethereum.org/2019/08/26/announcing-ethereum-foundation-and-co-funded-grants/',
+            caption: 'Home.News.Items.EthereumFoundationGrant.Caption',
         },
         {
-            title: 'Casper proof-of-stake Ethereum live on the Prysm testnet',
+            title: 'Home.News.Items.Casper.Title',
             photo: 'ethbright.png',
             url: 'https://cryptoslate.com/casper-proof-of-stake-ethereum-live-on-the-prysm-testnet/',
-            caption: 'The next version of Ethereum, which uses Casper proof-of-stake, is live on the Prysm testnet...',
+            caption: 'Home.News.Items.Casper.Caption',
         },
         {
-            title: 'Ethereum Gets Second ETH 2.0 Testnet Courtesy of Prysmatic Labs',
+            title: 'Home.News.Items.TestnetCourtesy.Title',
             photo: 'blockonomi.png',
             url: 'https://blockonomi.com/ethereum-eth-2-0-testnet/',
-            caption: 'Prysmatic Labs, the team developing the “Prysm” Ethereum sharding client, have released a testnet...',
+            caption: 'Home.News.Items.TestnetCourtesy.Caption',
         },
         {
-            title: 'Prysmatic Labs Awarded $500,000 from the Ethereum Foundation Wave IV Grants',
+            title: 'Home.News.Items.WaveIVGrant.Title',
             photo: 'ethanalysis.png',
             url: 'https://blog.ethereum.org/2018/10/15/ethereum-foundation-grants-update-wave-4/',
-            caption: 'As we go full steam ahead to Devcon 4, we’re back to announce Wave 4 of the Grants Program...',
+            caption: 'Home.News.Items.WaveIVGrant.Caption',
         },
     ];
 
     podcasts = [
         {
-            host: 'Software Engineering Daily',
-            title: 'Scaling Ethereum with Raul Jordan and Preston Van Loon',
+            host: 'Home.Podcasts.Items.SoftwareEngineeringDaily.Host',
+            title: 'Home.Podcasts.Items.SoftwareEngineeringDaily.Title',
             url: 'https://softwareengineeringdaily.com/2018/06/01/scaling-ethereum-with-raul-jordan-and-preston-van-loon/',
         },
         {
-            host: 'Into the Ether',
-            title: 'Ethereum 2.0 with Prysmatic Labs: Scaling, Sharding, Proof of Stake, Serenity Phases, and Eth 2.0 Client',
+            host: 'Home.Podcasts.Items.IntoTheEther.Host',
+            title: 'Home.Podcasts.Items.IntoTheEther.Title',
             url: 'https://podcasts.apple.com/au/podcast/ethereum-2-0-prysmatic-labs-scaling-sharding-proof/id1443920565?i=1000425654959',
         },
         {
-            host: 'Zero Knowledge Podcast',
-            title: 'Sharding Update With Prysmatic Labs',
+            host: 'Home.Podcasts.Items.ZeroKnowledgePodcast.Host',
+            title: 'Home.Podcasts.Items.ZeroKnowledgePodcast.Title',
             url: 'https://www.zeroknowledge.fm/37',
         },
         {
-            host: 'Off the Chain',
-            title: 'Preston Van Loon, Co-Founder of Prysmatic Labs: The Plan to Scale Ethereum',
+            host: 'Home.Podcasts.Items.OffTheChain.Host',
+            title: 'Home.Podcasts.Items.OffTheChain.Title',
             url: 'https://podtail.com/en/podcast/off-the-chain/preston-van-loon-co-founder-of-prysmatic-labs-the-/',
         }
     ];
@@ -134,20 +135,36 @@ export class PrysmaticHomePageComponent {
     videos = [
         {
             url: 'https://www.youtube.com/embed/ep2R0e_Cc5w',
-            title: 'What is Ethereum 2.0? - Preston Van Loon',
+            title: 'Home.Videos.Items.WhatIsEthereum.Title',
         },
         {
             url: 'https://www.youtube.com/embed/91ZAFIoha2w',
-            title: 'Implementing Ethereum 2.0 Today',
+            title: 'Home.Videos.Items.ImplementingEthereum.Title',
         },
         {
             url: 'https://www.youtube.com/embed/EWEGBq165ME',
-            title: 'Building a Production Ethereum 2.0 Client'
+            title: 'Home.Videos.Items.BuildingAClient.Title'
         },
     ];
 
-    constructor() {
+    constructor(translate: TranslateService) {
+        let keys = this.news.map(x => x.title)
+            .concat(
+                this.news.map(x => x.caption),
+                this.podcasts.map(x => x.host),
+                this.podcasts.map(x => x.title),
+                this.videos.map(x => x.title));
 
+        translate.get(keys).subscribe((translations: Object) => {
+            this.news.forEach(x => {
+                x.title = translations[x.title];
+                x.caption = translations[x.caption];
+            })
+            this.podcasts.forEach(x => {
+                x.host = translations[x.host];
+                x.title = translations[x.title];
+            })
+            this.videos.forEach(x => x.title = translations[x.title]);
+        })
     }
-
 }

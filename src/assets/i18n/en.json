@@ -57,13 +57,13 @@
         "OurWork":
         {
             "Title": "Our Work",
-            "Ethereum": "Our work on the <a class=\"text-primary font-bold\" target=\"_blank\" href=\"https://ethereum.org\">Ethereum</a> blockchain focuses on <b>usability, security, and reliability</b> as key pillars backed by extensive testing and carefully  designed code.",
+            "Ethereum": "Our work on the <a class=\"text-primary font-bold\" target=\"_blank\" href=\"https://ethereum.org\">Ethereum</a> blockchain focuses on <b>usability, security, and reliability</b> as key pillars backed by extensive testing and carefully designed code.",
             "GoClient": "A full-featured client for the Ethereum Serenity protocol, written in Go",
             "PrysmDescription": "The <a class=\"text-primary\" href=\"https://github.com/prysmaticlabs/prysm\">Prysm</a> project is a Go implementation of Ethereum Serenity protocol as detailed by its <a href=\"https://github.com/ethereum/eth2.0-specs\" target=\"_blank\" class=\"text-primary\">official specification</a>. It contains a full beacon node implementation as well as a validator client for participating in blockchain consensus. Prysm utilizes the best-in-class tools for production servers and interprocess communication, using Google's <a href=\"https://grpc.io/\" class=\"text-primary\">gRPC library</a>, BoltDB as an optimized, persistent, key-value store, and <a href=\"https://libp2p.io/\" class=\"text-primary\">libp2p</a> by Protocol Labs for all peer-to-peer networking.",
             "ReadTheDocs": "Read the Docs",
             "PublicTestnetTitle": "The Medalla Eth2 Public Testnet",
             "PublicTestnetSubtitle": "A public test network for Ethereum Serenity",
-            "PublicTestnetDescription": "Launched in August 2020, the Medalla Test Network is a publicly accessible, mainnet scale network running multiple client implementations participating in Ethereum 2.0 consensus including ",
+            "PublicTestnetDescription": "Launched in August 2020, the Medalla Test Network is a publicly accessible, mainnet scale network running multiple client implementations participating in Ethereum 2.0 consensus including <a class=\"text-primary\" href=\"https://blockgeeks.com/guides/ethereum-casper/\" target=\"_blank\">Casper Proof of Stake</a>.",
             "PublicTestnetParticipation": "Anyone across the world can sync with the network, stake 32 test ETH, and participate in the protocol's consensus.",
             "JoinPublicTestnet": "Join the Network",
             "SerenityApisTitle": "Ethereum Serenity APIs",
@@ -101,15 +101,76 @@
         {
             "Title": "News <span class=\"text-primary\">&</span> Media",
             "FeaturedPodcasts": "Featured Podcasts",
-            "FeaturedVideos": "Featured Videos"
+            "FeaturedVideos": "Featured Videos",
+            "ReadStory": "Read Story",
+            "Items": 
+            {
+                "EthereumFoundationGrant": 
+                {
+                    "Title": "Ethereum Foundation Grants $750,000 to Prysmatic Labs for Work on Ethereum Serenity",
+                    "Caption": "We are today unveiling over $2M USD in Foundation-led and co-funded grant funding aimed at furthering Serenity (Eth2.0)..."
+                },
+                "Casper":
+                {
+                    "Title": "Casper proof-of-stake Ethereum live on the Prysm testnet",
+                    "Caption": "The next version of Ethereum, which uses Casper proof-of-stake, is live on the Prysm testnet..."
+                },
+                "TestnetCourtesy":
+                {
+                    "Title": "Ethereum Gets Second ETH 2.0 Testnet Courtesy of Prysmatic Labs",
+                    "Caption": "Prysmatic Labs, the team developing the “Prysm” Ethereum sharding client, have released a testnet..."
+                },
+                "WaveIVGrant":
+                {
+                    "Title": "Prysmatic Labs Awarded $500,000 from the Ethereum Foundation Wave IV Grants",
+                    "Caption": "As we go full steam ahead to Devcon 4, we’re back to announce Wave 4 of the Grants Program..."
+                }
+            }
+        },
+        "Podcasts":
+        {
+            "ViewEpisode": "View Episode",
+            "Items":
+            {
+                "SoftwareEngineeringDaily":
+                {
+                    "Host": "Software Engineering Daily",
+                    "Title": "Scaling Ethereum with Raul Jordan and Preston Van Loon"
+                },
+                "IntoTheEther":
+                {
+                    "Host": "Into the Ether",
+                    "Title": "Ethereum 2.0 with Prysmatic Labs: Scaling, Sharding, Proof of Stake, Serenity Phases, and Eth 2.0 Client"
+                },
+                "ZeroKnowledgePodcast":
+                {
+                    "Host": "Zero Knowledge Podcast",
+                    "Title": "Sharding Update With Prysmatic Labs"
+                },
+                "OffTheChain":
+                {
+                    "Host": "Off the Chain",
+                    "Title": "Preston Van Loon, Co-Founder of Prysmatic Labs: The Plan to Scale Ethereum"
+                }
+            }
+        },
+        "Videos":
+        {
+            "Items":
+            {
+                "WhatIsEthereum":
+                {
+                    "Title": "What is Ethereum 2.0? - Preston Van Loon"
+                },
+                "ImplementingEthereum":
+                {
+                    "Title": "Implementing Ethereum 2.0 Today"
+                },
+                "BuildingAClient":
+                {
+                    "Title": "Building a Production Ethereum 2.0 Client"
+                }
+            }
         }
-    },
-    "NewsItem":
-    {
-        "ReadStory": "Read Story"
-    },
-    "PodcastItem":
-    {
-        "ViewEpisode": "View Episode"
     }
 }

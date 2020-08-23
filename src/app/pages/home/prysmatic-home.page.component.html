@@ -7,15 +7,18 @@
                         <h1 class="title text-white is-size-1">
                             {{ 'Home.Prysmatic.Title' | translate }}
                         </h1>
-                        <h2 class="subtitle text-grey pt-2 text-2xl" [innerHTML]="'Home.Prysmatic.Subtitle' | translate"></h2>
+                        <h2 class="subtitle text-grey pt-2 text-2xl"
+                            [innerHTML]="'Home.Prysmatic.Subtitle' | translate"></h2>
                         <div class="level">
-                            <a class="button is-primary is-medium text-grey-darkest" href="#projects">{{ 'Home.Prysmatic.SeeOurWork' | translate }}</a>
+                            <a class="button is-primary is-medium text-grey-darkest"
+                                href="#projects">{{ 'Home.Prysmatic.SeeOurWork' | translate }}</a>
                         </div>
                     </div>
                 </div>
                 <div class="column has-text-centered">
-                    <img src="./assets/PrysmStripe.png" alt="prysm"/>
-                    <h2 id="prismatic-labs-title" class="prysmatic-labs-title-color title flex justify-center is-hidden-touch" >Prysmatic Labs</h2>
+                    <img src="./assets/PrysmStripe.png" alt="prysm" />
+                    <h2 id="prismatic-labs-title"
+                        class="prysmatic-labs-title-color title flex justify-center is-hidden-touch">Prysmatic Labs</h2>
                 </div>
             </div>
         </div>
@@ -26,25 +29,25 @@
         <h1 class="title lg:pt-6">
             {{ 'Home.OurExpertise.Title' | translate }}
         </h1>
-        <img src="./assets/stripes.svg"/>
+        <img src="./assets/stripes.svg" />
         <div class="flex justify-center pt-6 py-6">
             <div class=" md:w-1/2">
                 {{ 'Home.OurExpertise.Mission' | translate }}
             </div>
         </div>
         <div class="mt-6 flex flex-wrap justify-center">
-           <div class="w-full md:w-1/3 pt-4">
-               <div class="text-center smart-contract">
-                   <img src="./assets/smartcontract.svg"/>
-               </div>
-               <div class="font-mini-heading font-bold pt-4">
-                {{ 'Home.OurExpertise.Projects' | translate }}
-               </div>
-               <div class="py-4 px-8" [innerHTML]="'Home.OurExpertise.PrysmProject' | translate"></div>
-           </div>
             <div class="w-full md:w-1/3 pt-4">
                 <div class="text-center smart-contract">
-                    <img src="./assets/server.svg"/>
+                    <img src="./assets/smartcontract.svg" />
+                </div>
+                <div class="font-mini-heading font-bold pt-4">
+                    {{ 'Home.OurExpertise.Projects' | translate }}
+                </div>
+                <div class="py-4 px-8" [innerHTML]="'Home.OurExpertise.PrysmProject' | translate"></div>
+            </div>
+            <div class="w-full md:w-1/3 pt-4">
+                <div class="text-center smart-contract">
+                    <img src="./assets/server.svg" />
                 </div>
                 <div class="font-mini-heading font-bold pt-4">
                     {{ 'Home.OurExpertise.BestTechnology' | translate }}
@@ -55,7 +58,7 @@
             </div>
             <div class="w-full md:w-1/3 pt-4">
                 <div class="text-center smart-contract">
-                    <img src="./assets/world.svg"/>
+                    <img src="./assets/world.svg" />
                 </div>
                 <div class="font-mini-heading font-bold pt-4">
                     {{ 'Home.OurExpertise.OpenSource' | translate }}
@@ -88,14 +91,15 @@
                     {{ 'Home.WhyEthereum.FinanceShift' | translate }}
                 </div>
                 <div class="mt-6">
-                    <a class="read-more-btn bg-black-light button text-grey-light" href="https://ethereum.org" target="_blank">
+                    <a class="read-more-btn bg-black-light button text-grey-light" href="https://ethereum.org"
+                        target="_blank">
                         {{ 'Home.WhyEthereum.ReadMore' | translate }}
                     </a>
                 </div>
             </div>
             <div class="w-full md:w-1/3 text-center is-hidden-mobile">
                 <div class="cloud-eth pt-10">
-                    <img src="./assets/cloudeth.svg"/>
+                    <img src="./assets/cloudeth.svg" />
                 </div>
             </div>
         </div>
@@ -114,19 +118,22 @@
                 <div class="main-project project-card flex flex-wrap text-left pb-0 ml-6 mb-6 mr-6 mt-8">
                     <div class="w-full lg:w-1/4 pb-0 is-hidden-touch">
                         <div class="main-project-img">
-                            <img src="./assets/drawnbg.png"/>
+                            <img src="./assets/drawnbg.png" />
                         </div>
                     </div>
                     <div class="w-full lg:w-3/4 pt-4 lg:pt-8 px-8 pb-8">
                         <h2 class="card-title text-3xl">
                             <a href="https://github.com/prysmaticlabs/prysm" class="text-grey-darkest">Prysm</a>
                         </h2>
-                        <h4 class="card-subtitle text-grey-darkest text-sm">{{ 'Home.OurWork.GoClient' | translate }}</h4>
+                        <h4 class="card-subtitle text-grey-darkest text-sm">{{ 'Home.OurWork.GoClient' | translate }}
+                        </h4>
                         <p class="py-4" [innerHTML]="'Home.OurWork.PrysmDescription' | translate"></p>
                         <div>
-                            <a class="button is-primary is-narrow shadow" target="_blank" href="https://docs.prylabs.network">{{ 'Home.OurWork.ReadTheDocs' | translate }}</a>
-                            <iframe class="github-widget is-hidden-touch" src="https://ghbtns.com/github-btn.html?user=prysmaticlabs&repo=prysm&type=star&count=true&size=large"
-                                    frameborder="0" scrolling="0"></iframe>
+                            <a class="button is-primary is-narrow shadow" target="_blank"
+                                href="https://docs.prylabs.network">{{ 'Home.OurWork.ReadTheDocs' | translate }}</a>
+                            <iframe class="github-widget is-hidden-touch"
+                                src="https://ghbtns.com/github-btn.html?user=prysmaticlabs&repo=prysm&type=star&count=true&size=large"
+                                frameborder="0" scrolling="0"></iframe>
                         </div>
                     </div>
                 </div>
@@ -135,21 +142,23 @@
                 <div class="project-card small-project flex flex-wrap text-left m-6">
                     <div class="w-full">
                         <div>
-                            <img src="./assets/eth2.svg"/>
+                            <img src="./assets/eth2.svg" />
                         </div>
                     </div>
                     <div class="w-full px-6 pt-4 pb-8">
                         <h2 class="text-2xl">
-                            <a href="https://prylabs.net" class="text-grey-darkest">{{ 'Home.OurWork.PublicTestnetTitle' | translate }}</a>
+                            <a href="https://prylabs.net"
+                                class="text-grey-darkest">{{ 'Home.OurWork.PublicTestnetTitle' | translate }}</a>
                         </h2>
-                        <h4 class="text-grey-darkest text-sm">{{ 'Home.OurWork.PublicTestnetSubtitle' | translate }}</h4>
-                        <p class="py-4">
-                            {{ 'Home.OurWork.PublicTestnetDescription' | translate }}<a class="text-primary" href="https://blockgeeks.com/guides/ethereum-casper/" target="_blank">Casper Proof of Stake</a>.
-                            </p>
-                        <p class="pb-4">{{ 'Home.OurWork.PublicTestnetParticipation' | translate }}
+                        <h4 class="text-grey-darkest text-sm">{{ 'Home.OurWork.PublicTestnetSubtitle' | translate }}
+                        </h4>
+                        <p class="py-4" [innerHTML]="'Home.OurWork.PublicTestnetDescription' | translate"></p>
+                        <p class="pb-4">
+                            {{ 'Home.OurWork.PublicTestnetParticipation' | translate }}
                         </p>
                         <div class="card-buttons">
-                            <a class="button is-primary is-narrow shadow" target="_blank" href="https://medalla.launchpad.ethereum.org/">{{ 'Home.OurWork.JoinPublicTestnet' | translate }}</a>
+                            <a class="button is-primary is-narrow shadow" target="_blank"
+                                href="https://medalla.launchpad.ethereum.org/">{{ 'Home.OurWork.JoinPublicTestnet' | translate }}</a>
                         </div>
                     </div>
                 </div>
@@ -158,22 +167,30 @@
                 <div class="project-card small-project flex flex-wrap text-left m-6">
                     <div class="w-full">
                         <div>
-                            <img src="./assets/ethapis.svg"/>
+                            <img src="./assets/ethapis.svg" />
                         </div>
                     </div>
                     <div class="w-full px-6 pt-4 pb-8">
                         <h2 class="text-2xl">
-                            <a href="https://github.com/prysmaticlabs/ethereumapis" class="text-grey-darkest">{{ 'Home.OurWork.SerenityApisTitle' | translate }}</a>
+                            <a href="https://github.com/prysmaticlabs/ethereumapis"
+                                class="text-grey-darkest">{{ 'Home.OurWork.SerenityApisTitle' | translate }}</a>
                         </h2>
                         <h4 class="text-grey-darkest text-sm">{{ 'Home.OurWork.SerenityApisSubtitle' | translate }}</h4>
                         <p class="py-4">
                             {{ 'Home.OurWork.SerenityApisDescription' | translate }}
-                            </p>
-                        <p class="pb-4">{{ 'Home.OurWork.SerenityApisForClients' | translate }}
+                        </p>
+                        <p class="pb-4">
+                            {{ 'Home.OurWork.SerenityApisForClients' | translate }}
                         </p>
                         <div class="card-buttons">
-                            <a class="button is-primary is-narrow shadow" target="_blank" href="https://api.prylabs.network">{{ 'Home.OurWork.SerenityApisInteract' | translate }}</a>
-                            <a class="is-hidden-touch ml-4 button bg-black-light shadow text-white" target="_blank" href="https://github.com/prysmaticlabs/ethereumapis">{{ 'Home.OurWork.SerenityApisSeeOnGithub' | translate }}</a>
+                            <a class="button is-primary is-narrow shadow" target="_blank"
+                                href="https://api.prylabs.network">
+                                {{ 'Home.OurWork.SerenityApisInteract' | translate }}
+                            </a>
+                            <a class="is-hidden-touch ml-4 button bg-black-light shadow text-white" target="_blank"
+                                href="https://github.com/prysmaticlabs/ethereumapis">
+                                {{ 'Home.OurWork.SerenityApisSeeOnGithub' | translate }}
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -185,23 +202,26 @@
     <div class="container p-6">
         <div class="has-text-centered">
             <h1 class="title" [innerHTML]="'Home.WhoWeAre.Title' | translate"></h1>
-            <img src="./assets/stripes.svg"/>
+            <img src="./assets/stripes.svg" />
             <div class="flex justify-center pt-6 py-6">
                 <div class=" md:w-1/2" [innerHTML]="'Home.WhoWeAre.Description' | translate"></div>
             </div>
         </div>
         <div class="flex flex-wrap">
-            <team-item *ngFor="let item of teammates" [teammate]="item" class="text-left mt-8 md:w-1/2 flex flex-wrap"></team-item>
+            <team-item *ngFor="let item of teammates" [teammate]="item" class="text-left mt-8 md:w-1/2 flex flex-wrap">
+            </team-item>
         </div>
     </div>
 </section>
 <section class="bg-near-pitch-black py-12 px-8">
     <div class="text-center text-white">
         <div>
-            <p class="text-2xl">{{ 'Home.JoinTestnet.Title' | translate }}</p>
+            <p class="text-2xl">
+                {{ 'Home.JoinTestnet.Title' | translate }}
+            </p>
         </div>
         <div class="m-3">
-            <img src="./assets/icon.svg"/>
+            <img src="./assets/icon.svg" />
         </div>
         <div class="flex justify-center">
             <div class=" md:w-1/2 text-grey-light" [innerHTML]="'Home.JoinTestnet.Description' | translate"></div>
@@ -227,7 +247,7 @@
             <div class="text-center md:w-1/4 w-full my-6">
                 <div>
                     <a href="https://www.ethereum.org/foundation" alt="Ethereum" target="_blank">
-                        <img class="sponsor-image" src="./assets/sponsors/Ethereum.svg" alt="Ethereum Foundation"/>
+                        <img class="sponsor-image" src="./assets/sponsors/Ethereum.svg" alt="Ethereum Foundation" />
                     </a>
                 </div>
                 <div class="mt-2 font-bold">
@@ -247,7 +267,7 @@
             <div class="text-center md:w-1/4 w-full my-6">
                 <div>
                     <a href="https://ecf.network" alt="ECF" target="_blank">
-                        <img class="sponsor-image" src="./assets/sponsors/ECF.svg" alt="Ethereum Community Fund"/>
+                        <img class="sponsor-image" src="./assets/sponsors/ECF.svg" alt="Ethereum Community Fund" />
                     </a>
                 </div>
                 <div class="mt-2 font-bold" [innerHTML]="'Home.Sponsors.EthereumCommunityFund' | translate"></div>
@@ -265,7 +285,7 @@
             <div class="text-center md:w-1/4 w-full my-6">
                 <div>
                     <a href="https://spankchain.com" alt="Spank Chain" target="_blank">
-                        <img class="sponsor-image" src="./assets/sponsors/SpankChain.svg" alt="Spank Chain"/>
+                        <img class="sponsor-image" src="./assets/sponsors/SpankChain.svg" alt="Spank Chain" />
                     </a>
                 </div>
                 <div class="mt-2 font-bold">
@@ -275,17 +295,17 @@
             <div class="text-center md:w-1/4 w-full my-6">
                 <div>
                     <a href="https://www.wxblockchain.com/about_en.html" alt="Wanxiang" target="_blank">
-                        <img class="sponsor-image" src="./assets/sponsors/wanxiang.png" alt="Wanxiang"/>
+                        <img class="sponsor-image" src="./assets/sponsors/wanxiang.png" alt="Wanxiang" />
                     </a>
                 </div>
                 <div class="mt-2 font-bold">
-                    Wanxiang Blockchain <br/>Labs
+                    Wanxiang Blockchain <br />Labs
                 </div>
             </div>
             <div class="text-center md:w-1/4 w-full my-6">
                 <div>
                     <a href="https://vitalik.ca" alt="Vitalik Buterin" target="_blank">
-                        <img class="sponsor-image" src="./assets/sponsors/vitalik.png" alt="Vitalik Buterin"/>
+                        <img class="sponsor-image" src="./assets/sponsors/vitalik.png" alt="Vitalik Buterin" />
                     </a>
                 </div>
                 <div class="mt-2 font-bold">
@@ -295,7 +315,7 @@
             <div class="text-center md:w-1/4 w-full my-6">
                 <div>
                     <a href="https://gitcoin.co" alt="Gitcoin" target="_blank">
-                        <img class="sponsor-image" src="./assets/sponsors/gitcoin.png" alt="Gitcoin"/>
+                        <img class="sponsor-image" src="./assets/sponsors/gitcoin.png" alt="Gitcoin" />
                     </a>
                 </div>
                 <div class="mt-2 font-bold">
@@ -309,14 +329,17 @@
 <section id="donate" class="bg-near-pitch-black py-12 px-8">
     <div class="text-center text-white">
         <div>
-            <p class="text-2xl">{{ 'Home.Donate.Title' | translate }} 💰</p>
+            <p class="text-2xl">
+                {{ 'Home.Donate.Title' | translate }} 💰
+            </p>
         </div>
         <div class="flex justify-center mt-4">
             <div class=" md:w-1/2 text-grey-light" [innerHTML]="'Home.Donate.Description' | translate"></div>
         </div>
         <div class="flex justify-center mt-6">
             <div class=" md:w-1/5">
-                <a class="read-more-btn bg-primary button text-white" href="https://etherscan.io/address/prysmatic.eth" target="_blank">
+                <a class="read-more-btn bg-primary button text-white" href="https://etherscan.io/address/prysmatic.eth"
+                    target="_blank">
                     {{ 'Home.Donate.DonateToday' | translate }}
                 </a>
             </div>
