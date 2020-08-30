@@ -1,0 +1,176 @@
+{
+    "Header": 
+    {
+        "Projects": "Projekty",
+        "Team": "Zespół",
+        "News": "Wiadomości",
+        "Careers": "Careers",
+        "JoinDiscord": "Join Our Discord"
+    },
+    "Footer": 
+    {
+        "Company": "Company",
+        "Careers": "Careers",
+        "Media": "Media",
+        "Bounties": "Bounties",
+        "Donate": "Donate",
+        "ContactUs": "Contact Us",
+        "Community": "Community",
+        "CodeAndProjects": "Code & Projects",
+        "OfficialGithub": "Official Github",
+        "Testnet": "Ethereum Serenity Public Testnet",
+        "Apis": "Ethereum Serenity APIs",
+        "StayUpToDate": "Stay Up to Date",
+        "Chat": "Chat with our team and be the first to find out about latest updates to our work on Ethereum",
+        "JoinDiscord": "Join Our Discord",
+        "Copyright": "© 2019 Prysmatic Labs — Donate Today <a href=\"https://etherscan.io/address/prysmatic.eth\">@prysmatic.eth</a> — All Rights Reserved — Some Icons Made by <a href=\"https://www.flaticon.com/authors/flat-icons\" target=\"_blank\">Flat Icons</a> from <a href=\"https://www.flaticon.com/\" target=\"_blank\">flaticon.com</a>"
+    },
+    "Home":
+    {
+        "Prysmatic":
+        {
+            "Title": "We’re building a more fair, open, and censorship-resistant Internet",
+            "Subtitle": "We are a passionate team of software engineers all around the world building the code behind the <b class=\"text-primary\">Ethereum</b> blockchain",
+            "SeeOurWork": "See Our Work"
+        },
+        "OurExpertise":
+        {
+            "Title": "Our Expertise",
+            "Mission": "Prysmatic Labs currently builds technical infrastructure for the Ethereum blockchain. Our mission is to increase adoption through better tooling for users and developers of the Ethereum ecosystem through our expertise.",
+            "Projects": "Projects at the Cutting-Edge",
+            "PrysmProject": "Our flagship project, <a class=\"text-primary\" href=\"https://cryptocurrencyfacts.com/ethereum-2-0-explained/\" target=\"_blank\">Prysm</a>, is a production client for <a class=\"text-primary\" href=\"https://blog.sfox.com/ethereum-2-0-what-the-next-three-years-of-ethereum-will-look-like-b366a46f9704\">Ethereum Serenity</a> anyone can freely use to participate in consensus of the blockchain.",
+            "BestTechnology": "Best In-Class Technology",
+            "IndustryStandards": "We believe industry standards are a must for creating robust code. We build our technologies with the best-in-class tooling and design in mind.",
+            "OpenSource": "Embracing Open Source",
+            "AccessOurWork": "Our work is free, <a class=\"text-primary\" href=\"https://github.com/prysmaticlabs\">open source</a>, and accessible everywhere. We believe in empowering developers to build a more fair and transparent Internet."
+        },
+        "WhyEthereum":
+        {
+            "Why": "Why",
+            "Belief": "We are strong believers in Ethereum, a public blockchain that allows anyone to build unstoppable, censorship-resistant applications. On Ethereum, anyone can deploy software that controls digital value and is accessible around the world. Born in 2014, the Ethereum network houses over $20 billion worth of value today, hosting projects such as:",
+            "Dao": "Global, decentralized organizations",
+            "Currencies": "Non-reserve backed, stable-value currencies",
+            "Finance": "Fully-open, permissionless, financial applications",
+            "FinanceShift": "We believe Ethereum represents a fundamental shift in how financial systems operate and are dedicated to its mission.",
+            "ReadMore": "Read More About Ethereum"
+        },
+        "OurWork":
+        {
+            "Title": "Our Work",
+            "Ethereum": "Our work on the <a class=\"text-primary font-bold\" target=\"_blank\" href=\"https://ethereum.org\">Ethereum</a> blockchain focuses on <b>usability, security, and reliability</b> as key pillars backed by extensive testing and carefully designed code.",
+            "GoClient": "A full-featured client for the Ethereum Serenity protocol, written in Go",
+            "PrysmDescription": "The <a class=\"text-primary\" href=\"https://github.com/prysmaticlabs/prysm\">Prysm</a> project is a Go implementation of Ethereum Serenity protocol as detailed by its <a href=\"https://github.com/ethereum/eth2.0-specs\" target=\"_blank\" class=\"text-primary\">official specification</a>. It contains a full beacon node implementation as well as a validator client for participating in blockchain consensus. Prysm utilizes the best-in-class tools for production servers and interprocess communication, using Google's <a href=\"https://grpc.io/\" class=\"text-primary\">gRPC library</a>, BoltDB as an optimized, persistent, key-value store, and <a href=\"https://libp2p.io/\" class=\"text-primary\">libp2p</a> by Protocol Labs for all peer-to-peer networking.",
+            "ReadTheDocs": "Read the Docs",
+            "PublicTestnetTitle": "The Medalla Eth2 Public Testnet",
+            "PublicTestnetSubtitle": "A public test network for Ethereum Serenity",
+            "PublicTestnetDescription": "Launched in August 2020, the Medalla Test Network is a publicly accessible, mainnet scale network running multiple client implementations participating in Ethereum 2.0 consensus including <a class=\"text-primary\" href=\"https://blockgeeks.com/guides/ethereum-casper/\" target=\"_blank\">Casper Proof of Stake</a>.",
+            "PublicTestnetParticipation": "Anyone across the world can sync with the network, stake 32 test ETH, and participate in the protocol's consensus.",
+            "JoinPublicTestnet": "Join the Network",
+            "SerenityApisTitle": "Ethereum Serenity APIs",
+            "SerenityApisSubtitle": "Thoroughly-documented, schema-based API for Ethereum Serenity",
+            "SerenityApisDescription": "Ethereum Serenity APIs are a collection of schema-based, protobuf APIs aimed to standardize the efforts for a common API interface used to query information about the blockchain.",
+            "SerenityApisForClients": "The API is also used for validator clients to interact with a running node for the sake of consensus.",
+            "SerenityApisInteract": "Interact With the API",
+            "SerenityApisSeeOnGithub": "See it on Github"
+        },
+        "WhoWeAre":
+        {
+            "Title": "Who <span class=\"text-primary\">We</span> Are",
+            "Description": "We are a team of individuals with a <b>deep understanding</b> of blockchain technology. With diverse backgrounds ranging from <b>distributed systems</b> to cloud computing, we emphasize a <b>test-driven approach</b> towards implementing the future of Ethereum."
+        },
+        "JoinTestnet":
+        {
+            "Title": "Join Our Public Ethereum Proof-of-Stake Testnet",
+            "Description": "Participate as a validator in our public <a href=\"https://cryptocurrencyfacts.com/ethereum-2-0-explained/\" target=\"_blank\" class=\"font-bold text-primary\">Ethereum Serenity</a> test network today - sync with a full <a href=\"https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ\" target=\"_blank\" class=\"font-bold text-primary\">Proof-of-Stake</a> Ethereum blockchain today and help us improve our work on the cutting-edge.",
+            "ParticipateToday": "Participate Today"
+        },
+        "Sponsors":
+        {
+            "Title": "Sponsors & Grants",
+            "Description": "Prysmatic Labs has received over <b>$1.5MM USD</b> from the following list of donors for which we are eternally grateful",
+            "EthereumFoundation": "Ethereum Foundation",
+            "EthereumCommunityFund": "Ethereum Community <br/>Fund"
+        },
+        "Donate":
+        {
+            "Title": "Support Our Work",
+            "Description": "The reason we're around today is due to incredible donations from the community to support development for the future of Ethereum. You can donate ETH or any tokens to our official ENS address <a href=\"https://etherscan.io/address/prysmatic.eth\" target=\"_blank\" class=\"text-primary font-bold\">prysmatic.eth</a> or directly to <a class=\"text-primary font-bold\" href=\"https://etherscan.io/address/0x9B984D5a03980D8dc0a24506c968465424c81DbE\">0x9B984D5a03980D8dc0a24506c968465424c81DbE</a>.",
+            "DonateToday": "Donate Today"
+        },
+        "News":
+        {
+            "Title": "News <span class=\"text-primary\">&</span> Media",
+            "FeaturedPodcasts": "Featured Podcasts",
+            "FeaturedVideos": "Featured Videos",
+            "ReadStory": "Read Story",
+            "Items": 
+            {
+                "EthereumFoundationGrant": 
+                {
+                    "Title": "Ethereum Foundation Grants $750,000 to Prysmatic Labs for Work on Ethereum Serenity",
+                    "Caption": "We are today unveiling over $2M USD in Foundation-led and co-funded grant funding aimed at furthering Serenity (Eth2.0)..."
+                },
+                "Casper":
+                {
+                    "Title": "Casper proof-of-stake Ethereum live on the Prysm testnet",
+                    "Caption": "The next version of Ethereum, which uses Casper proof-of-stake, is live on the Prysm testnet..."
+                },
+                "TestnetCourtesy":
+                {
+                    "Title": "Ethereum Gets Second ETH 2.0 Testnet Courtesy of Prysmatic Labs",
+                    "Caption": "Prysmatic Labs, the team developing the “Prysm” Ethereum sharding client, have released a testnet..."
+                },
+                "WaveIVGrant":
+                {
+                    "Title": "Prysmatic Labs Awarded $500,000 from the Ethereum Foundation Wave IV Grants",
+                    "Caption": "As we go full steam ahead to Devcon 4, we’re back to announce Wave 4 of the Grants Program..."
+                }
+            }
+        },
+        "Podcasts":
+        {
+            "ViewEpisode": "View Episode",
+            "Items":
+            {
+                "SoftwareEngineeringDaily":
+                {
+                    "Host": "Software Engineering Daily",
+                    "Title": "Scaling Ethereum with Raul Jordan and Preston Van Loon"
+                },
+                "IntoTheEther":
+                {
+                    "Host": "Into the Ether",
+                    "Title": "Ethereum 2.0 with Prysmatic Labs: Scaling, Sharding, Proof of Stake, Serenity Phases, and Eth 2.0 Client"
+                },
+                "ZeroKnowledgePodcast":
+                {
+                    "Host": "Zero Knowledge Podcast",
+                    "Title": "Sharding Update With Prysmatic Labs"
+                },
+                "OffTheChain":
+                {
+                    "Host": "Off the Chain",
+                    "Title": "Preston Van Loon, Co-Founder of Prysmatic Labs: The Plan to Scale Ethereum"
+                }
+            }
+        },
+        "Videos":
+        {
+            "Items":
+            {
+                "WhatIsEthereum":
+                {
+                    "Title": "What is Ethereum 2.0? - Preston Van Loon"
+                },
+                "ImplementingEthereum":
+                {
+                    "Title": "Implementing Ethereum 2.0 Today"
+                },
+                "BuildingAClient":
+                {
+                    "Title": "Building a Production Ethereum 2.0 Client"
+                }
+            }
+        }
+    }
+}

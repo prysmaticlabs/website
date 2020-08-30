@@ -5,19 +5,20 @@
                 <div class="column is-two-thirds">
                     <div class="container">
                         <h1 class="title text-white is-size-1">
-                            We’re building a more fair, open, and censorship-resistant Internet
+                            {{ 'Home.Prysmatic.Title' | translate }}
                         </h1>
-                        <h2 class="subtitle text-grey pt-2 text-2xl">
-                            We are a passionate team of software engineers all around the world building the code behind the <b class="text-primary">Ethereum</b> blockchain
-                        </h2>
+                        <h2 class="subtitle text-grey pt-2 text-2xl"
+                            [innerHTML]="'Home.Prysmatic.Subtitle' | translate"></h2>
                         <div class="level">
-                            <a class="button is-primary is-medium text-grey-darkest" href="#projects">See Our Work</a>
+                            <a class="button is-primary is-medium text-grey-darkest"
+                                href="#projects">{{ 'Home.Prysmatic.SeeOurWork' | translate }}</a>
                         </div>
                     </div>
                 </div>
                 <div class="column has-text-centered">
-                    <img src="./assets/PrysmStripe.png" alt="prysm"/>
-                    <h2 id="prismatic-labs-title" class="prysmatic-labs-title-color title flex justify-center is-hidden-touch" >Prysmatic Labs</h2>
+                    <img src="./assets/PrysmStripe.png" alt="prysm" />
+                    <h2 id="prismatic-labs-title"
+                        class="prysmatic-labs-title-color title flex justify-center is-hidden-touch">Prysmatic Labs</h2>
                 </div>
             </div>
         </div>
@@ -26,47 +27,43 @@
 <section class="section">
     <div class="container text-center pb-0">
         <h1 class="title lg:pt-6">
-            Our Expertise
+            {{ 'Home.OurExpertise.Title' | translate }}
         </h1>
-        <img src="./assets/stripes.svg"/>
+        <img src="./assets/stripes.svg" />
         <div class="flex justify-center pt-6 py-6">
             <div class=" md:w-1/2">
-                Prysmatic Labs currently builds technical infrastructure for the Ethereum blockchain. Our mission is to increase adoption through better tooling for users and developers of the Ethereum ecosystem through our expertise.
+                {{ 'Home.OurExpertise.Mission' | translate }}
             </div>
         </div>
         <div class="mt-6 flex flex-wrap justify-center">
-           <div class="w-full md:w-1/3 pt-4">
-               <div class="text-center smart-contract">
-                   <img src="./assets/smartcontract.svg"/>
-               </div>
-               <div class="font-mini-heading font-bold pt-4">
-                  Projects at the Cutting-Edge
-               </div>
-               <div class="py-4 px-8">
-                   Our flagship project, <a class="text-primary" href="https://cryptocurrencyfacts.com/ethereum-2-0-explained/" target="_blank">Prysm</a>, is a production client for <a class="text-primary" href="https://blog.sfox.com/ethereum-2-0-what-the-next-three-years-of-ethereum-will-look-like-b366a46f9704">Ethereum Serenity</a> anyone can freely use to participate in consensus of the blockchain.
-               </div>
-           </div>
             <div class="w-full md:w-1/3 pt-4">
                 <div class="text-center smart-contract">
-                    <img src="./assets/server.svg"/>
+                    <img src="./assets/smartcontract.svg" />
                 </div>
                 <div class="font-mini-heading font-bold pt-4">
-                    Best In-Class Technology
+                    {{ 'Home.OurExpertise.Projects' | translate }}
+                </div>
+                <div class="py-4 px-8" [innerHTML]="'Home.OurExpertise.PrysmProject' | translate"></div>
+            </div>
+            <div class="w-full md:w-1/3 pt-4">
+                <div class="text-center smart-contract">
+                    <img src="./assets/server.svg" />
+                </div>
+                <div class="font-mini-heading font-bold pt-4">
+                    {{ 'Home.OurExpertise.BestTechnology' | translate }}
                 </div>
                 <div class="py-4 px-8">
-                    We believe industry standards are a must for creating robust code. We build our technologies with the best-in-class tooling and design in mind.
+                    {{ 'Home.OurExpertise.IndustryStandards' | translate }}
                 </div>
             </div>
             <div class="w-full md:w-1/3 pt-4">
                 <div class="text-center smart-contract">
-                    <img src="./assets/world.svg"/>
+                    <img src="./assets/world.svg" />
                 </div>
                 <div class="font-mini-heading font-bold pt-4">
-                    Embracing Open Source
+                    {{ 'Home.OurExpertise.OpenSource' | translate }}
                 </div>
-                <div class="py-4 px-6">
-                    Our work is free, <a class="text-primary" href="https://github.com/prysmaticlabs">open source</a>, and accessible everywhere. We believe in empowering developers to build a more fair and transparent Internet.
-                </div>
+                <div class="py-4 px-6" [innerHTML]="'Home.OurExpertise.AccessOurWork' | translate"></div>
             </div>
         </div>
     </div>
@@ -76,32 +73,33 @@
         <div class="flex">
             <div class="w-full md:w-2/3">
                 <h2 class="title text-grey">
-                    <span class="text-primary">Why</span> Ethereum?
+                    <span class="text-primary">{{ 'Home.WhyEthereum.Why' | translate }}</span> Ethereum?
                 </h2>
                 <div class="text-white">
-                    We are strong believers in Ethereum, a public blockchain that allows anyone to build unstoppable, censorship-resistant applications. On Ethereum, anyone can deploy software that controls digital value and is accessible around the world. Born in 2014, the Ethereum network houses over $20 billion worth of value today, hosting projects such as:
+                    {{ 'Home.WhyEthereum.Belief' | translate }}
                     <ul class="py-4">
                         <li>
-                            <span class="text-xl">—</span> Global, decentralized organizations
+                            <span class="text-xl">—</span> {{ 'Home.WhyEthereum.Dao' | translate }}
                         </li>
                         <li>
-                            <span class="text-xl">—</span> Non-reserve backed, stable-value currencies
+                            <span class="text-xl">—</span> {{ 'Home.WhyEthereum.Currencies' | translate }}
                         </li>
                         <li>
-                            <span class="text-xl">—</span> Fully-open, permissionless, financial applications
+                            <span class="text-xl">—</span> {{ 'Home.WhyEthereum.Finance' | translate }}
                         </li>
                     </ul>
-                    We believe Ethereum represents a fundamental shift in how financial systems operate and are dedicated to its mission.
+                    {{ 'Home.WhyEthereum.FinanceShift' | translate }}
                 </div>
                 <div class="mt-6">
-                    <a class="read-more-btn bg-black-light button text-grey-light" href="https://ethereum.org" target="_blank">
-                        Read More About Ethereum
+                    <a class="read-more-btn bg-black-light button text-grey-light" href="https://ethereum.org"
+                        target="_blank">
+                        {{ 'Home.WhyEthereum.ReadMore' | translate }}
                     </a>
                 </div>
             </div>
             <div class="w-full md:w-1/3 text-center is-hidden-mobile">
                 <div class="cloud-eth pt-10">
-                    <img src="./assets/cloudeth.svg"/>
+                    <img src="./assets/cloudeth.svg" />
                 </div>
             </div>
         </div>
@@ -110,33 +108,32 @@
 <section id="projects" class="section projects-background">
     <div class="container text-center">
         <h1 class="title pt-6">
-            Our Work
+            {{ 'Home.OurWork.Title' | translate }}
         </h1>
         <div class="flex justify-center pt-2 pb-4">
-            <div class=" md:w-1/2">
-                Our work on the <a class="text-primary font-bold" target="_blank" href="https://ethereum.org">Ethereum</a> blockchain focuses on <b>usability, security, and reliability</b> as key pillars backed by extensive testing and carefully  designed code.
-            </div>
+            <div class=" md:w-1/2" [innerHTML]="'Home.OurWork.Ethereum' | translate"></div>
         </div>
         <div class="flex flex-wrap">
             <div class="w-full">
                 <div class="main-project project-card flex flex-wrap text-left pb-0 ml-6 mb-6 mr-6 mt-8">
                     <div class="w-full lg:w-1/4 pb-0 is-hidden-touch">
                         <div class="main-project-img">
-                            <img src="./assets/drawnbg.png"/>
+                            <img src="./assets/drawnbg.png" />
                         </div>
                     </div>
                     <div class="w-full lg:w-3/4 pt-4 lg:pt-8 px-8 pb-8">
                         <h2 class="card-title text-3xl">
                             <a href="https://github.com/prysmaticlabs/prysm" class="text-grey-darkest">Prysm</a>
                         </h2>
-                        <h4 class="card-subtitle text-grey-darkest text-sm">A full-featured client for the Ethereum Serenity protocol, written in Go</h4>
-                        <p class="py-4">
-                            The <a class="text-primary" href="https://github.com/prysmaticlabs/prysm">Prysm</a> project is a Go implementation of Ethereum Serenity protocol as detailed by its <a href="https://github.com/ethereum/eth2.0-specs" target="_blank" class="text-primary">official specification</a>. It contains a full beacon node implementation as well as a validator client for participating in blockchain consensus. Prysm utilizes the best-in-class tools for production servers and interprocess communication, using Google's <a href="https://grpc.io/" class="text-primary">gRPC library</a>, BoltDB as an optimized, persistent, key-value store, and <a href="https://libp2p.io/" class="text-primary">libp2p</a> by Protocol Labs for all peer-to-peer networking.
-                        </p>
+                        <h4 class="card-subtitle text-grey-darkest text-sm">{{ 'Home.OurWork.GoClient' | translate }}
+                        </h4>
+                        <p class="py-4" [innerHTML]="'Home.OurWork.PrysmDescription' | translate"></p>
                         <div>
-                            <a class="button is-primary is-narrow shadow" target="_blank" href="https://docs.prylabs.network">Read the Docs</a>
-                            <iframe class="github-widget is-hidden-touch" src="https://ghbtns.com/github-btn.html?user=prysmaticlabs&repo=prysm&type=star&count=true&size=large"
-                                    frameborder="0" scrolling="0"></iframe>
+                            <a class="button is-primary is-narrow shadow" target="_blank"
+                                href="https://docs.prylabs.network">{{ 'Home.OurWork.ReadTheDocs' | translate }}</a>
+                            <iframe class="github-widget is-hidden-touch"
+                                src="https://ghbtns.com/github-btn.html?user=prysmaticlabs&repo=prysm&type=star&count=true&size=large"
+                                frameborder="0" scrolling="0"></iframe>
                         </div>
                     </div>
                 </div>
@@ -145,21 +142,23 @@
                 <div class="project-card small-project flex flex-wrap text-left m-6">
                     <div class="w-full">
                         <div>
-                            <img src="./assets/eth2.svg"/>
+                            <img src="./assets/eth2.svg" />
                         </div>
                     </div>
                     <div class="w-full px-6 pt-4 pb-8">
                         <h2 class="text-2xl">
-                            <a href="https://prylabs.net" class="text-grey-darkest">The Medalla Eth2 Public Testnet</a>
+                            <a href="https://prylabs.net"
+                                class="text-grey-darkest">{{ 'Home.OurWork.PublicTestnetTitle' | translate }}</a>
                         </h2>
-                        <h4 class="text-grey-darkest text-sm">A public test network for Ethereum Serenity</h4>
-                        <p class="py-4">
-                            Launched in August 2020, the Medalla Test Network is a publicly accessible, mainnet scale network running multiple client implementations participating in Ethereum 2.0 consensus including <a class="text-primary" href="https://blockgeeks.com/guides/ethereum-casper/" target="_blank">Casper Proof of Stake</a>.
-                            </p>
-                        <p class="pb-4">Anyone across the world can sync with the network, stake 32 test ETH, and participate in the protocol's consensus.
+                        <h4 class="text-grey-darkest text-sm">{{ 'Home.OurWork.PublicTestnetSubtitle' | translate }}
+                        </h4>
+                        <p class="py-4" [innerHTML]="'Home.OurWork.PublicTestnetDescription' | translate"></p>
+                        <p class="pb-4">
+                            {{ 'Home.OurWork.PublicTestnetParticipation' | translate }}
                         </p>
                         <div class="card-buttons">
-                            <a class="button is-primary is-narrow shadow" target="_blank" href="https://medalla.launchpad.ethereum.org/">Join the Network</a>
+                            <a class="button is-primary is-narrow shadow" target="_blank"
+                                href="https://medalla.launchpad.ethereum.org/">{{ 'Home.OurWork.JoinPublicTestnet' | translate }}</a>
                         </div>
                     </div>
                 </div>
@@ -168,22 +167,30 @@
                 <div class="project-card small-project flex flex-wrap text-left m-6">
                     <div class="w-full">
                         <div>
-                            <img src="./assets/ethapis.svg"/>
+                            <img src="./assets/ethapis.svg" />
                         </div>
                     </div>
                     <div class="w-full px-6 pt-4 pb-8">
                         <h2 class="text-2xl">
-                            <a href="https://github.com/prysmaticlabs/ethereumapis" class="text-grey-darkest">Ethereum Serenity APIs</a>
+                            <a href="https://github.com/prysmaticlabs/ethereumapis"
+                                class="text-grey-darkest">{{ 'Home.OurWork.SerenityApisTitle' | translate }}</a>
                         </h2>
-                        <h4 class="text-grey-darkest text-sm">Thoroughly-documented, schema-based API for Ethereum Serenity</h4>
+                        <h4 class="text-grey-darkest text-sm">{{ 'Home.OurWork.SerenityApisSubtitle' | translate }}</h4>
                         <p class="py-4">
-                            Ethereum Serenity APIs are a collection of schema-based, protobuf APIs aimed to standardize the efforts for a common API interface used to query information about the blockchain.
-                            </p>
-                        <p class="pb-4">The API is also used for validator clients to interact with a running node for the sake of consensus.
+                            {{ 'Home.OurWork.SerenityApisDescription' | translate }}
+                        </p>
+                        <p class="pb-4">
+                            {{ 'Home.OurWork.SerenityApisForClients' | translate }}
                         </p>
                         <div class="card-buttons">
-                            <a class="button is-primary is-narrow shadow" target="_blank" href="https://api.prylabs.network">Interact With the API</a>
-                            <a class="is-hidden-touch ml-4 button bg-black-light shadow text-white" target="_blank" href="https://github.com/prysmaticlabs/ethereumapis">See it on Github</a>
+                            <a class="button is-primary is-narrow shadow" target="_blank"
+                                href="https://api.prylabs.network">
+                                {{ 'Home.OurWork.SerenityApisInteract' | translate }}
+                            </a>
+                            <a class="is-hidden-touch ml-4 button bg-black-light shadow text-white" target="_blank"
+                                href="https://github.com/prysmaticlabs/ethereumapis">
+                                {{ 'Home.OurWork.SerenityApisSeeOnGithub' | translate }}
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -194,38 +201,35 @@
 <section id="team" class="section team">
     <div class="container p-6">
         <div class="has-text-centered">
-            <h1 class="title">
-                Who <span class="text-primary">We</span> Are
-            </h1>
-            <img src="./assets/stripes.svg"/>
+            <h1 class="title" [innerHTML]="'Home.WhoWeAre.Title' | translate"></h1>
+            <img src="./assets/stripes.svg" />
             <div class="flex justify-center pt-6 py-6">
-                <div class=" md:w-1/2">
-                    We are a team of individuals with a <b>deep understanding</b> of blockchain technology. With diverse backgrounds ranging from <b>distributed systems</b> to cloud computing, we emphasize a <b>test-driven approach</b> towards implementing the future of Ethereum.
-                </div>
+                <div class=" md:w-1/2" [innerHTML]="'Home.WhoWeAre.Description' | translate"></div>
             </div>
         </div>
         <div class="flex flex-wrap">
-            <team-item *ngFor="let item of teammates" [teammate]="item" class="text-left mt-8 md:w-1/2 flex flex-wrap"></team-item>
+            <team-item *ngFor="let item of teammates" [teammate]="item" class="text-left mt-8 md:w-1/2 flex flex-wrap">
+            </team-item>
         </div>
     </div>
 </section>
 <section class="bg-near-pitch-black py-12 px-8">
     <div class="text-center text-white">
         <div>
-            <p class="text-2xl">Join Our Public Ethereum Proof-of-Stake Testnet</p>
+            <p class="text-2xl">
+                {{ 'Home.JoinTestnet.Title' | translate }}
+            </p>
         </div>
         <div class="m-3">
-            <img src="./assets/icon.svg"/>
+            <img src="./assets/icon.svg" />
         </div>
         <div class="flex justify-center">
-            <div class=" md:w-1/2 text-grey-light">
-                Participate as a validator in our public <a href="https://cryptocurrencyfacts.com/ethereum-2-0-explained/" target="_blank" class="font-bold text-primary">Ethereum Serenity</a> test network today - sync with a full <a href="https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ" target="_blank" class="font-bold text-primary">Proof-of-Stake</a> Ethereum blockchain today and help us improve our work on the cutting-edge.
-            </div>
+            <div class=" md:w-1/2 text-grey-light" [innerHTML]="'Home.JoinTestnet.Description' | translate"></div>
         </div>
         <div class="flex justify-center mt-6">
             <div class=" md:w-1/2">
                 <a class="read-more-btn bg-primary button text-white" href="https://prylabs.net" target="_blank">
-                    Participate Today
+                    {{ 'Home.JoinTestnet.ParticipateToday' | translate }}
                 </a>
             </div>
         </div>
@@ -234,22 +238,20 @@
 <section id="sponsors" class="section bg-grey-light">
     <div class="container text-center py-0">
         <h1 class="title pt-6">
-            Sponsors & Grants
+            {{ 'Home.Sponsors.Title' | translate }}
         </h1>
         <div class="flex justify-center">
-            <div class=" md:w-1/2">
-                Prysmatic Labs has received over <b>$1.5MM USD</b> from the following list of donors for which we are eternally grateful
-            </div>
+            <div class=" md:w-1/2" [innerHTML]="'Home.Sponsors.Description' | translate"></div>
         </div>
         <div class="flex flex-wrap justify-center pt-6 pb-3">
             <div class="text-center md:w-1/4 w-full my-6">
                 <div>
                     <a href="https://www.ethereum.org/foundation" alt="Ethereum" target="_blank">
-                        <img class="sponsor-image" src="./assets/sponsors/Ethereum.svg" alt="Ethereum Foundation"/>
+                        <img class="sponsor-image" src="./assets/sponsors/Ethereum.svg" alt="Ethereum Foundation" />
                     </a>
                 </div>
                 <div class="mt-2 font-bold">
-                    Ethereum Foundation
+                    {{ 'Home.Sponsors.EthereumFoundation' | translate }}
                 </div>
             </div>
             <div class="text-center md:w-1/4 w-full my-6">
@@ -265,12 +267,10 @@
             <div class="text-center md:w-1/4 w-full my-6">
                 <div>
                     <a href="https://ecf.network" alt="ECF" target="_blank">
-                        <img class="sponsor-image" src="./assets/sponsors/ECF.svg" alt="Ethereum Community Fund"/>
+                        <img class="sponsor-image" src="./assets/sponsors/ECF.svg" alt="Ethereum Community Fund" />
                     </a>
                 </div>
-                <div class="mt-2 font-bold">
-                    Ethereum Community <br/>Fund
-                </div>
+                <div class="mt-2 font-bold" [innerHTML]="'Home.Sponsors.EthereumCommunityFund' | translate"></div>
             </div>
             <div class="text-center md:w-1/4 w-full my-6">
                 <div>
@@ -285,7 +285,7 @@
             <div class="text-center md:w-1/4 w-full my-6">
                 <div>
                     <a href="https://spankchain.com" alt="Spank Chain" target="_blank">
-                        <img class="sponsor-image" src="./assets/sponsors/SpankChain.svg" alt="Spank Chain"/>
+                        <img class="sponsor-image" src="./assets/sponsors/SpankChain.svg" alt="Spank Chain" />
                     </a>
                 </div>
                 <div class="mt-2 font-bold">
@@ -295,17 +295,17 @@
             <div class="text-center md:w-1/4 w-full my-6">
                 <div>
                     <a href="https://www.wxblockchain.com/about_en.html" alt="Wanxiang" target="_blank">
-                        <img class="sponsor-image" src="./assets/sponsors/wanxiang.png" alt="Wanxiang"/>
+                        <img class="sponsor-image" src="./assets/sponsors/wanxiang.png" alt="Wanxiang" />
                     </a>
                 </div>
                 <div class="mt-2 font-bold">
-                    Wanxiang Blockchain <br/>Labs
+                    Wanxiang Blockchain <br />Labs
                 </div>
             </div>
             <div class="text-center md:w-1/4 w-full my-6">
                 <div>
                     <a href="https://vitalik.ca" alt="Vitalik Buterin" target="_blank">
-                        <img class="sponsor-image" src="./assets/sponsors/vitalik.png" alt="Vitalik Buterin"/>
+                        <img class="sponsor-image" src="./assets/sponsors/vitalik.png" alt="Vitalik Buterin" />
                     </a>
                 </div>
                 <div class="mt-2 font-bold">
@@ -315,7 +315,7 @@
             <div class="text-center md:w-1/4 w-full my-6">
                 <div>
                     <a href="https://gitcoin.co" alt="Gitcoin" target="_blank">
-                        <img class="sponsor-image" src="./assets/sponsors/gitcoin.png" alt="Gitcoin"/>
+                        <img class="sponsor-image" src="./assets/sponsors/gitcoin.png" alt="Gitcoin" />
                     </a>
                 </div>
                 <div class="mt-2 font-bold">
@@ -329,18 +329,18 @@
 <section id="donate" class="bg-near-pitch-black py-12 px-8">
     <div class="text-center text-white">
         <div>
-            <p class="text-2xl">Support Our Work 💰</p>
+            <p class="text-2xl">
+                {{ 'Home.Donate.Title' | translate }} 💰
+            </p>
         </div>
         <div class="flex justify-center mt-4">
-            <div class=" md:w-1/2 text-grey-light">
-                The reason we're around today is due to incredible donations from the community to support development
-                for the future of Ethereum. You can donate ETH or any tokens to our official ENS address <a href="https://etherscan.io/address/prysmatic.eth" target="_blank" class="text-primary font-bold">prysmatic.eth</a> or directly to <a class="text-primary font-bold" href="https://etherscan.io/address/0x9B984D5a03980D8dc0a24506c968465424c81DbE">0x9B984D5a03980D8dc0a24506c968465424c81DbE</a>.
-            </div>
+            <div class=" md:w-1/2 text-grey-light" [innerHTML]="'Home.Donate.Description' | translate"></div>
         </div>
         <div class="flex justify-center mt-6">
             <div class=" md:w-1/5">
-                <a class="read-more-btn bg-primary button text-white" href="https://etherscan.io/address/prysmatic.eth" target="_blank">
-                    Donate Today
+                <a class="read-more-btn bg-primary button text-white" href="https://etherscan.io/address/prysmatic.eth"
+                    target="_blank">
+                    {{ 'Home.Donate.DonateToday' | translate }}
                 </a>
             </div>
         </div>
@@ -349,7 +349,7 @@
 
 <section id="news" class="section">
     <div class="container">
-        <h1 class="title">News <span class="text-primary">&</span> Media</h1>
+        <h1 class="title" [innerHTML]="'Home.News.Title' | translate"></h1>
         <div class="flex flex-wrap pt-6">
             <div class="lg:w-1/2">
                 <div class="bg-white shadow-lg">
@@ -359,14 +359,14 @@
                 </div>
             </div>
             <div class="pt-8 lg:w-1/2 lg:px-8 lg:pt-0">
-                <strong class="text-xl">🔥 Featured Podcasts 🔥</strong>
+                <strong class="text-xl">🔥 {{ 'Home.News.FeaturedPodcasts' | translate }} 🔥</strong>
                 <div class="mt-6">
                     <podcast-item *ngFor="let item of podcasts" [podcast]="item" class="mb-6"></podcast-item>
                 </div>
             </div>
         </div>
         <div class="lg:my-8 mt-2 mb-6 is-hidden-touch">
-            <strong class="text-xl">🎬 Featured Videos 🎬</strong>
+            <strong class="text-xl">🎬 {{ 'Home.News.FeaturedVideos' | translate }} 🎬</strong>
         </div>
         <div class="flex flex-wrap is-hidden-touch">
             <video-item *ngFor="let item of videos" [video]="item" class="md:w-1/3 md:pr-8"></video-item>

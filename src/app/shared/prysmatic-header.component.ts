@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import {
   faDiscord,
 } from '@fortawesome/free-brands-svg-icons';
@@ -11,6 +11,7 @@ import {
   faNewspaper,
 } from '@fortawesome/free-solid-svg-icons';
 import { environment } from '../../environments/environment';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'prysmatic-header',
@@ -25,10 +26,30 @@ export class PrysmaticHeaderComponent {
   faNewspaper = faNewspaper;
   faDiscord = faDiscord;
   menuStatus = false;
+
+  languages = [
+    {
+      code: "en",
+      name: "English"
+    },
+    {
+      code: "pl",
+      name: "Polski"
+    }
+  ]
+
+  constructor(private translateService: TranslateService) { }
+
   toggleMenu() {
     this.menuStatus = !this.menuStatus;
   }
+
   showCareers(): boolean {
     return environment.hiring;
+  }
+
+  onLanguageSelected(languageCode: string) {
+    localStorage.setItem('language', languageCode);
+    this.translateService.use(languageCode)
   }
 }

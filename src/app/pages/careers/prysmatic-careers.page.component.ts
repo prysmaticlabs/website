@@ -1,6 +1,6 @@
 import { Component, Injectable } from '@angular/core';
 import { environment } from '../../../environments/environment';
-import { CanActivate } from '@angular/router/src/utils/preactivation';
+import { CanActivate } from '@angular/router';
 import { ActivatedRouteSnapshot, RouterStateSnapshot, UrlTree } from '@angular/router';
 import { Observable } from 'rxjs';
 
