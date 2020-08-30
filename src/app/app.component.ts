@@ -11,6 +11,7 @@ export class AppComponent {
 
   constructor(translate: TranslateService) {
     translate.setDefaultLang('en');
-    translate.use('en');
+    let last = localStorage.getItem('language');
+    translate.use(last);
   }
 }

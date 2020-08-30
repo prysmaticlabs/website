@@ -41,6 +41,22 @@
             <fa-icon [icon]="faDiscord"></fa-icon> {{ 'Header.JoinDiscord' | translate }}
           </span>
         </a>
+        <!-- <mat-form-field>
+          <mat-select name="language" (selectionChange)="onLanguageSelected($event.value)">
+            <mat-option *ngFor="let lang of languages" [value]="lang.code">
+              {{ lang.name }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field> -->
+        <mat-form-field>
+          <mat-select placeholder="How Many?">
+              <mat-option>One</mat-option>
+              <mat-option>Two</mat-option>
+              <mat-option>Three</mat-option>
+              <mat-option>Four</mat-option>
+              <mat-option>Five</mat-option>
+          </mat-select>
+      </mat-form-field>
       </div>
     </div>
   </div>
