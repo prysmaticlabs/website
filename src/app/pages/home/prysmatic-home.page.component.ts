@@ -83,16 +83,16 @@ export class PrysmaticHomePageComponent {
 
     news = [
         {
+            title: 'Eth2 Mainnet Deposit Contract Released',
+            photo: 'ethbright.png',
+            url: 'https://blog.ethereum.org/2020/11/04/eth2-quick-update-no-19/',
+            caption: 'Phase 0 of eth2 is scheduled to launch December 2020, with the deposit contract now live...',
+        },
+        {
           title: 'Ethereum Foundation Grants $750,000 to Prysmatic Labs for Work on Ethereum Serenity',
           photo: 'ethgrant.png',
           url: 'https://blog.ethereum.org/2019/08/26/announcing-ethereum-foundation-and-co-funded-grants/',
           caption: 'We are today unveiling over $2M USD in Foundation-led and co-funded grant funding aimed at furthering Serenity (Eth2.0)...',
-        },
-        {
-            title: 'Casper proof-of-stake Ethereum live on the Prysm testnet',
-            photo: 'ethbright.png',
-            url: 'https://cryptoslate.com/casper-proof-of-stake-ethereum-live-on-the-prysm-testnet/',
-            caption: 'The next version of Ethereum, which uses Casper proof-of-stake, is live on the Prysm testnet...',
         },
         {
             title: 'Ethereum Gets Second ETH 2.0 Testnet Courtesy of Prysmatic Labs',

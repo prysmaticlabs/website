@@ -9,3 +9,16 @@ nav {
 .career-link {
     color: #eb4a9d;
 }
+
+.contract-announcement {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contract-announcement a {
+    color: #eb4a9d;
+    font-weight: bold;
+}
