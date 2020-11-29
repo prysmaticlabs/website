@@ -89,10 +89,10 @@ export class PrysmaticHomePageComponent {
             caption: 'Phase 0 of eth2 is scheduled to launch December 2020, with the deposit contract now live...',
         },
         {
-          title: 'Ethereum Foundation Grants $750,000 to Prysmatic Labs for Work on Ethereum Serenity',
+          title: 'Ethereum Foundation Grants $750,000 to Prysmatic Labs for Work on Ethereum 2.0',
           photo: 'ethgrant.png',
           url: 'https://blog.ethereum.org/2019/08/26/announcing-ethereum-foundation-and-co-funded-grants/',
-          caption: 'We are today unveiling over $2M USD in Foundation-led and co-funded grant funding aimed at furthering Serenity (Eth2.0)...',
+          caption: 'We are today unveiling over $2M USD in Foundation-led and co-funded grant funding aimed at furthering Ethereum 2.0...',
         },
         {
             title: 'Ethereum Gets Second ETH 2.0 Testnet Courtesy of Prysmatic Labs',
