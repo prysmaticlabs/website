@@ -28,7 +28,7 @@ export class PrysmaticHomePageComponent {
             name: 'Raul Jordan',
             bio: 'Experienced in Golang, Javascript/Node, Machine Learning, and Ethereum Protocol Development.',
             photo: 'raul.png',
-            twitter: 'https://twitter.com/raulitojordan',
+            twitter: 'https://twitter.com/rauljordaneth',
             github: 'https://github.com/rauljordan',
         },
         {
