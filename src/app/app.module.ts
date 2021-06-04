@@ -10,7 +10,7 @@ import { TeamItemComponent } from './pages/home/team-item.component';
 import { NewsItemComponent } from './pages/home/news-item.component';
 import { PodcastItemComponent } from './pages/home/podcast-item.component';
 import { VideoItemComponent } from './pages/home/video-item.component';
-import { CanActivateCareers } from './pages/careers/prysmatic-careers.page.component';
+import { CanActivateCareers } from './pages/careers-sdet/prysmatic-careers-sdet.page.component';
 
 @NgModule({
   declarations: [
