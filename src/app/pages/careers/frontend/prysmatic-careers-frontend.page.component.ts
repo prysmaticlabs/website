@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { JobPost } from '../../../models/job-post';
 
 @Component({
-  selector: 'prysmatic-careers-sdet',
+  selector: 'prysmatic-careers-frontend',
   template: `
       <prysmatic-job-post [post]="post"></prysmatic-job-post>
     `,
