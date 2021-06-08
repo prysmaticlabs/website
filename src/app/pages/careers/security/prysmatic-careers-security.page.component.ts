@@ -10,11 +10,11 @@ import { JobPost } from '../../../models/job-post';
 export class PrysmaticCareersSecurityPageComponent {
     post: JobPost = {
         title: 'Go Security Engineer',
-        lookingFor: 'We are looking for a remote, full-time software engineer to keep pushing the envelope on decentralized technologies. Particularly, having experience in computer security and penetration testing is a huge plus.',
+        lookingFor: 'We are looking for a remote, full-time Go software engineer to keep pushing the envelope on decentralized technologies. Particularly, having experience in computer security and penetration testing is a huge plus.',
         requirements: [
-          'Significant experience as a software engineer, having worked on a team, participated in the design and code review process, and having not only shipped products, but successfully landed them',
-          'Experience in Golang',
           'Experience in security and/or penetration testing',
+          'Experience in Golang',
+          'Significant experience as a software engineer, having worked on a team, participated in the design and code review process, and having not only shipped products, but successfully landed them',
           'Foundational understanding of Computer Science and a strong grasp on fundamentals, both in theory and in practice',
         ],
         bonus: [
@@ -24,14 +24,13 @@ export class PrysmaticCareersSecurityPageComponent {
         ],
         oneMonth: [
           'Learned about the Ethereum blockchain’s internals, its roadmap, and the internals of our flagship project, Prysm, which will serve as the backbone for Ethereum’s next big upgrade',
-          'Learned about our design and code review process, participate in itemizing your tasks into smaller ones based on tracking issues on Github, and contribute to code health across our project',
-          'Worked with the full team on understanding our cloud architecture using Kubernetes, learning about instrumentation, debugging distributed systems, and production release',
+          'Worked on threat modeling our software within the scope of the Ethereum proof of stake network',
           'Participated with other teammates in being the first line of defense against network failures, outages, and unexpected scenarios using instrumentation and best practices',
         ],
         threeMonths: [
-          'Have taken ownership of several features from end to end on our roadmap through maintainable code with good tests, documentation, and clear design principles',
           'Performed significant security analysis and improvements to our codebase',
           'Optimized mission-critical distributed and concurrent systems',
+          'Have taken ownership of several features from end to end on our roadmap through maintainable code with good tests, documentation, and clear design principles',
         ],
         oneYear: [
           'A deeper understanding of blockchain technology, cryptography, p2p networking, and systems architecture',

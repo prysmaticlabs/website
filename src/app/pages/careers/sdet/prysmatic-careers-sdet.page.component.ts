@@ -13,11 +13,12 @@ export class PrysmaticCareersSdetPageComponent {
         lookingFor: 'We are looking for a remote, full-time Software Development Engineer in Test (SDET) to keep pushing the envelope on decentralized technologies. Particularly, having experience in infrastructure, devops, and deployments of software in critical functions.',
         requirements: [
           'Significant experience as a software engineer, having worked on a team, participated in the design and code review process, and having not only shipped products, but successfully landed them',
+          'Significant experience in writing tests for code, such as unit tests, integration tests, etc.',
           'Experience in software deployment, continuous integration and delivery (CI/CD) in cloud environments',
           'Experience in software quality assurance (QA) as part of the software release process',
         ],
         bonus: [
-          'Knowledge of distributed systems, systems architecture, systems programming',
+          'Knowledge of Kubernetes',
           'Knowledge of Ethereum or blockchain-related technologies',
           'Knowledge of computer networking and p2p networking',
         ],
@@ -28,8 +29,8 @@ export class PrysmaticCareersSdetPageComponent {
         ],
         threeMonths: [
           'Have taken ownership of our deployment process, introduced further automations to reduce the possibility of human error',
-          'Built enhanced monitoring systems to improve our on-call infrastructure and how we monitor performance of our code in production and pre-production environments',
-          'Optimized mission-critical distributed and concurrent systems via data-driven methods',
+          'Built enhanced monitoring systems to improve our on-call infrastructure and how we monitor performance of our code in production and pre-production environments across releases',
+          'Written extensive tests for mission-critical distributed and concurrent systems',
         ],
         oneYear: [
           'Shipped the next phases of the live, 2.0 Ethereum blockchain with proof of stake and sharding to production, marking one of the most exciting milestones in modern Computer Science',
