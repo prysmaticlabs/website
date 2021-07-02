@@ -53,17 +53,17 @@ export class PrysmaticHomePageComponent {
             github: 'https://github.com/0xKiwi',
         },
         {
-            name: 'Victor Farazdagi',
-            bio: 'Software engineer and aspiring mathematician. Experienced in Golang, Python, and machine learning. Research interests include distributed systems, communication protocols, and anonymity.',
-            photo: 'victor.jpg',
-            twitter: 'https://twitter.com/farazdagi',
-            github: 'https://github.com/farazdagi',
-        },
-        {
             name: 'Radosław Kapka',
             bio: 'Experienced software engineer with a focus in full-stack web development and team lead working with .NET and Angular. Interested in software architecture.',
             photo: 'radek.jpg',
             github: 'https://github.com/rkapka',
+        },
+        {
+            name: 'Zahoor Mohamed',
+            bio: 'Experienced in Golang, Distributed systems, Large scale data processing and P2P storage. Formerly involved in building Ethereum Swarm.',
+            photo: 'zahoor.png',
+            twitter: 'https://twitter.com/jmohamedzahoor',
+            github: 'https://github.com/jmozah',
         },
     ];
 
