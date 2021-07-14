@@ -9,8 +9,8 @@ import { JobPost } from '../../../models/job-post';
 })
 export class PrysmaticCareersSecurityPageComponent {
     post: JobPost = {
-        title: 'Embedded Security Engineer',
-        lookingFor: 'We are looking for a remote, full-time embedded security engineer to keep pushing the envelope on decentralized technologies. Particularly, having experience in penetration testing and Golang is a huge plus.',
+        title: 'Go Security Engineer',
+        lookingFor: 'We are looking for a remote, full-time go security engineer to keep pushing the envelope on decentralized technologies. Particularly, having experience in penetration testing and Golang is a huge plus.',
         requirements: [
           'Experience in security and/or penetration testing',
           'Significant experience as a software engineer, having worked on a team, participated in the design and code review process, and having not only shipped products, but successfully landed them',
