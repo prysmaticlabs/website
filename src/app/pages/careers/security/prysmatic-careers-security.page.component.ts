@@ -10,14 +10,14 @@ import { JobPost } from '../../../models/job-post';
 export class PrysmaticCareersSecurityPageComponent {
     post: JobPost = {
         title: 'Go Security Engineer',
-        lookingFor: 'We are looking for a remote, full-time Go software engineer to keep pushing the envelope on decentralized technologies. Particularly, having experience in computer security and penetration testing is a huge plus.',
+        lookingFor: 'We are looking for a remote, full-time go security engineer to keep pushing the envelope on decentralized technologies. Particularly, having experience in penetration testing and Golang is a huge plus.',
         requirements: [
           'Experience in security and/or penetration testing',
-          'Experience in Golang',
           'Significant experience as a software engineer, having worked on a team, participated in the design and code review process, and having not only shipped products, but successfully landed them',
           'Foundational understanding of Computer Science and a strong grasp on fundamentals, both in theory and in practice',
         ],
         bonus: [
+          'Experience in Golang',
           'Knowledge of Ethereum or blockchain-related technologies',
           'Deeper knowledge of the internals and limitations of Golang',
           'Knowledge of computer networking and p2p networking',
@@ -29,7 +29,7 @@ export class PrysmaticCareersSecurityPageComponent {
         ],
         threeMonths: [
           'Performed significant security analysis and improvements to our codebase',
-          'Optimized mission-critical distributed and concurrent systems',
+          'Improved the robustness of mission-critical distributed and concurrent systems in our application',
           'Have taken ownership of several features from end to end on our roadmap through maintainable code with good tests, documentation, and clear design principles',
         ],
         oneYear: [
