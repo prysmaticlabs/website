@@ -46,13 +46,6 @@ export class PrysmaticHomePageComponent {
             github: 'https://github.com/nisdas',
         },
         {
-            name: 'Ivan Martinez',
-            bio: 'Full-stack Web3 developer, Golang Ethereum developer, previously at AuroraDAO (IDEX).',
-            photo: 'ivan.jpg',
-            twitter: 'https://twitter.com/0xKiwi_',
-            github: 'https://github.com/0xKiwi',
-        },
-        {
             name: 'Radosław Kapka',
             bio: 'Experienced software engineer with a focus in full-stack web development and team lead working with .NET and Angular. Interested in software architecture.',
             photo: 'radek.jpg',
