@@ -19,6 +19,6 @@ export const routes: Routes = [
     { path: '', component: PrysmaticHomePageComponent },
     { path: 'careers', component: PrysmaticCareersPageComponent, canActivate: [CanActivateCareers] },
     { path: 'careers/frontend', component: PrysmaticCareersFrontendPageComponent, canActivate: [CanActivateCareers] },
-    { path: 'careers/sdet', component: PrysmaticCareersSdetPageComponent, canActivate: [CanActivateCareers] },
+    { path: 'careers/devops', component: PrysmaticCareersSdetPageComponent, canActivate: [CanActivateCareers] },
     { path: 'careers/security', component: PrysmaticCareersSecurityPageComponent, canActivate: [CanActivateCareers] },
 ];
