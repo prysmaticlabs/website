@@ -33,7 +33,7 @@ export class PrysmaticCareersSdetPageComponent {
       'Written extensive tests for mission-critical distributed and concurrent systems',
     ],
     oneYear: [
-      'Shipped the next phases of the live, 2.0 Ethereum blockchain with proof of stake and sharding to production, marking one of the most exciting milestones in modern Computer Science',
+      'Shipped the next phases of the live, Ethereum 2.0 blockchain with proof of stake and sharding to production, marking one of the most exciting milestones in modern Computer Science',
       'A deeper understanding of blockchain technology, cryptography, p2p networking, and systems architecture',
       'Mentored future team-members, junior developers, and external contributors; helping them level up technically',
       'Established Prysmatic Labs as a leader in how we ship software and engage with users to ensure quality',
