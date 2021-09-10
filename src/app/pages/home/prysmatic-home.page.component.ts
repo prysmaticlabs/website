@@ -58,6 +58,14 @@ export class PrysmaticHomePageComponent {
             twitter: 'https://twitter.com/jmohamedzahoor',
             github: 'https://github.com/jmozah',
         },
+        {
+            name: 'James He',
+            bio: 'Previously from J.P.Morgan Chase & co. Full stack engineer with experience in UX and design',
+            photo: 'james.png',
+            twitter: 'https://twitter.com/hesatprylabs',
+            github: 'https://github.com/james-prysm'
+
+        }
     ];
 
     news = [
