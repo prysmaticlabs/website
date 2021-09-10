@@ -65,6 +65,13 @@ export class PrysmaticHomePageComponent {
             twitter: 'https://twitter.com/hesatprylabs',
             github: 'https://github.com/james-prysm'
 
+        },
+        {
+            name: 'Kasey Kirkham',
+            bio: 'Dedicated to building large scale data platforms and distributed systems at startups with interesting missions, including Niantic, Planet Labs, Voxy and Topsy (Prysmatic is his 5th employer with “Labs” in the name).',
+            photo: 'kasey.png',
+            twitter: '',
+            github: 'https://github.com/kasey'
         }
     ];
 
