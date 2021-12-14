@@ -31,7 +31,7 @@
     "bulma": "^0.7.1",
     "bulma-divider": "^0.2.0",
     "core-js": "^2.5.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "ngx-clipboard": "^11.1.7",
     "rxjs": "~6.3.3",
     "tailwindcss": "^0.7.3",
