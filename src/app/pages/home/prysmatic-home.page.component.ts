@@ -51,6 +51,11 @@ export class PrysmaticHomePageComponent {
             photo: 'radek.jpg',
             github: 'https://github.com/rkapka',
         },
+		{
+			name: 'Clarin Dy',
+			bio: 'People ops. Many years of experience in helping teams succeed operationally',
+			photo: 'Clarin.jpg',
+		},
         {
             name: 'Zahoor Mohamed',
             bio: 'Experienced in Golang, Distributed systems, Large scale data processing and P2P storage. Formerly involved in building Ethereum Swarm.',
