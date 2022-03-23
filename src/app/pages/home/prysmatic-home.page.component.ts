@@ -77,7 +77,13 @@ export class PrysmaticHomePageComponent {
             photo: 'kasey.png',
             twitter: '',
             github: 'https://github.com/kasey'
-        }
+        },
+		{
+			name: 'Taranpreet Singh',
+			bio: 'Devops wizard, years of experience with cloud provisioning and infrastructure deployments',
+			photo: 'Taran.jpg',
+			github: 'https://github.com/Taranpreet26311',
+		},
     ];
 
     news = [
