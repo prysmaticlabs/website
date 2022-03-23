@@ -77,19 +77,18 @@ export class PrysmaticHomePageComponent {
 
     news = [
         {
-            title: 'Eth2 Mainnet Deposit Contract Released',
+            title: 'ETH Launches its Proof of Stake Testnet',
+            url: 'https://www.trustnodes.com/2022/03/10/ethereum-launches-the-final-proof-stake-testnet',
             photo: 'ethbright.png',
-            url: 'https://blog.ethereum.org/2020/11/04/eth2-quick-update-no-19/',
-            caption: 'Phase 0 of eth2 is scheduled to launch December 2020, with the deposit contract now live...',
         },
         {
-          title: 'Ethereum Foundation Grants $750,000 to Prysmatic Labs for Work on Ethereum 2.0',
+          title: 'Ethereum Foundation Grants $750,000 to Prysmatic Labs for Work on Ethereum',
           photo: 'ethgrant.png',
           url: 'https://blog.ethereum.org/2019/08/26/announcing-ethereum-foundation-and-co-funded-grants/',
-          caption: 'We are today unveiling over $2M USD in Foundation-led and co-funded grant funding aimed at furthering Ethereum 2.0...',
+          caption: 'We are today unveiling over $2M USD in Foundation-led and co-funded grant funding aimed at furthering Ethereum...',
         },
         {
-            title: 'Ethereum Gets Second ETH 2.0 Testnet Courtesy of Prysmatic Labs',
+            title: 'Ethereum Gets Second ETH Testnet Courtesy of Prysmatic Labs',
             photo: 'blockonomi.png',
             url: 'https://blockonomi.com/ethereum-eth-2-0-testnet/',
             caption: 'Prysmatic Labs, the team developing the “Prysm” Ethereum sharding client, have released a testnet...',
@@ -110,7 +109,7 @@ export class PrysmaticHomePageComponent {
         },
         {
             host: 'Into the Ether',
-            title: 'Ethereum 2.0 with Prysmatic Labs: Scaling, Sharding, Proof of Stake, Serenity Phases, and Eth 2.0 Client',
+            title: 'Ethereum with Prysmatic Labs: Scaling, Sharding, Proof of Stake, Serenity Phases, and Eth Client',
             url: 'https://podcasts.apple.com/au/podcast/ethereum-2-0-prysmatic-labs-scaling-sharding-proof/id1443920565?i=1000425654959',
         },
         {
@@ -128,15 +127,15 @@ export class PrysmaticHomePageComponent {
     videos = [
         {
             url: 'https://www.youtube.com/embed/ep2R0e_Cc5w',
-            title: 'What is Ethereum 2.0? - Preston Van Loon',
+            title: 'What is Ethereum Proof of Stake? - Preston Van Loon',
         },
         {
             url: 'https://www.youtube.com/embed/91ZAFIoha2w',
-            title: 'Implementing Ethereum 2.0 Today',
+            title: 'Implementing Ethereum Proof of Stake Today',
         },
         {
             url: 'https://www.youtube.com/embed/EWEGBq165ME',
-            title: 'Building a Production Ethereum 2.0 Client'
+            title: 'Building a Production Ethereum Proof of Stake Client'
         },
     ];
 
