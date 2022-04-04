@@ -57,13 +57,6 @@ export class PrysmaticHomePageComponent {
 			photo: 'Clarin.jpg',
 		},
         {
-            name: 'Zahoor Mohamed',
-            bio: 'Experienced in Golang, Distributed systems, Large scale data processing and P2P storage. Formerly involved in building Ethereum Swarm.',
-            photo: 'zahoor.png',
-            twitter: 'https://twitter.com/jmohamedzahoor',
-            github: 'https://github.com/jmozah',
-        },
-        {
             name: 'James He',
             bio: 'Previously from J.P.Morgan Chase & co. Full stack engineer with experience in UX and design',
             photo: 'james.png',
