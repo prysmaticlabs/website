@@ -81,7 +81,8 @@ export class PrysmaticHomePageComponent {
 			name: 'Mick B',
 			bio: 'Computer systems engineer by education, software developer and technical writer by profession. Excited to accelerate the world\'s transition to sustainable economics.',
 			photo: 'mick.png',
-			github: 'https://github.com/symbolpunk',
+			twitter: 'https://twitter.com/symbolpunk',
+            github: 'https://github.com/symbolpunk'
 		}
     ];
 
