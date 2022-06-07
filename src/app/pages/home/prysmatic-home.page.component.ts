@@ -86,7 +86,7 @@ export class PrysmaticHomePageComponent {
 		},
 	{
              name: 'Matthew V Rabinowitz',
-             bio: 'Advisor to the Prysmatic Lab team. 20+ years seasoned business profeessional and recovering engineer.',
+             bio: 'Advisor to the Prysmatic Lab team. 20+ years seasoned business professional and recovering engineer.',
              photo: 'mrabino1.png',
              twitter: 'https://twitter.com/mrabino1/',
          },
