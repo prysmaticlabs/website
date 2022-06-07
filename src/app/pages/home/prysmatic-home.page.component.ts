@@ -83,7 +83,13 @@ export class PrysmaticHomePageComponent {
 			photo: 'mick.png',
             twitter: 'https://twitter.com/symbolpunk',
 			github: 'https://github.com/symbolpunk',
-		}
+		},
+	{
+             name: 'Matthew V Rabinowitz',
+             bio: 'Advisor to the Prysmatic Lab team. 20+ years seasoned business profeessional and recovering engineer.',
+             photo: 'mrabino1.png',
+             twitter: 'https://twitter.com/mrabino1/',
+         },
     ];
 
     news = [
