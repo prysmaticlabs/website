@@ -86,8 +86,7 @@ export class PrysmaticHomePageComponent {
 		},
         {
 			name: 'Sammy Rosso',
-			bio: 'Go software engineer with experience in e-commerce and crypto brokerage. Passionate about automation.
-',
+			bio: 'Go software engineer with experience in e-commerce and crypto brokerage. Passionate about automation.',
 			photo: 'sammy.jpg',
 			github: 'https://github.com/saolyn',
 		},
