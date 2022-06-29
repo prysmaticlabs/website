@@ -84,6 +84,12 @@ export class PrysmaticHomePageComponent {
             twitter: 'https://twitter.com/symbolpunk',
 			github: 'https://github.com/symbolpunk',
 		},
+        {
+			name: 'Sammy Rosso',
+			bio: 'Go software engineer with experience in e-commerce and crypto brokerage. Passionate about automation.',
+			photo: 'sammy.jpg',
+			github: 'https://github.com/saolyn',
+		},
 	{
              name: 'Matthew V Rabinowitz',
              bio: 'Advisor to the Prysmatic Lab team. 20+ years seasoned business professional and recovering engineer.',
