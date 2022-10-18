@@ -22,3 +22,20 @@ nav {
     color: #eb4a9d;
     font-weight: bold;
 }
+
+.persistent-banner {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+}
+
+.persistent-banner .link{
+    text-decoration: underline;    
+    white-space: nowrap;
+}
+
+.persistent-banner .link:hover{
+    color: #db0076;    
+}
